@@ -4,7 +4,7 @@ from clients.api_client import APIClient
 from typing import TypedDict
 
 
-class UsersRequestDict(TypedDict):
+class CreateUsersRequestDict(TypedDict):
     """
     Описание структуры запроса для создания пользователя
     """
@@ -18,7 +18,7 @@ class PublicUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users
     """
-    def create_users_api(self, request: UsersRequestDict) -> Response:
+    def create_users_api(self, request: CreateUsersRequestDict) -> Response:
         """
         Метод выполняет регистрацию пользователя
         :param request: Словарь с ключами email, password, lastName, firstName, middleName
