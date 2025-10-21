@@ -22,6 +22,6 @@ class PublicUsersClient(APIClient):
         """
         Метод выполняет регистрацию пользователя
         :param request: Словарь с ключами email, password, lastName, firstName, middleName
-        :return:
+        :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.client.post('/api/v1/users', json=request)
