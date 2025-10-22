@@ -3,6 +3,8 @@ from httpx import Response
 from clients.api_client import APIClient
 from typing import TypedDict
 
+from clients.private_http_builder import get_private_http_client, AuthenticationUserDict
+
 
 class UpdateUsersRequestDict(TypedDict):
     """
@@ -13,6 +15,22 @@ class UpdateUsersRequestDict(TypedDict):
     firstName: str | None
     middleName: str | None
 
+class User(TypedDict):
+    """
+    Описание структуры пользователя.
+    """
+    id: str
+    email: str
+    lastName: str
+    firstName: str
+    middleName: str
+
+class GetUserResponseDict:
+    """
+    Описание структуры ответа получения пользователя.
+    """
+    user: User
+
 class PrivateUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users
@@ -22,7 +40,7 @@ class PrivateUsersClient(APIClient):
         Метод получения текущего пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.client.get('/api/v1/users/me')
+        return self.get('/api/v1/users/me')
 
     def get_users_api(self, user_id: str) -> Response:
         """
@@ -30,7 +48,7 @@ class PrivateUsersClient(APIClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.client.get(f'/api/v1/users/{user_id}')
+        return self.get(f'/api/v1/users/{user_id}')
 
     def update_user_api(self, user_id: str, request: UpdateUsersRequestDict) -> Response:
         """
@@ -39,7 +57,7 @@ class PrivateUsersClient(APIClient):
         :param request: Словарь с email, lastName, firstName, middleName.
         :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.client.patch(f'/api/v1/users/{user_id}', json=request)
+        return self.patch(f'/api/v1/users/{user_id}', json=request)
 
     def delete_user_api(self, user_id: str) -> Response:
         """
@@ -47,4 +65,15 @@ class PrivateUsersClient(APIClient):
         :param user_id: Идентификатор пользователя.
         :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.client.delete(f'/api/v1/users/{user_id}')
+        return self.delete(f'/api/v1/users/{user_id}')
+
+    def get_user(self, user_id: str) -> GetUserResponseDict:
+        response = self.get_users_api(user_id)
+        return response.json()
+
+def get_private_users_client(user: AuthenticationUserDict) -> PrivateUsersClient:
+    """
+    Функция создаёт экземпляр PrivateUsersClient с уже настроенным HTTP-клиентом.
+    :return: Готовый к использованию PrivateUsersClient.
+    """
+    return PrivateUsersClient(client=get_private_http_client(user))
