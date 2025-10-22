@@ -8,7 +8,7 @@ from clients.private_http_builder import AuthenticationUserDict, get_private_htt
 
 class CreateFileRequestDict(TypedDict):
     """
-    Описание структуры запросы для создания файла.
+    Описание структуры запроса для создания файла.
     """
     filename: str
     directory: str
@@ -25,7 +25,7 @@ class File(TypedDict):
 
 class CreateFileResponseDict(TypedDict):
     """
-    Описание структуры запроса на создание файла.
+    Описание структуры ответа на создание файла.
     """
     file: File
 
