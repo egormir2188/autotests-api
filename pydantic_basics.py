@@ -26,7 +26,7 @@
 
 import uuid
 
-from pydantic import BaseModel, Field, ConfigDict, computed_field,HttpUrl, EmailStr, ValidationError
+from pydantic import BaseModel, Field, ConfigDict, computed_field, HttpUrl, EmailStr
 from pydantic.alias_generators import to_camel
 
 from tools.fakers import get_random_email
