@@ -1,10 +1,11 @@
-from clients.courses.courses_file import get_course_client, CreateCourseRequestDict
+from clients.courses.courses_client import get_course_client, CreateCourseRequestSchema
 from clients.exercises.exercises_client import get_exercises_client
 from clients.files.files_cliet import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.public_users_client import get_public_users_client
 from clients.users.users_schema import CreateUserRequestSchema
+
 from tools.fakers import get_random_email
 
 public_users_client = get_public_users_client()
@@ -36,14 +37,14 @@ create_file_request = CreateFileRequestSchema(
 create_file_response = files_client.create_file(create_file_request)
 print('Create file response', create_file_response)
 
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title = 'Course',
-    maxScore = 10,
-    minScore = 1,
+    max_score = 10,
+    min_score = 1,
     description = 'description',
-    previewFileId = create_file_response.file.id,
-    estimatedTime = '10 min',
-    createdByUserId = create_user_response.user.id
+    preview_file_id = create_file_response.file.id,
+    estimated_time = '10 min',
+    created_by_user_id = create_user_response.user.id
 )
 
 create_course_response = courses_client.create_course(create_course_request)
