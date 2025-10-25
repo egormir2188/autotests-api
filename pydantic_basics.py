@@ -29,7 +29,7 @@ import uuid
 from pydantic import BaseModel, Field, ConfigDict, computed_field, HttpUrl, EmailStr
 from pydantic.alias_generators import to_camel
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 class FileSchema(BaseModel):
@@ -81,7 +81,7 @@ course_default_model = CourseSchema(
     estimated_time='1 week',
     created_by_user=UserSchema(
         id='user_id',
-        email=get_random_email(),
+        email=fake.email(),
         last_name='name',
         first_name='name1',
         middle_name='name2'

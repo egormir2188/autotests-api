@@ -1,5 +1,6 @@
-from pydantic import BaseModel, ConfigDict, EmailStr
+from pydantic import BaseModel, ConfigDict, Field,EmailStr
 from pydantic.alias_generators import to_camel
+from tools.fakers import fake
 
 
 class ShortUserSchema(BaseModel):
@@ -8,10 +9,10 @@ class ShortUserSchema(BaseModel):
     """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
-    email: EmailStr
-    last_name: str
-    first_name: str
-    middle_name: str
+    email: EmailStr = Field(default_factory=fake.email)
+    last_name: str = Field(default_factory=fake.last_name)
+    first_name: str = Field(default_factory=fake.first_name)
+    middle_name: str = Field(default_factory=fake.middle_name)
 
 class UserSchema(ShortUserSchema):
     """
@@ -31,7 +32,7 @@ class CreateUserRequestSchema(ShortUserSchema):
     """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
-    password: str
+    password: str = Field(default_factory=fake.password)
 
 class CreateUserResponseSchema(BaseModel):
     """
@@ -45,10 +46,10 @@ class UpdateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
-    email: EmailStr | None
-    last_name: str | None
-    first_name: str | None
-    middle_name: str | None
+    email: EmailStr | None = Field(default_factory=fake.email)
+    last_name: str | None = Field(default_factory=fake.last_name)
+    first_name: str | None = Field(default_factory=fake.first_name)
+    middle_name: str | None = Field(default_factory=fake.middle_name)
 
 class UpdateUserResponseSchema(GetUserResponseSchema):
     """
