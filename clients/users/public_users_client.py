@@ -9,7 +9,7 @@ class PublicUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users
     """
-    def create_users_api(self, request: CreateUserRequestSchema) -> Response:
+    def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Метод выполняет регистрацию пользователя.
         :param request: Словарь с ключами email, password, lastName, firstName, middleName.
@@ -19,7 +19,7 @@ class PublicUsersClient(APIClient):
         return response
 
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
-        response = self.create_users_api(request)
+        response = self.create_user_api(request)
         return CreateUserResponseSchema.model_validate_json(response.text)
 
 def get_public_users_client() -> PublicUsersClient:
