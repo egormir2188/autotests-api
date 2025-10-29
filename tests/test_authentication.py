@@ -7,6 +7,8 @@ from tests.conftest import UserFixture
 from tools.assertions.base import assert_status_code
 from tools.assertions.authentication import assert_login_response
 from tools.assertions.schema import validate_json_schema
+from tools.assertions.users import assert_user
+
 
 @pytest.mark.regression
 @pytest.mark.authentication
