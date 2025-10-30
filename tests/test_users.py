@@ -12,13 +12,13 @@ from tools.fakers import fake
 
 @pytest.mark.users
 @pytest.mark.regression
-@pytest.mark.parametrize('email', [
+@pytest.mark.parametrize('email_domain', [
     'mail.ru',
     'gmail.com',
     'example.com'
 ])
-def test_create_user(email: str, public_users_client: PublicUsersClient):
-    create_user_request = CreateUserRequestSchema(email=fake.email(email))
+def test_create_user(email_domain: str, public_users_client: PublicUsersClient):
+    create_user_request = CreateUserRequestSchema(email=fake.email(email_domain))
     create_user_response = public_users_client.create_user_api(create_user_request)
     create_user_response_data = CreateUserResponseSchema.model_validate_json(create_user_response.text)
 
