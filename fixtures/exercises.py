@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema
 from clients.exercises.exercises_client import get_exercises_client, ExercisesClient
-from courses import CourseFixture
+from fixtures.courses import CourseFixture
 from fixtures.users import UserFixture
 
 

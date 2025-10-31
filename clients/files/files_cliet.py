@@ -31,9 +31,9 @@ class FileClient(APIClient):
         :param file_id: Идентификатор файла.
         :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.post(f'/api/v1/files/{file_id}')
+        return self.get(f'/api/v1/files/{file_id}')
 
-    def delete(self, file_id: str) -> Response:
+    def delete_file_api(self, file_id: str) -> Response:
         """
         Удаление файла по идентификатору.
         :param file_id: Идентификатор файла.
