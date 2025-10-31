@@ -10,10 +10,10 @@ def assert_status_code (actual: int, expected: int):
     :raises AssertionError: Если статус-коды не совпадают.
     """
     assert actual == expected, (
-        'Incorrect response status code.'
+        'Incorrect response status code. '
         
-        f'Expected status code: {expected}'
-        f'Actual status code: {actual}'
+        f'Expected status code: {expected}. '
+        f'Actual status code: {actual}.'
     )
 
 def assert_equal(actual: Any, expected: Any, name: str):
@@ -26,8 +26,8 @@ def assert_equal(actual: Any, expected: Any, name: str):
     :raises AssertionError: Если фактическое значение не равно ожидаемому.
     """
     assert actual == expected, (
-        f'Incorrect value: "{name}".'
-        f'Expected value: {expected}.'
+        f'Incorrect value: "{name}". '
+        f'Expected value: {expected}. '
         f'Actual value: {actual}.'
     )
 
@@ -41,7 +41,7 @@ def assert_is_true(actual: Any, name: str):
     """
     assert actual, (
         f'Incorrect value: "{name}". '
-        f'Expected true value but got: {actual}'
+        f'Expected true value but got: {actual}.'
     )
 
 def assert_length(actual: Sized, expected: Sized, name: str):
@@ -56,5 +56,5 @@ def assert_length(actual: Sized, expected: Sized, name: str):
     assert len(actual) == len(expected), (
         f'Incorrect object length: "{name}". '
         f'Expected length: {len(expected)}. '
-        f'Actual length: {len(actual)}'
+        f'Actual length: {len(actual)}.'
     )
