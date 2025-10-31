@@ -28,7 +28,6 @@ class TestCourses:
             preview_file_id=function_file.response.file.id
         )
         response = courses_client.create_course_api(request)
-        print(response.json())
         response_data = CreateCourseResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
