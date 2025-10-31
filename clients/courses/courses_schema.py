@@ -16,7 +16,7 @@ class ShortCourseSchema(BaseModel):
     max_score: int = Field(default_factory=fake.max_score)
     min_score: int = Field(default_factory=fake.min_score)
     description: str = Field(default_factory=fake.sentence)
-    estimated_time: str= Field(default_factory=fake.estimated_time)
+    estimated_time: str = Field(default_factory=fake.estimated_time)
 
 
 class CourseSchema(ShortCourseSchema):
@@ -27,6 +27,12 @@ class CourseSchema(ShortCourseSchema):
     preview_file: FileSchema
     created_by_user: UserSchema
 
+class CreateCourseRequestSchema(ShortCourseSchema):
+    """
+    Описание структуры запроса для создания курса.
+    """
+    preview_file_id: str = Field(default_factory=fake.uuid4)
+    created_by_user_id: str = Field(default_factory=fake.uuid4)
 
 class CreateCourseResponseSchema(BaseModel):
     """
@@ -42,12 +48,11 @@ class GetCoursesQuerySchema(BaseModel):
 
     user_id: str
 
-class CreateCourseRequestSchema(ShortCourseSchema):
+class GetCoursesResponseSchema(BaseModel):
     """
-    Описание структуры запроса для создания курса.
+    Описание структуры ответа на получение списка курсов.
     """
-    preview_file_id: str = Field(default_factory=fake.uuid4)
-    created_by_user_id: str = Field(default_factory=fake.uuid4)
+    courses: list[CourseSchema]
 
 class UpdateCourseRequestSchema(BaseModel):
     """
@@ -57,11 +62,12 @@ class UpdateCourseRequestSchema(BaseModel):
 
     title: str | None = Field(default_factory=fake.sentence)
     max_score: int | None = Field(default_factory=fake.max_score)
+    min_score: int | None = Field(default_factory=fake.min_score)
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(default_factory=fake.estimated_time)
 
-class UpdateCourseResponseSchema(CourseSchema):
+class UpdateCourseResponseSchema(BaseModel):
     """
     Описание структуру ответа чистичного обновления курса (полность наследуется от CourseSchema)
     """
-    pass
+    course: CourseSchema
