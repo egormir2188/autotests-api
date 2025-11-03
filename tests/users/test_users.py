@@ -24,11 +24,14 @@ from tools.allure.stories import AllureStory
 @allure.tag(AllureTag.REGRESSION, AllureTag.USERS)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.USERS)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.USERS)
 class TestUsers:
     @allure.title('Create user')
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     @pytest.mark.parametrize('email_domain', ['mail.ru', 'gmail.com', 'example.com'])
     def test_create_user(self, email_domain: str, public_users_client: PublicUsersClient):
         create_user_request = CreateUserRequestSchema(email=fake.email(email_domain))
@@ -44,6 +47,7 @@ class TestUsers:
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITY)
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     def test_get_user_me(self, function_user: UserFixture, private_users_client: PrivateUsersClient):
         response = private_users_client.get_users_me_api()
         response_data = GetUserResponseSchema.model_validate_json(response.text)

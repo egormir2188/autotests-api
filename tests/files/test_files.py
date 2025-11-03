@@ -23,11 +23,14 @@ from tools.allure.stories import AllureStory
 @allure.tag(AllureTag.REGRESSION, AllureTag.FILES)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.FILES)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.FILES)
 class TestFiles:
     @allure.title('Create file')
     @allure.tag(AllureTag.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_file(self, files_client: FileClient):
         request = CreateFileRequestSchema(upload_file='./testdata/files/image.png')
         response = files_client.create_file_api(request)
@@ -42,6 +45,7 @@ class TestFiles:
     @allure.tag(AllureTag.GET_ENTITY)
     @allure.story(AllureStory.GET_ENTITY)
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     def test_get_file(self, files_client: FileClient,function_file: FileFixture):
         response = files_client.get_file_api(function_file.response.file.id)
         response_data = GetFileResponseSchema.model_validate_json(response.text)
@@ -55,6 +59,7 @@ class TestFiles:
     @allure.tag(AllureTag.DELETE_ENTITY)
     @allure.story(AllureStory.DELETE_ENTITY)
     @allure.severity(Severity.NORMAL)
+    @allure.sub_suite(AllureStory.DELETE_ENTITY)
     def test_delete_file(self, files_client: FileClient, function_file: FileFixture):
         delete_response = files_client.delete_file_api(function_file.response.file.id)
         assert_status_code(delete_response.status_code, HTTPStatus.OK)
@@ -71,6 +76,7 @@ class TestFiles:
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.severity(Severity.NORMAL)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     def test_create_file_with_empty_filename(self, files_client: FileClient):
         request = CreateFileRequestSchema(filename="", upload_file='./testdata/files/image.png')
         response = files_client.create_file_api(request)
@@ -85,6 +91,7 @@ class TestFiles:
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.severity(Severity.NORMAL)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     def test_create_file_with_empty_directory(self, files_client: FileClient):
         request = CreateFileRequestSchema(directory="", upload_file='./testdata/files/image.png')
         response = files_client.create_file_api(request)
@@ -99,6 +106,7 @@ class TestFiles:
     @allure.tag(AllureTag.VALIDATE_ENTITY)
     @allure.story(AllureStory.VALIDATE_ENTITY)
     @allure.severity(Severity.NORMAL)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
     def test_get_file_with_incorrect_file_id(self, files_client: FileClient):
         response = files_client.get_file_api(file_id='incorrect-file-id')
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
