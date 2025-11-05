@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE2OjEzOjI2Ljg1ODExOSIsInVzZXJfaWQiOiIxMWEwZDE4MC0yNTgwLTRlZTgtYWI4Yi03ZGM5NDRmYTJhMWYifQ.dihWKAihYhwK4XBGu2C_bvzCKA5W92_01TsUIncm5AI" \
+  -H "content-length: 243" \
+  -H "content-type: application/json" \
+  -d "{"title":"Reach citizen question street.","maxScore":60,"minScore":15,"description":"First send modern.","estimatedTime":"3 weeks","previewFileId":"b8c12543-dda5-4fec-8a15-fc86d77d2598","createdByUserId":"11a0d180-2580-4ee8-ab8b-7dc944fa2a1f"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE1OjQ3OjI0LjQyMzQyNSIsInVzZXJfaWQiOiI5OGMyODEzMC00NTlmLTRiNTAtYmIwOS0wNTIwZGUyOTJkZDAifQ.fj1JPB8aUGySJtmVWgwhK1PW0JGvLldxInnt16lTsBg" \
+  -H "content-length: 283" \
+  -H "content-type: application/json" \
+  -d "{"title":"Best every international improve spring sort power.","maxScore":97,"minScore":11,"description":"Find wrong short while place morning.","estimatedTime":"4 weeks","previewFileId":"ff8fdb49-d21a-4311-bc89-6e4c453fa1b1","createdByUserId":"98c28130-459f-4b50-bb09-0520de292dd0"}"

@@ -5,8 +5,7 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from clients.files.files_schema import CreateFileRequestSchema, CreateFileResponseSchema
-
-
+from config import settings
 
 
 class FileClient(APIClient):
@@ -23,7 +22,7 @@ class FileClient(APIClient):
         return self.post(
             '/api/v1/files',
             data=request.model_dump(exclude={'upload_file'}),
-            files={'upload_file': open(request.upload_file, 'rb')}
+            files={'upload_file': request.upload_file.read_bytes()}
         )
 
     @allure.step('Get file by id {file_id}')

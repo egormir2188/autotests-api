@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE1OjQ3OjIyLjk0NjQxNCIsInVzZXJfaWQiOiJjNGUzZTkzNC01NTFmLTRiOTUtOWNmMi0xNjQ4ZDk5NTg2NjgifQ.1jBbO07wPtm6Z70sN2pB6diJJfcu3_fHsx4w35KhBac" \
+  -H "content-length: 271" \
+  -H "content-type: application/json" \
+  -d "{"title":"Clear card suffer Congress right.","maxScore":77,"minScore":5,"description":"Wrong than agreement individual gas no more.","estimatedTime":"4 weeks","previewFileId":"e6b5a4ca-90a2-444d-aa9f-dfacbde0cd80","createdByUserId":"c4e3e934-551f-4b95-9cf2-1648d9958668"}"

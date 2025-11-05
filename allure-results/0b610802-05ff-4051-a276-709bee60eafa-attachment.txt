@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE0OjE5OjE1LjE5NTM5MCIsInVzZXJfaWQiOiIyOWM3ZDEzMi01YmFlLTRiNTQtOGM4Mi02NjljOWY0NGIxNDkifQ.Zl-vI0_OprK3e1DeOd588UmZx5AyVq4W4sNsoN2PcnU" \
+  -H "content-length: 281" \
+  -H "content-type: application/json" \
+  -d "{"title":"Husband international church this.","maxScore":51,"minScore":28,"description":"Close option wait organization phone produce degree.","estimatedTime":"5 weeks","previewFileId":"2eb70809-2126-4290-8430-20b897b9249f","createdByUserId":"29c7d132-5bae-4b54-8c82-669c9f44b149"}"

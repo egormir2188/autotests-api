@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE1OjQ3OjIxLjk3MzczNyIsInVzZXJfaWQiOiI1ZjJmOGIyYS1hMDY4LTQ2ODAtOGY1NS1mMmI3MjllMjdhOGEifQ.ZY9N89mF7Yrf0gEk58SNBvN_XSKq8v1SaWdtMvL77_s" \
+  -H "content-length: 281" \
+  -H "content-type: application/json" \
+  -d "{"title":"College technology natural treatment.","maxScore":57,"minScore":22,"description":"Present thank campaign every oil increase health.","estimatedTime":"2 weeks","previewFileId":"d2214859-b457-4abe-b547-e403c9dfcc76","createdByUserId":"5f2f8b2a-a068-4680-8f55-f2b729e27a8a"}"

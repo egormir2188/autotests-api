@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE2OjEzOjI5Ljc5NzU5MyIsInVzZXJfaWQiOiI5ZjVlNjYwMS00MGQzLTQ4YjUtYmFiYy1iYjk1MGYyZDlkMTQifQ.4wqLe7zxlo53y2l9n1-lRL78U8h4AkwqnUfA68QEpfk" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Film despite thus policy.","maxScore":84,"minScore":27,"description":"Short threat factor plant decide worry.","estimatedTime":"7 weeks","previewFileId":"e748277c-318e-41cd-a927-865ccf039643","createdByUserId":"9f5e6601-40d3-48b5-babc-bb950f2d9d14"}"

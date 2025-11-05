@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE1OjQ3OjIwLjk5MzAyMiIsInVzZXJfaWQiOiIzZjlmYjUyYS00MzU5LTQ4MTktYmEzOS1lN2U1NmI0ZTI0MzcifQ.4yDP7ULO08S2163xWdgY9uMFZZhXqw9pFprNxm8UR7w" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"Gun community memory team reveal action yet.","maxScore":86,"minScore":3,"description":"Against head read message.","estimatedTime":"1 weeks","previewFileId":"cee42e5e-e4c4-42b7-ad01-3bb6e253e9e6","createdByUserId":"3f9fb52a-4359-4819-ba39-e7e56b4e2437"}"

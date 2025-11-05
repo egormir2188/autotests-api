@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE1OjQ3OjIzLjkzMDUxOCIsInVzZXJfaWQiOiI4NzFkODg1MS03MjI4LTQ3ODMtOWRkMC0yZmUxOGQxMDJjNDcifQ.30K67lwHo7yqIyVCvm1rSfuWh_KYc4eBYDr1dnpd8uM" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Beat deep current forward shake.","maxScore":84,"minScore":3,"description":"Bill tend recognize adult case writer hard.","estimatedTime":"6 weeks","previewFileId":"a761434e-b113-4a0b-be5c-abeda48be6e8","createdByUserId":"871d8851-7228-4783-9dd0-2fe18d102c47"}"

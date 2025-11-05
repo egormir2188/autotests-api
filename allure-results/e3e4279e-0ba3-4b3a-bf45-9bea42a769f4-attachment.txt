@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE2OjEzOjI4LjMxNTIzMiIsInVzZXJfaWQiOiI3NjkyMWYxOC03ZmNmLTRmYmMtYTBiYi0zNWI2YTZkODQ4MDAifQ.I0xCVcJeRvAWdomsirkTG6k4MM6MsVt1r29xrKmCU6w" \
+  -H "content-length: 285" \
+  -H "content-type: application/json" \
+  -d "{"title":"Drop new office price state social director.","maxScore":98,"minScore":21,"description":"Early across accept future particularly break.","estimatedTime":"7 weeks","previewFileId":"28f5a946-b20a-4fc7-81c3-1109bb9819ab","createdByUserId":"76921f18-7fcf-4fbc-a0bb-35b6a6d84800"}"
