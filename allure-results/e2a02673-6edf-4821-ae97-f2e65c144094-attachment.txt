@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE0OjA1OjQ5LjM4Mjk0MSIsInVzZXJfaWQiOiIxOTNiMTNkNC1hMTNkLTRmNWItYmRjMy1lZTYwNmEyMTA1NDEifQ.Wfpw94ZDm-AAi4kXmq-CiJ3Ysc9Twmd6cqsYNkOTMnE" \
+  -H "content-length: 272" \
+  -H "content-type: application/json" \
+  -d "{"title":"Evening use television approach story town crime short.","maxScore":62,"minScore":6,"description":"Need point blood about.","estimatedTime":"6 weeks","previewFileId":"b025b67d-647d-40be-9b49-592f557454b1","createdByUserId":"193b13d4-a13d-4f5b-bdc3-ee606a210541"}"

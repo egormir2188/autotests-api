@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE0OjA1OjUxLjQyODI3NSIsInVzZXJfaWQiOiI4ZmI5OGVjNi1mODk2LTRiMmYtYWQ3My0wYjM2OTM0NjBjYzQifQ.s0e5NtUV4YWy4GeMjKuu9OcFxV6SCoVaK17bcQtM_VA" \
+  -H "content-length: 292" \
+  -H "content-type: application/json" \
+  -d "{"title":"Whom lot feeling key first people threat system.","maxScore":90,"minScore":27,"description":"Seat speech again several dog same reflect write.","estimatedTime":"4 weeks","previewFileId":"2508def6-16e2-43cc-942c-80663178c854","createdByUserId":"8fb98ec6-f896-4b2f-ad73-0b3693460cc4"}"

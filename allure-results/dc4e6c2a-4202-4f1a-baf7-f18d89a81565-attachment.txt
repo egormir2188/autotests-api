@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/f4b9933d-22ff-4e91-85ba-564a257ed169" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE0OjA1OjQ5LjM4Mjk0MSIsInVzZXJfaWQiOiIxOTNiMTNkNC1hMTNkLTRmNWItYmRjMy1lZTYwNmEyMTA1NDEifQ.Wfpw94ZDm-AAi4kXmq-CiJ3Ysc9Twmd6cqsYNkOTMnE" \
+  -H "content-length: 224" \
+  -H "content-type: application/json" \
+  -d "{"title":"Present voice site tonight stop tree.","maxScore":58,"minScore":15,"description":"She whatever city. Old visit night either poor similar. Other phone well memory design imagine serve at.","estimatedTime":"2 weeks"}"

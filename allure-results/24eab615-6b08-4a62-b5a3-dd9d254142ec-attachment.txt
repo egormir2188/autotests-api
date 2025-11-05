@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE0OjA1OjQ5Ljg4ODczOSIsInVzZXJfaWQiOiI1ZjJkNWRkNi0yZDE1LTQwZTMtOTNjOC04NDBjMjllMzMwYTIifQ.Y3VMEDvhWwZDyQBoTpwYWXReXP8sB7VVAljmje59I9g" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Husband take mean thus law piece.","maxScore":84,"minScore":16,"description":"Court nearly contain as think.","estimatedTime":"10 weeks","previewFileId":"8dd509d7-60e4-42de-a892-b60b31dba2c3","createdByUserId":"5f2d5dd6-2d15-40e3-93c8-840c29e330a2"}"
