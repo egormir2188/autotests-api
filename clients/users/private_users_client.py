@@ -1,3 +1,5 @@
+import allure
+
 from httpx import Response
 
 from clients.api_client import APIClient
@@ -9,7 +11,8 @@ class PrivateUsersClient(APIClient):
     """
     Клиент для работы с /api/v1/users
     """
-    def get_users_me_api(self) -> Response:
+    @allure.step('Get user me')
+    def get_user_me_api(self) -> Response:
         """
         Метод получения текущего пользователя.
 
@@ -17,6 +20,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.client.get('/api/v1/users/me')
 
+    @allure.step('Get users by id {user_id}')
     def get_users_api(self, user_id: str) -> Response:
         """
         Метод для получения информации о пользователе по его user_id.
@@ -26,6 +30,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.client.get(f'/api/v1/users/{user_id}')
 
+    @allure.step('Update user by id {user_id}')
     def update_user_api(self, user_id: str, request: UpdateUserRequestSchema) -> Response:
         """
         Обновления информации о пользователе по его идентификатору.
@@ -36,6 +41,7 @@ class PrivateUsersClient(APIClient):
         """
         return self.client.patch(f'/api/v1/users/{user_id}', json=request.model_dump(by_alias=True))
 
+    @allure.step('Delete user by id {user_id}')
     def delete_user_api(self, user_id: str) -> Response:
         """
         Удаление пользователя по его идентификатору.
