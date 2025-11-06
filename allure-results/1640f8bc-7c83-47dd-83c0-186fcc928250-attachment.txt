@@ -1,0 +1,19 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/310cc59f-2663-4c9a-afb1-4467d6a3d4ff
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses/310cc59f-2663-4c9a-afb1-4467d6a3d4ff
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:88 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Pm value beautiful although himself to focus."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Mission Republican soon answer nothing. Address plan cover some upon final. Mother board its act.
+Exactly place rise catch. Conference Congress study ball. Teacher consider model season capital."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "54"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "22"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "1 weeks"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

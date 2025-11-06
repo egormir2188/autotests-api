@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjM4OjEwLjMzODQwOSIsInVzZXJfaWQiOiI1NDYxMzkwNC1jNWY4LTQ5MDItYjU4My03NjY4MDEzNWQ0YjgifQ.ADss2xkkfR9_GoVgVCCPed1GtCbyaeIzeo6fWqW1SPk" \
+  -H "content-length: 252" \
+  -H "content-type: application/json" \
+  -d "{"title":"Lot beat herself.","maxScore":81,"minScore":7,"description":"Audience imagine tough training recently.","estimatedTime":"9 weeks","previewFileId":"1731bd12-e87e-4b75-8e7b-38cbefdff28a","createdByUserId":"54613904-c5f8-4902-b583-76680135d4b8"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjM4OjA5LjM3ODQ4NSIsInVzZXJfaWQiOiI5ZTU3ZmQ0Zi0yNmFlLTQwNWItODRmZi04MzJmZTc4NGM2N2QifQ.Kq9Us4zcaNC5GhBD9ObB_gBNoi1drBpvv6aoi_Eijl0" \
+  -H "content-length: 255" \
+  -H "content-type: application/json" \
+  -d "{"title":"The those nothing should style.","maxScore":98,"minScore":30,"description":"Degree whole back study ever.","estimatedTime":"5 weeks","previewFileId":"abd07741-9c1d-4837-ac59-546fca176a01","createdByUserId":"9e57fd4f-26ae-405b-84ff-832fe784c67d"}"

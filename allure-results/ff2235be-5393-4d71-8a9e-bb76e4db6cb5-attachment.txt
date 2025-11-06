@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:26 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Other agency dark character shoulder house garden."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "58"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "30"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Only drug quite once challenge pull ready."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "1 weeks"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to "5b92f304-c744-4436-922a-1dbd4ca32545"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to "1893c02a-8d71-4865-871b-cc82e28dfbd1"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

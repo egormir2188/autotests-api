@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjM4OjA5Ljg2MTk3NyIsInVzZXJfaWQiOiI0N2U1ZDdkNS0zYWQ2LTQ4MjAtYTdhNy1lOTI0MWM2YzllZjUifQ.NB3x4f76e392fAXNAYbthnGl8GLAWlQEpEcC-uvRPuU" \
+  -H "content-length: 262" \
+  -H "content-type: application/json" \
+  -d "{"title":"Watch value certain chair over.","maxScore":87,"minScore":22,"description":"Mrs according around tend write for.","estimatedTime":"2 weeks","previewFileId":"5f1961ce-5343-4d7f-adac-05d51d2190ab","createdByUserId":"47e5d7d5-3ad6-4820-a7a7-e9241c6c9ef5"}"
