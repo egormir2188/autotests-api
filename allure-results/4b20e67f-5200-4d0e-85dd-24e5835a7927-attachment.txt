@@ -1,0 +1,25 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=f9e1da1b-11c6-47b2-91f1-1a39dd81507a
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=f9e1da1b-11c6-47b2-91f1-1a39dd81507a
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:83 Check get exercises response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:72 Check that length of "exercises" equals to "1"
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "37409796-6636-405e-8af3-1076c07749b6"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Decade picture commercial follow figure."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "f9e1da1b-11c6-47b2-91f1-1a39dd81507a"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "97"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "26"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "59"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Mother main measure side view grow economic. Little scientist rather write least subject hear. Organization food whom he loss exactly black."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "10 weeks"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

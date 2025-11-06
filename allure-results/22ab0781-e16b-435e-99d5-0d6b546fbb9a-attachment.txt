@@ -1,0 +1,32 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=955bafc9-c7b4-4bc1-934b-602a2065b74c
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=955bafc9-c7b4-4bc1-934b-602a2065b74c
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:69 Check get course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to "1"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:45 Check course
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "6d508682-d089-4686-a18c-9a2ae41d6d12"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Art officer figure decade idea another decision."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "68"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "20"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Your mission do third view certainly."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "3 weeks"
+[32mINFO    [0m FILES_ASSERTIONS:files.py:39 Check file
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "1a60184f-5cff-4e14-9dac-9c11f657ebc9"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "directory" equals to "tests"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "filename" equals to "0cad6f50-fca5-47cb-9df4-1254a3f755b5.png"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "url" equals to "http://localhost:8000/static/tests/0cad6f50-fca5-47cb-9df4-1254a3f755b5.png"
+[32mINFO    [0m USERS_ASSERTIONS:users.py:35 Check user
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "955bafc9-c7b4-4bc1-934b-602a2065b74c"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "email" equals to "eherman@example.com"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to "Jessica"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to "Joshua"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to "Simmons"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

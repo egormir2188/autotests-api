@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjUyOjExLjQ0OTM2NCIsInVzZXJfaWQiOiIxYjkzN2I3Yi1jZDEwLTRmOTYtYWUxMy00ZjZjYzUzOTAxZDAifQ.2OHYTOBBRYPcTGV681sC9XIYXTtgft9QwYHoQ9zcjVc" \
+  -H "content-length: 249" \
+  -H "content-type: application/json" \
+  -d "{"title":"Thing hear story think significant.","maxScore":86,"minScore":13,"description":"Ever happy instead.","estimatedTime":"7 weeks","previewFileId":"d7891c43-2abf-4647-9846-7265c1c4fbab","createdByUserId":"1b937b7b-cd10-4f96-ae13-4f6cc53901d0"}"

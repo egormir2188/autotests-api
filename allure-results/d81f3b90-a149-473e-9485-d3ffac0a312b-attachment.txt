@@ -1,0 +1,24 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/f4a21df0-6d73-476e-9880-1d6cb97c1e65
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/f4a21df0-6d73-476e-9880-1d6cb97c1e65
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "f4a21df0-6d73-476e-9880-1d6cb97c1e65"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Generation little trouble seek sure indicate you."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "bed8bb8e-e5f8-44ec-934e-72cc012f647b"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "88"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "27"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "48"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Really order claim guy enough stay able experience. Face discover fire common rise former."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "8 weeks"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

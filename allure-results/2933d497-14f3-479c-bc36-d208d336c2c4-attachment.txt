@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjUyOjEyLjkwMjIyMSIsInVzZXJfaWQiOiI3MDIzYmVmMC00YTYwLTQ2ODAtOTdjYy1jMGI3Yjg0ZGQzYWIifQ.A4ta2rLhLPNyKqlbhw79bGZx17YRZsDzYhRSJu4Zd20" \
+  -H "content-length: 338" \
+  -H "content-type: application/json" \
+  -d "{"title":"Car hope let trial receive sort.","maxScore":52,"minScore":17,"orderIndex":91,"description":"Myself town where final leg every.\nPick might whom. Election win moment design hour suggest area leg. Force short rate foot talk put.\nMean media daughter.","estimatedTime":"10 weeks","courseId":"fd6e135b-748b-43e7-aaae-446ef98d991f"}"

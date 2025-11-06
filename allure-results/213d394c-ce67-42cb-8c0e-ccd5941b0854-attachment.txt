@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjUyOjEyLjkwMjIyMSIsInVzZXJfaWQiOiI3MDIzYmVmMC00YTYwLTQ2ODAtOTdjYy1jMGI3Yjg0ZGQzYWIifQ.A4ta2rLhLPNyKqlbhw79bGZx17YRZsDzYhRSJu4Zd20" \
+  -H "content-length: 263" \
+  -H "content-type: application/json" \
+  -d "{"title":"Word character pattern the herself can.","maxScore":63,"minScore":27,"description":"Common offer attorney parent.","estimatedTime":"1 weeks","previewFileId":"481367b6-e125-4bfe-a53a-bddb0a1def80","createdByUserId":"7023bef0-4a60-4680-97cc-c0b7b84dd3ab"}"

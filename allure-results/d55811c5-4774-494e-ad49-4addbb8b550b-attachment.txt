@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjUyOjExLjkzNDMzMSIsInVzZXJfaWQiOiI1YTE5OWI3OC0xMDkxLTQxYmYtODcwYS04YmNhMTY4Y2EwODkifQ.zwfvYGG1tjMGa1242_-_NOyFY6G-UvyRhqujM8yPluY" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"Condition less away popular no.","maxScore":65,"minScore":30,"description":"Defense fill never practice together media necessary.","estimatedTime":"3 weeks","previewFileId":"6527e768-0378-4660-9421-a86904976023","createdByUserId":"5a199b78-1091-41bf-870a-8bca168ca089"}"

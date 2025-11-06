@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEyOjUxOjE2LjYwNjMyMiIsInVzZXJfaWQiOiIyZTU5NWJkZS0xZTYyLTQ0MTQtODJiYi00YjVlOTliZjA4ZGMifQ.IXwcn95n0SDB2fINrk0Gj_PsbR39oTiHGvJzWmmjOeY" \
+  -H "content-length: 258" \
+  -H "content-type: application/json" \
+  -d "{"title":"Daughter baby want know.","maxScore":76,"minScore":24,"description":"Actually picture item law maybe become.","estimatedTime":"7 weeks","previewFileId":"29e645e0-8dc6-4429-a278-49b3c57533f7","createdByUserId":"2e595bde-1e62-4414-82bb-4b5e99bf08dc"}"
