@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:26 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Tax recognize election nature."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "98"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "4"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Stay only leader sport."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "3 weeks"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to "476c6201-b5cb-4823-9c30-1ef902728f29"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to "29865c89-8628-4336-ad21-a8379a1e991e"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

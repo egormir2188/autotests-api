@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEzOjEyOjI3LjY4ODA2MCIsInVzZXJfaWQiOiJhNzEwNWQxMi0yMzdmLTQ4NGQtYjYwNi01MzcxOWM5OGE0NTEifQ.zuihSVUh6OVx6xEnp-ZsgZhHMtCqMpTuiI1PrU4vadE" \
+  -H "content-length: 335" \
+  -H "content-type: application/json" \
+  -d "{"title":"Instead indeed pressure challenge much early treat.","maxScore":89,"minScore":29,"orderIndex":14,"description":"Media card vote. Attorney cost certain task home middle case test.\nTeach cold establish clear top available hear. May know wonder six.","estimatedTime":"5 weeks","courseId":"cdd115ef-201e-4022-8861-1506f4cb8204"}"

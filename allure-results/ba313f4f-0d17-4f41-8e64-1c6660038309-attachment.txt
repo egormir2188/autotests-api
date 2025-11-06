@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEzOjEyOjI2LjIyNDgzNSIsInVzZXJfaWQiOiIzZTEzYWY0OC1jOGE2LTQxN2MtYmMwZS03NWIwMWJhYzQzNDkifQ.rt6PtcLwwG5ALLJyh3mhR97szm1715nq2NPXqVcAIXk" \
+  -H "content-length: 273" \
+  -H "content-type: application/json" \
+  -d "{"title":"Thing eight federal financial building step.","maxScore":67,"minScore":6,"description":"Its worker computer but upon score.","estimatedTime":"3 weeks","previewFileId":"f6adcd02-fbe5-4428-98bc-170b0e72081d","createdByUserId":"3e13af48-c8a6-417c-bc0e-75b01bac4349"}"

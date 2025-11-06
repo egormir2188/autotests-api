@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEzOjEyOjI4LjE4MjE4MyIsInVzZXJfaWQiOiIwYWFlMzc3ZC03NDNlLTQxN2MtYjE2Zi0wZjA5NThmYjk3NmYifQ.p9JRT8X9sM0JCsVxQdg9XkZ0kkd-CEODxNMFN4P1axg" \
+  -H "content-length: 352" \
+  -H "content-type: application/json" \
+  -d "{"title":"Free spend truth full among.","maxScore":61,"minScore":10,"orderIndex":23,"description":"Despite hotel adult fire. Consumer financial child boy. Fly some case their both trade.\nStock sign parent Republican most Republican more. Successful about watch you ability.","estimatedTime":"3 weeks","courseId":"0f25ae44-5963-4a41-933a-9f171ec2c70c"}"

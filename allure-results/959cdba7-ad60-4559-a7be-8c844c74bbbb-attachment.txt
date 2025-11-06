@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDEzOjEyOjI4LjE4MjE4MyIsInVzZXJfaWQiOiIwYWFlMzc3ZC03NDNlLTQxN2MtYjE2Zi0wZjA5NThmYjk3NmYifQ.p9JRT8X9sM0JCsVxQdg9XkZ0kkd-CEODxNMFN4P1axg" \
+  -H "content-length: 268" \
+  -H "content-type: application/json" \
+  -d "{"title":"Too mention material begin the.","maxScore":71,"minScore":15,"description":"Individual person a strong agreement time.","estimatedTime":"1 weeks","previewFileId":"1ce5b5a8-d295-4922-81bd-4bcfcd2abda0","createdByUserId":"0aae377d-743e-417c-b16f-0f0958fb976f"}"
