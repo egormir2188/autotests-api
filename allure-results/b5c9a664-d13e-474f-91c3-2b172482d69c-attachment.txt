@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE3OjEwOjUzLjc1NzgwNiIsInVzZXJfaWQiOiI4OWY5NGFhZS00OGI3LTQyOWQtOGQyNi1jMjE3ZTFhZTBhZTUifQ.N2H0Vp4vSMa5HY6rGtO2wfVQKdoVYQIMIXVAlxpsao0" \
+  -H "content-length: 286" \
+  -H "content-type: application/json" \
+  -d "{"title":"Quickly fast increase represent why national fact.","maxScore":92,"minScore":14,"description":"Improve certainly allow west along trial.","estimatedTime":"3 weeks","previewFileId":"cabb6de7-6fc6-45ee-81f3-602c8a724502","createdByUserId":"89f94aae-48b7-429d-8d26-c217e1ae0ae5"}"

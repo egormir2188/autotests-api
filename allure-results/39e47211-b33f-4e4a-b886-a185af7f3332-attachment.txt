@@ -1,0 +1,14 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make DELETE request to http://localhost:8000/api/v1/exercises/d73418e4-baf9-4636-a0ca-6f67800efa7e
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/exercises/d73418e4-baf9-4636-a0ca-6f67800efa7e
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make GET request to http://localhost:8000/api/v1/exercises/d73418e4-baf9-4636-a0ca-6f67800efa7e
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 404 Not Found from http://localhost:8000/api/v1/exercises/d73418e4-baf9-4636-a0ca-6f67800efa7e

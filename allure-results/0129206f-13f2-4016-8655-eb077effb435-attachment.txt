@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/exercises/58292ce3-cbd2-4cac-91ad-175495c7905d" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE3OjEwOjUyLjc3NTI2NiIsInVzZXJfaWQiOiI0MzU1ZWZjZi1kNDg2LTQ5ZTItOTI0Yi01NDU4YTEyZjE5ZjMifQ.L6QJlMCCvyshHEHnY_mAjDzTKrOIM_CZIwbo3rofAwM" \
+  -H "content-length: 324" \
+  -H "content-type: application/json" \
+  -d "{"title":"New probably serious school.","maxScore":70,"minScore":10,"orderIndex":39,"description":"Trade fight record fall behind. I plant on become know western forget.\nLife even two public across painting.\nUpon beat peace moment. Quite record religious set will Congress. Grow serve kind boy.","estimatedTime":"2 weeks"}"

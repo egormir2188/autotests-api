@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDExOjI0OjI5Ljk2MDY2MSIsInVzZXJfaWQiOiJmOGI5NjU1Ni01OTE0LTRhZmMtOWM1YS02YjNhMTBiMGU1YWYifQ.c5IwRPcUIjf7eoV2TVxN6iCSUjx83bcaDRf5PtiP7jQ" \
+  -H "content-length: 263" \
+  -H "content-type: application/json" \
+  -d "{"title":"Director kitchen memory address.","maxScore":64,"minScore":12,"description":"Collection sense red suffer between.","estimatedTime":"3 weeks","previewFileId":"9c345137-6677-429d-8b6e-52660e12c887","createdByUserId":"f8b96556-5914-4afc-9c5a-6b3a10b0e5af"}"

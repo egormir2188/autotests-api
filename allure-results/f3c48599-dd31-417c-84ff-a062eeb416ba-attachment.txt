@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make PATCH request to http://localhost:8000/api/v1/courses/626abfe4-95e7-4328-b996-a185c236d9ae
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/courses/626abfe4-95e7-4328-b996-a185c236d9ae
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:88 Check update course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Little have north add season lay hour."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Away beat rest movie top road though. Any suddenly us reveal smile might collection. Pretty technology job manager understand debate north play."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "66"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "3"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "4 weeks"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

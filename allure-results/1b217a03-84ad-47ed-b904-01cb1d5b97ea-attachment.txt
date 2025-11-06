@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE3OjEwOjUyLjI3ODUyMyIsInVzZXJfaWQiOiIwNWQzZDAyOS02YjgxLTQ4MTMtYmViYy1iZGM4NjFiNWI1NmEifQ.cTKJ0LxczdDDn88j1I4L5jy2JpPqMCcm5yxvl9ImszA" \
+  -H "content-length: 271" \
+  -H "content-type: application/json" \
+  -d "{"title":"Toward charge travel response.","maxScore":67,"minScore":23,"description":"Still still appear one also sure various pick.","estimatedTime":"3 weeks","previewFileId":"51e8e000-68c3-40fe-9486-018d9b0cb50b","createdByUserId":"05d3d029-6b81-4813-bebc-bdc861b5b56a"}"

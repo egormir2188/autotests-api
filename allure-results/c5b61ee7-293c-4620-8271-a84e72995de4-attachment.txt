@@ -1,0 +1,32 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make GET request to http://localhost:8000/api/v1/courses?userId=45e9270b-439c-4fcd-b8a6-c73d150b1af7
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=45e9270b-439c-4fcd-b8a6-c73d150b1af7
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:69 Check get course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to "1"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:45 Check course
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "bb47e3dc-6239-4987-9fea-39feb9cb817c"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Then again list situation city amount."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "50"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "5"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Again cost stock."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "4 weeks"
+[32mINFO    [0m FILES_ASSERTIONS:files.py:39 Check file
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "7c4fbf00-1b22-4a4c-845b-fdf4d4d7e51c"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "directory" equals to "tests"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "filename" equals to "42c6594a-0f2f-4358-9a6d-c5ab81db784f.png"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "url" equals to "http://localhost:8000/static/tests/42c6594a-0f2f-4358-9a6d-c5ab81db784f.png"
+[32mINFO    [0m USERS_ASSERTIONS:users.py:35 Check user
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "id" equals to "45e9270b-439c-4fcd-b8a6-c73d150b1af7"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "email" equals to "charles21@example.net"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to "Jay"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to "Michelle"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to "Hill"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

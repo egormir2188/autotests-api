@@ -1,0 +1,18 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m COURSES_ASSERTIONS:courses.py:26 Check create course response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Agency detail statement couple."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "100"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "3"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Production bad participant well manager at."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "3 weeks"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to "ad0d9237-dc99-47fa-818f-c93c4af1622d"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to "1f46fe3d-46ff-4e2a-91df-ffd0985185bc"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

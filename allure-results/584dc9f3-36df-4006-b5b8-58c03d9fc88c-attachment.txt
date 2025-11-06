@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE3OjEwOjUxLjMwMTg2OCIsInVzZXJfaWQiOiJmMjYxMDBlMS1lNWExLTQyZWItYjY3MC04MjcyNmVlYmNmZDcifQ.2X0KbXsC-EJ7hlc7tll5s7Zvd27G0lZCA62mGXgjlgs" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Cut somebody music environmental newspaper far.","maxScore":84,"minScore":21,"description":"Budget mean coach official.","estimatedTime":"7 weeks","previewFileId":"122b4d53-4a05-40fe-b495-3ae033214623","createdByUserId":"f26100e1-e5a1-42eb-b670-82726eebcfd7"}"

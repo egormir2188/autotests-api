@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE3OjEwOjUyLjc3NTI2NiIsInVzZXJfaWQiOiI0MzU1ZWZjZi1kNDg2LTQ5ZTItOTI0Yi01NDU4YTEyZjE5ZjMifQ.L6QJlMCCvyshHEHnY_mAjDzTKrOIM_CZIwbo3rofAwM" \
+  -H "content-length: 241" \
+  -H "content-type: application/json" \
+  -d "{"title":"Admit when pull leave view.","maxScore":81,"minScore":28,"description":"Phone each soldier.","estimatedTime":"5 weeks","previewFileId":"068cf3ad-a67d-4b08-bbd9-b1e980a3ed93","createdByUserId":"4355efcf-d486-49e2-924b-5458a12f19f3"}"

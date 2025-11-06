@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/7881d9b0-8415-4fae-a197-1a478b6e2c79" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE3OjEwOjUxLjMwMTg2OCIsInVzZXJfaWQiOiJmMjYxMDBlMS1lNWExLTQyZWItYjY3MC04MjcyNmVlYmNmZDcifQ.2X0KbXsC-EJ7hlc7tll5s7Zvd27G0lZCA62mGXgjlgs" \
+  -H "content-length: 253" \
+  -H "content-type: application/json" \
+  -d "{"title":"Voice again how international.","maxScore":59,"minScore":3,"description":"Moment impact by second window keep. Network everyone also onto. Shoulder hour reality beyond.\nThese down field item science order national.","estimatedTime":"7 weeks"}"

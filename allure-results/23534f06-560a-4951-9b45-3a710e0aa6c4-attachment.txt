@@ -1,0 +1,21 @@
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/courses
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make POST request to http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/exercises
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:21 Make PATCH request to http://localhost:8000/api/v1/exercises/4940e7e0-d4a7-4d42-a2d5-409dfa61fe70
+[32mINFO    [0m HTTP_LOGER:event_hooks.py:24 Got response 200 OK from http://localhost:8000/api/v1/exercises/4940e7e0-d4a7-4d42-a2d5-409dfa61fe70
+[32mINFO    [0m BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+[32mINFO    [0m EXERCISES_ASSERTIONS:exercises.py:99 Check update exercise response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Low wife young force."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Cost teacher its product talk several end. Yourself side dream surface couple. Marriage any national hand could raise."
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "55"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "15"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "10 weeks"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "72"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

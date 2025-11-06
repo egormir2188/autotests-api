@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA1VDE3OjEwOjUwLjgyMTQ2NiIsInVzZXJfaWQiOiI2ZjIxMmI3ZS1jMzk2LTQzMWYtOTg0MC1hNmE5ZWZmZDZjYmQifQ.ICkZb5O6QgySq5vLRrL1A5vK3Ht0TXWqpe-qiyIO_30" \
+  -H "content-length: 280" \
+  -H "content-type: application/json" \
+  -d "{"title":"Treat want control dinner support do light mission.","maxScore":92,"minScore":17,"description":"Clear look choose allow call beat.","estimatedTime":"5 weeks","previewFileId":"37ede79a-208b-4769-a270-e52f27ed4075","createdByUserId":"6f212b7e-c396-431f-9840-a6a9effd6cbd"}"

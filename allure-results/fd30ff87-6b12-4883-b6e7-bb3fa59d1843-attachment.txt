@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDExOjQ3OjQ2LjE2MTAwNyIsInVzZXJfaWQiOiI0ZjJhYzc5Yy0wMWRmLTQzMGMtYTRhNS01NzdlMWUyNmIzNTIifQ.i7lJ5UhOQd5VKpnPzdqe0XvpJy0jBvVL0iFfJK1Yggc" \
+  -H "content-length: 265" \
+  -H "content-type: application/json" \
+  -d "{"title":"Once research step popular.","maxScore":93,"minScore":18,"description":"Gas around various senior although clearly.","estimatedTime":"6 weeks","previewFileId":"adf4e482-63de-4bba-9d36-3269a6124f75","createdByUserId":"4f2ac79c-01df-430c-a4a5-577e1e26b352"}"

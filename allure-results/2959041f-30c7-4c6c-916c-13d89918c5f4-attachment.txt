@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA2VDExOjQ3OjQ1LjE2NTA0OCIsInVzZXJfaWQiOiI0MjkxZjY0Mi1jNTFkLTQ0NzQtYjZlNi00NWY3YTUwNTViZTMifQ.whWQexsZKZuNhLaJnolbH4pCgfzYyrj-wc8XZ_r1Y9U" \
+  -H "content-length: 284" \
+  -H "content-type: application/json" \
+  -d "{"title":"Card task culture piece feeling candidate.","maxScore":63,"minScore":8,"description":"Contain success become start past amount health.","estimatedTime":"1 weeks","previewFileId":"8ed2aac3-e0be-4137-9f25-192a3c574fac","createdByUserId":"4291f642-c51d-4474-b6e6-45f7a5055be3"}"
