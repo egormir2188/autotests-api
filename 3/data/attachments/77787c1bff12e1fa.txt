@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjI4OjExLjg5NDYzMiIsInVzZXJfaWQiOiJjYzIwMzgyZC1mMWZlLTQ5YjEtYTU1NC0wN2Q4YTdmNzAxNmMifQ.nfcgbVUis_vn-uDV7QgIxPr95TMVPXB5JXgemonFU_c" \
+  -H "content-length: 258" \
+  -H "content-type: application/json" \
+  -d "{"title":"Area visit car himself eye cold.","maxScore":90,"minScore":1,"description":"Know bill wish civil risk ready.","estimatedTime":"8 weeks","previewFileId":"729ac273-8f33-4e0e-9d08-11a1cb7fe00a","createdByUserId":"cc20382d-f1fe-49b1-a554-07d8a7f7016c"}"

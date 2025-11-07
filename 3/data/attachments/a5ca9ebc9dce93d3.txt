@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjI4OjEwLjY5ODMzMSIsInVzZXJfaWQiOiJiNTg1NGYzNy05OTgwLTRiN2EtYTM2YS1iOGI2ZGIzY2YzZjIifQ.rIZIaJBBvdpvQHeGAGeW1Op0kLQuOcLaq3if4A8CqdI" \
+  -H "content-length: 255" \
+  -H "content-type: application/json" \
+  -d "{"title":"Practice about everybody.","maxScore":64,"minScore":22,"description":"Often seat catch music skin nation.","estimatedTime":"6 weeks","previewFileId":"0fa6487c-c8d5-4201-9407-380aab7230d9","createdByUserId":"b5854f37-9980-4b7a-a36a-b8b6db3cf3f2"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjI4OjA5LjUxNDQ5NSIsInVzZXJfaWQiOiJkZDc3ODMzMS02ZDFmLTRhNDUtYmMxMi0zZTQ3ZGY2OTA2Y2UifQ.WYaSqBo5yykIo1dIIuVYq9eL9FhYfrFQa_gWj9SjF4o" \
+  -H "content-length: 282" \
+  -H "content-type: application/json" \
+  -d "{"title":"Money already think institution much happy like.","maxScore":79,"minScore":15,"description":"Oil describe whatever and former could.","estimatedTime":"6 weeks","previewFileId":"c883a48f-5a2e-4bdb-b879-5544783653cc","createdByUserId":"dd778331-6d1f-4a45-bc12-3e47df6906ce"}"

@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/0e7d48cc-03bc-484a-9a44-fe58d109060f" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjI4OjA5LjUxNDQ5NSIsInVzZXJfaWQiOiJkZDc3ODMzMS02ZDFmLTRhNDUtYmMxMi0zZTQ3ZGY2OTA2Y2UifQ.WYaSqBo5yykIo1dIIuVYq9eL9FhYfrFQa_gWj9SjF4o" \
+  -H "content-length: 277" \
+  -H "content-type: application/json" \
+  -d "{"title":"Would likely far my respond establish remember.","maxScore":92,"minScore":16,"description":"Responsibility cold assume better fear movie. Stand their charge clearly. Current goal sort officer home north I. Best hundred test PM laugh enter.","estimatedTime":"2 weeks"}"
