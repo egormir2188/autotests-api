@@ -1,0 +1,22 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/f45e2262-0057-48b3-be03-e712460f338a
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/f45e2262-0057-48b3-be03-e712460f338a
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:99 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Rock heart until turn south significant believe."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Military season five country head now recognize. Pretty assume out section hour.
+Explain method dinner field government bad whom different. Establish run market cultural after civil their."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "82"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "26"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "3 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "100"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema
