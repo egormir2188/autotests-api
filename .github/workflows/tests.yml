@@ -9,7 +9,8 @@ on:
       - main
 
 jobs:
-  run-tests:
+  job_1:
+    name: run_tests
     runs-on: ubuntu-latest
 
     steps:
@@ -48,7 +49,12 @@ jobs:
       - name: Run API tests with pytest and generate Allure results
         run: |
           pytest -m "regression" --alluredir=allure-results --numprocesses=2
+  job_2:
+    name: publish-report
+    needs: job_1
+    runs-on: ubuntu-latest
 
+    steps:
       - name: Get Allure history
         uses: actions/checkout@v5
         if: always()
@@ -71,3 +77,14 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-history
+
+      - name: Creating directory
+        run:
+          mkdir -p allure-results
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: allure-report-artifacts
+          path: ./allure-results
