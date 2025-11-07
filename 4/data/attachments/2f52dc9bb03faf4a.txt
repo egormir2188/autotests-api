@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjUwOjIzLjc5NTA4NSIsInVzZXJfaWQiOiIxNmEwZWJiZi03OGVjLTRjNTQtYTA3Zi0yZjg0NzQyNTg4NDUifQ.6jQ3mj7Uj0Qn-Ghkc0bs0GjCm5T9WQfKTlch_gVSQfw" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"Order laugh one operation rather.","maxScore":82,"minScore":7,"description":"Discover exist until perform law arm.","estimatedTime":"9 weeks","previewFileId":"50ffb143-134a-4e01-aa34-5fd2e2ef7055","createdByUserId":"16a0ebbf-78ec-4c54-a07f-2f8474258845"}"

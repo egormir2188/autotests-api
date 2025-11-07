@@ -1,0 +1,23 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/d6618568-f8b0-4d23-8ad5-fa66827582f3
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/d6618568-f8b0-4d23-8ad5-fa66827582f3
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:99 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Guy catch business state miss these."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Value will positive show start.
+Get agent traditional room seat. Remember they read commercial go blood score.
+Much present take evening health."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "78"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "27"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "7 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "30"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

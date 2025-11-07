@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjUwOjIyLjU5MzYzNyIsInVzZXJfaWQiOiJkM2Y3OWY1OS1hMWNhLTQ3MjQtODM0Yi1kNmZmYWNkNjNmYzQifQ.FSzL68dFcennpoFQAUBdd8B5Zzb4KMG-8Yzm4NXMTn8" \
+  -H "content-length: 379" \
+  -H "content-type: application/json" \
+  -d "{"title":"Bag change choice measure ever democratic.","maxScore":98,"minScore":24,"orderIndex":35,"description":"Before stock doctor bill control. Suggest buy space use black member professor.\nClass ten toward far issue. Surface rather house staff wide space short. Little billion full. Catch kid PM.","estimatedTime":"9 weeks","courseId":"ee10459e-3163-451a-a68f-fb23d950441f"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjUwOjIyLjU5MzYzNyIsInVzZXJfaWQiOiJkM2Y3OWY1OS1hMWNhLTQ3MjQtODM0Yi1kNmZmYWNkNjNmYzQifQ.FSzL68dFcennpoFQAUBdd8B5Zzb4KMG-8Yzm4NXMTn8" \
+  -H "content-length: 254" \
+  -H "content-type: application/json" \
+  -d "{"title":"Treat west car decade prepare down.","maxScore":71,"minScore":23,"description":"General deep no record.","estimatedTime":"10 weeks","previewFileId":"be784728-26a6-4758-8b26-03fa7d9a6edd","createdByUserId":"d3f79f59-a1ca-4724-834b-d6ffacd63fc4"}"

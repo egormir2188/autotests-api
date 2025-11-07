@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/909eef00-b53d-472c-90e8-0b696cf8b421" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjUwOjIxLjQwMjEzMiIsInVzZXJfaWQiOiJkZWRmMjg4YS02MTlkLTQxMGUtYjYzZi0xYjc4MTU5ZWI1ZjIifQ.48IQsOsn412ruejPoEuLVrXYq0pRW1808iEQ97fIHMg" \
+  -H "content-length: 281" \
+  -H "content-type: application/json" \
+  -d "{"title":"Seat reduce less.","maxScore":97,"minScore":5,"description":"Bill enter anyone party charge cold many about. Sense whose economy pressure high.\nFive throw officer them government throughout base. Enough find open wonder newspaper meet region.","estimatedTime":"1 weeks"}"
