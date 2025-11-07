@@ -78,10 +78,6 @@ jobs:
           publish_branch: gh-pages
           publish_dir: allure-history
 
-      - name: Creating directory
-        run:
-          mkdir -p allure-results
-
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         if: always()
