@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE1OjAyOjM3LjY4NTk5NSIsInVzZXJfaWQiOiJhOTU1YTQ1NC1iYzE3LTRkN2ItYjdjOS05MzdkNDI3ZTI2NjEifQ.qvoSs3KHvOt6yqyLNyLwoBf9-rt09czaK0uyIAlEKW4" \
+  -H "content-length: 283" \
+  -H "content-type: application/json" \
+  -d "{"title":"A today away keep open system.","maxScore":51,"minScore":19,"orderIndex":73,"description":"Bank hot off speak sell while. Many east policy ball.\nBox glass item program issue send foreign entire.","estimatedTime":"6 weeks","courseId":"205a9b42-d980-45da-ad72-f49d479cdd17"}"

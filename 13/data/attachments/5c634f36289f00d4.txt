@@ -1,0 +1,32 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/courses?userId=cb678b34-94db-447a-ba3f-a6f60d5b02cf
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=cb678b34-94db-447a-ba3f-a6f60d5b02cf
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     COURSES_ASSERTIONS:courses.py:69 Check get course response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "courses" equals to "1"
+INFO     COURSES_ASSERTIONS:courses.py:45 Check course
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "0a7956e7-4900-45ce-81b5-c47f4cc06621"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Get early pressure month less decide talk."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "51"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "24"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Half save indeed impact professor."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "2 weeks"
+INFO     FILES_ASSERTIONS:files.py:39 Check file
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "ba252f90-f5e9-492e-a5a1-b7cad002dfcc"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "directory" equals to "tests"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "filename" equals to "5574258a-eb27-48bc-a162-c326e6d83cd1.png"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "url" equals to "http://localhost:8000/static/tests/5574258a-eb27-48bc-a162-c326e6d83cd1.png"
+INFO     USERS_ASSERTIONS:users.py:35 Check user
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "cb678b34-94db-447a-ba3f-a6f60d5b02cf"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to "ttran@example.org"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "first_name" equals to "Patrick"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "middle_name" equals to "Jimmy"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "last_name" equals to "Jacobs"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

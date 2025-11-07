@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE1OjAyOjM2LjcyNzM4NCIsInVzZXJfaWQiOiIwZDgwN2FjMC1kNDliLTQ2ZjEtOTExMi1kMjg3ZTAxZjUzY2MifQ.-CmNUAM2jjudk3KrHIROQ4TaJgC90wjZhrPI8CHw1lA" \
+  -H "content-length: 252" \
+  -H "content-type: application/json" \
+  -d "{"title":"Recognize happy hair occur.","maxScore":66,"minScore":18,"description":"Create campaign wife employee.","estimatedTime":"8 weeks","previewFileId":"38ee7af0-5c2d-4f14-8324-57b177a8505b","createdByUserId":"0d807ac0-d49b-46f1-9112-d287e01f53cc"}"

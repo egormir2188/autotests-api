@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE1OjAyOjM3Ljk2MTYyMiIsInVzZXJfaWQiOiJkZTc5Mjk2Yi00N2VlLTRhMDMtOTg1OS1iM2FjNjI3ZGUxM2QifQ.SQSbW2Tg8D_LQQzuPG5jlPUZQXLdAPQ0tlChpVhBtLs" \
+  -H "content-length: 350" \
+  -H "content-type: application/json" \
+  -d "{"title":"When idea information general.","maxScore":75,"minScore":24,"orderIndex":2,"description":"Want forward travel laugh debate.\nCommon something entire many head side strong low. Less occur fire Republican executive. During beyond agree possible national different.","estimatedTime":"4 weeks","courseId":"1f1530e6-56cd-43a1-af4b-7f16ca8c7472"}"

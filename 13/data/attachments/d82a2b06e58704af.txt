@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE1OjAyOjM2LjQ1NDM3MiIsInVzZXJfaWQiOiI2NTBjYjVmMC1lN2Y0LTQxN2MtOGQxZi05N2UxMzAzMzQ1N2MifQ.ndrgNUMT4gwUZyREq7TKOSnZ0-2CiyYgNubJpOyvFI4" \
+  -H "content-length: 274" \
+  -H "content-type: application/json" \
+  -d "{"title":"Whose next executive society.","maxScore":99,"minScore":21,"description":"Nice force why piece nice according remember face.","estimatedTime":"8 weeks","previewFileId":"cd512a94-f872-4506-89c0-b495cd37926b","createdByUserId":"650cb5f0-e7f4-417c-8d1f-97e13033457c"}"
