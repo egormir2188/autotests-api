@@ -49,6 +49,13 @@ jobs:
       - name: Run API tests with pytest and generate Allure results
         run: |
           pytest -m "regression" --alluredir=allure-results --numprocesses=2
+
+      - name: Download Allure Results
+        uses: actions/download-artifact@v5
+        with:
+          name: allure-results
+          path: ./
+
   job_2:
     name: publish-report
     needs: job_1
