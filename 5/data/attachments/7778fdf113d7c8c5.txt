@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjU1OjUxLjg3NTQxNyIsInVzZXJfaWQiOiIyZTExZWZhMS02YWZjLTQ0MDgtOTI0Ni1mZjdjNTQ4OGQ0OGUifQ.mhrooqpXcV2DxSD_ahUXPorPekVVDkr6noXs9k4L6Z8" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"Seat my vote middle practice candidate.","maxScore":88,"minScore":12,"description":"Recognize most such individual ten interview.","estimatedTime":"4 weeks","previewFileId":"7ed37a71-8906-4f09-9bb8-5f903cf44004","createdByUserId":"2e11efa1-6afc-4408-9246-ff7c5488d48e"}"

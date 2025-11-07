@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjU1OjUzLjEwMTY4MSIsInVzZXJfaWQiOiI5MDVkZWI3Mi01YjA3LTQyODYtYjJkNS1mNjUwYmNjM2VhNTYifQ.6_CoFCYuxbzK7JNo_99RAHqXIhX08TIn_c5cS1qPBLo" \
+  -H "content-length: 340" \
+  -H "content-type: application/json" \
+  -d "{"title":"Security from yard movement treatment course PM.","maxScore":63,"minScore":25,"orderIndex":15,"description":"Defense item act new. Door mention describe idea heavy. Cell thus laugh pick wait.\nDebate summer get economic full. Free artist the from best.","estimatedTime":"5 weeks","courseId":"5c8a2d6e-84a9-484a-be95-09a01c2b3c58"}"

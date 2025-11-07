@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjU1OjU0LjMyOTU0NSIsInVzZXJfaWQiOiJjNzJjMGUzOS01ODkyLTQ3MzItODdkMi1kNTM4MTEwYmE2ZmUifQ.xtv248OOGNk0guV1-dxIWnRXbYpcAUdX_7c3rRk2l4M" \
+  -H "content-length: 241" \
+  -H "content-type: application/json" \
+  -d "{"title":"Interest fire think.","maxScore":67,"minScore":14,"description":"Toward site where citizen.","estimatedTime":"4 weeks","previewFileId":"1fd21cab-a6d0-4e46-a1e4-4b73760669f9","createdByUserId":"c72c0e39-5892-4732-87d2-d538110ba6fe"}"

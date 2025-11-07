@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjU1OjU0LjMyOTU0NSIsInVzZXJfaWQiOiJjNzJjMGUzOS01ODkyLTQ3MzItODdkMi1kNTM4MTEwYmE2ZmUifQ.xtv248OOGNk0guV1-dxIWnRXbYpcAUdX_7c3rRk2l4M" \
+  -H "content-length: 305" \
+  -H "content-type: application/json" \
+  -d "{"title":"Worker security article professional natural sell.","maxScore":59,"minScore":4,"orderIndex":81,"description":"Example prove able city home late yet among. Two office very commercial. Ability particularly teach change.","estimatedTime":"3 weeks","courseId":"e4e29a88-4cc7-47e9-bbec-4d9b2478132d"}"

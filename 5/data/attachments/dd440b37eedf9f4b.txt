@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjU1OjUzLjY4ODM2NyIsInVzZXJfaWQiOiI0MzA4MzllYi0wNzc1LTQ1ZmItOTAzYS1lNmIwMmFiODViNjUifQ.K9gz59jLYPadPGYyJ4AEYVaCIzVUdwCkWR5sgZ0U_n8" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Everyone cost raise check pass.","maxScore":98,"minScore":13,"description":"Great teacher chair election tell wall its.","estimatedTime":"7 weeks","previewFileId":"5afc66a6-0a98-4f34-b698-51a01a307d95","createdByUserId":"430839eb-0775-45fb-903a-e6b02ab85b65"}"

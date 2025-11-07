@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDEyOjU1OjUyLjQ1OTE3OSIsInVzZXJfaWQiOiJkNmU0MmI2MC0yNmMxLTRlNmQtODc4Ny0xNmYwMmYyZDIzNWIifQ.XFFI2J0jkVxNiaXAt1aNna3lJ8yBe8crXDD9oAZ3Rz8" \
+  -H "content-length: 367" \
+  -H "content-type: application/json" \
+  -d "{"title":"Fly think in soon parent whether music.","maxScore":57,"minScore":23,"orderIndex":16,"description":"Even when somebody force together once discover. Pressure service let baby.\nProgram follow physical north. Within about enter.\nEvening fact whether phone employee state prevent.","estimatedTime":"9 weeks","courseId":"79a71e38-5a1b-41e6-ad74-e0b54cc6d3c2"}"
