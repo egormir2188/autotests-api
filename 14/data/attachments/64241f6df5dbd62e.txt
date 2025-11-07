@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE3OjQzOjU1LjU0Nzg3MSIsInVzZXJfaWQiOiI3NzlmMmUxYy04MGQxLTQ0MjYtOTQ1Yy0xZDJkZWEyZDAzZGUifQ.e_KsP-4bObnlPdr_rDWoen8d9wBSgfkXTUEeHm_VC28" \
+  -H "content-length: 265" \
+  -H "content-type: application/json" \
+  -d "{"title":"Grow artist collection officer.","maxScore":51,"minScore":17,"description":"Popular small realize authority degree.","estimatedTime":"2 weeks","previewFileId":"c351f19f-4f17-4e33-979c-0fecec869272","createdByUserId":"779f2e1c-80d1-4426-945c-1d2dea2d03de"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE3OjQzOjU5LjM0MTczMSIsInVzZXJfaWQiOiJiYWRkNjc5Yy0wN2ZkLTRhM2MtOTZmOC1lYjkyOThiZTliYmUifQ.j-OJKhm5oh65BG55j7V94C0QquKb26exmkifsJDzjMQ" \
+  -H "content-length: 275" \
+  -H "content-type: application/json" \
+  -d "{"title":"Court grow against mission population rise training.","maxScore":96,"minScore":27,"description":"Friend anyone grow defense.","estimatedTime":"10 weeks","previewFileId":"e190fe74-e9c0-4709-b8c5-f43938367336","createdByUserId":"badd679c-07fd-4a3c-96f8-eb9298be9bbe"}"
