@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE3OjQ4OjIzLjUyMTI1NCIsInVzZXJfaWQiOiJkZTgxNTY2Yy00NTBiLTQ4NDctODU1YS04MWM5OTZkMDEwZmMifQ.A8hzCALF0xJ-cPXHsicp6g3pyNrLsRU9dHQNUWozdgk" \
+  -H "content-length: 256" \
+  -H "content-type: application/json" \
+  -d "{"title":"Control western task person camera everyone.","maxScore":56,"minScore":10,"description":"Never learn card.","estimatedTime":"8 weeks","previewFileId":"7b535537-fb40-401d-acf0-0c4e18a19182","createdByUserId":"de81566c-450b-4847-855a-81c996d010fc"}"

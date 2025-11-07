@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE3OjQ4OjI2LjA5ODE3OSIsInVzZXJfaWQiOiJiMGU4ZmM3Mi1mNzBkLTQ3MzctOTVmMS1jN2QyMWQxZmRiZTQifQ.cdw8KV9EIqsY_dOrXa6hyHdLLVghtKOfw_3L6X1q09M" \
+  -H "content-length: 284" \
+  -H "content-type: application/json" \
+  -d "{"title":"Administration least win minute daughter process threat.","maxScore":58,"minScore":8,"description":"Save wait weight protect type hot.","estimatedTime":"3 weeks","previewFileId":"5b6b3903-46ab-47cb-a3bd-49192970c014","createdByUserId":"b0e8fc72-f70d-4737-95f1-c7d21d1fdbe4"}"

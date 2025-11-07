@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTA3VDE3OjQ4OjI4LjE4NzIzNCIsInVzZXJfaWQiOiJlYjM0NGFkYi1kMmFlLTQwMmEtOTkzOS1iMGY5NmVkY2Y4NDcifQ.-uBzZw5nt9C5nrQghT1-2IKtw8WyxnLGe6CCZb7FqpY" \
+  -H "content-length: 262" \
+  -H "content-type: application/json" \
+  -d "{"title":"Class child entire.","maxScore":75,"minScore":1,"description":"Education floor understand test executive build.","estimatedTime":"10 weeks","previewFileId":"be2d8ac0-ab8c-474b-833d-ac7da24c2576","createdByUserId":"eb344adb-d2ae-402a-9939-b0f96edcf847"}"
