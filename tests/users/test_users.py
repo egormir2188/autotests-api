@@ -1,5 +1,3 @@
-from dataclasses import field
-
 import pytest
 import allure
 
