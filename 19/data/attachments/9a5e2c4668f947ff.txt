@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE5VDIyOjA0OjI3LjMzODg1OCIsInVzZXJfaWQiOiIxNDJlNDFhNy0zNTEzLTRlMGYtYTQ2Mi01MzdkNjMzOTVjOGQifQ.S9R8tyKfBKRVXofTAMtkAjkpS4jGf5isyWtNmWDlHC4" \
+  -H "content-length: 228" \
+  -H "content-type: application/json" \
+  -d "{"title":"Age cup rest.","maxScore":86,"minScore":20,"description":"All from game event.","estimatedTime":"1 weeks","previewFileId":"cf14d885-b91c-4bed-932a-2dd88a0883d6","createdByUserId":"142e41a7-3513-4e0f-a462-537d63395c8d"}"

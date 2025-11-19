@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/users/a7503757-cccd-483d-bd16-928d406f6fca" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE5VDIyOjA0OjM3LjI3OTczMSIsInVzZXJfaWQiOiJhNzUwMzc1Ny1jY2NkLTQ4M2QtYmQxNi05MjhkNDA2ZjZmY2EifQ.EvP0a4qc3hFzr6lQuwgL17iN5MMbP09FZdNMhADNqlk" \
+  -H "content-length: 24" \
+  -H "content-type: application/json" \
+  -d "{"middleName":"Candace"}"

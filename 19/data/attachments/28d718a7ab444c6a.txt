@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE5VDIyOjA0OjI3LjMzODg1OCIsInVzZXJfaWQiOiIxNDJlNDFhNy0zNTEzLTRlMGYtYTQ2Mi01MzdkNjMzOTVjOGQifQ.S9R8tyKfBKRVXofTAMtkAjkpS4jGf5isyWtNmWDlHC4" \
+  -H "content-length: 366" \
+  -H "content-type: application/json" \
+  -d "{"title":"Week go list require.","maxScore":83,"minScore":4,"orderIndex":22,"description":"Set bad same sea leader store.\nStore purpose reflect sell. Senior manage wide record development during. Will better common investment early.\nBreak so person environmental. List head leg game do.","estimatedTime":"4 weeks","courseId":"039fc1e9-e5eb-4bdb-88c5-491dbb890bdd"}"

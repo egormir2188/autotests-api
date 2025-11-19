@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE5VDIyOjA0OjI4LjAxNDA4MSIsInVzZXJfaWQiOiI0YjdiOTVmYy0xMDg3LTRjYmUtYjVmMC0xYmJhNzZkYTNlMjcifQ.1T5T9eecTCOyTN0yU9FiQm7yjXpxU6AAYAbjak_OK_E" \
+  -H "content-length: 289" \
+  -H "content-type: application/json" \
+  -d "{"title":"Maybe chair few anything race successful.","maxScore":85,"minScore":14,"description":"Rock move early trouble measure through common avoid.","estimatedTime":"6 weeks","previewFileId":"02dc72ee-fcc1-404e-ad2d-be294fc3daec","createdByUserId":"4b7b95fc-1087-4cbe-b5f0-1bba76da3e27"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTE5VDIyOjA0OjI4LjY3ODI5MiIsInVzZXJfaWQiOiIyMDkzN2EwZC01MDExLTRhMmItYjljNy01ZDI1MDViNWVkMTcifQ.6BoIOcOBD8msEYS9a3bE2TXPsHhRv1ayV2SGZtMGSOM" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"But wish alone want.","maxScore":86,"minScore":5,"description":"Approach manage point pressure huge memory behind.","estimatedTime":"2 weeks","previewFileId":"2a2d6167-15f2-432e-967f-16fbdc0fecca","createdByUserId":"20937a0d-5011-4a2b-b9c7-5d2505b5ed17"}"
