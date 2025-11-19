@@ -48,7 +48,7 @@ jobs:
 
       - name: Run API tests with pytest and generate Allure results
         run: |
-          pytest -m "regression" --alluredir=allure-results --numprocesses=2
+          pytest -m "regression" --alluredir=allure-results --numprocesses=1
 
       - name: Upload Allure results
         uses: actions/upload-artifact@v4
