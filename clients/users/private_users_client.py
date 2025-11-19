@@ -40,7 +40,7 @@ class PrivateUsersClient(APIClient):
         :param request: Словарь с email, lastName, firstName, middleName.
         :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.client.patch(f'{APIRoutes.USERS}/{user_id}', json=request.model_dump(by_alias=True))
+        return self.client.patch(f'{APIRoutes.USERS}/{user_id}', json=request.model_dump(by_alias=True, exclude_none=True))
 
     @allure.step('Delete user by id {user_id}')
     def delete_user_api(self, user_id: str) -> Response:

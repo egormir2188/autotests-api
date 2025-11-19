@@ -46,10 +46,10 @@ class UpdateUserRequestSchema(BaseModel):
     """
     model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
 
-    email: EmailStr | None = Field(default_factory=fake.email)
-    last_name: str | None = Field(default_factory=fake.last_name)
-    first_name: str | None = Field(default_factory=fake.first_name)
-    middle_name: str | None = Field(default_factory=fake.middle_name)
+    email: EmailStr | None = Field(default=fake.email())
+    last_name: str | None = Field(default=fake.last_name())
+    first_name: str | None = Field(default=fake.first_name())
+    middle_name: str | None = Field(default=fake.middle_name())
 
 class UpdateUserResponseSchema(GetUserResponseSchema):
     """
@@ -57,3 +57,11 @@ class UpdateUserResponseSchema(GetUserResponseSchema):
     """
     pass
 
+class CreateUserInvalidRequestSchema(BaseModel):
+    model_config = ConfigDict(alias_generator=to_camel, populate_by_name=True)
+
+    email: str = Field(default_factory=fake.email)
+    last_name: str = Field(default_factory=fake.last_name)
+    first_name: str = Field(default_factory=fake.first_name)
+    middle_name: str = Field(default_factory=fake.middle_name)
+    password: str = Field(default_factory=fake.password)

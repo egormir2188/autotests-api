@@ -7,14 +7,16 @@ from allure_commons.types import Severity
 
 from clients.authentication.authentication_client import AuthenticationClient
 from clients.authentication.authentication_schema import LoginRequestSchema, LoginResponseSchema
+from clients.errors_schema import InternalErrorResponseSchema
 from fixtures.users import UserFixture
 from tools.assertions.base import assert_status_code
-from tools.assertions.authentication import assert_login_response
+from tools.assertions.authentication import assert_login_response, assert_login_incorrect_user_data
 from tools.assertions.schema import validate_json_schema
 from tools.allure.tags import AllureTag
 from tools.allure.epics import AllureEpic
 from tools.allure.features import AllureFeature
 from tools.allure.stories import AllureStory
+from tools.fakers import fake
 
 
 @pytest.mark.regression
@@ -38,3 +40,27 @@ class TestAuthentication:
         assert_login_response(response_data)
 
         validate_json_schema(response.json(), response_data.model_json_schema())
+
+    @allure.title('Login with incorrect email')
+    @allure.story(AllureStory.VALIDATE_ENTITY)
+    @allure.severity(Severity.NORMAL)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
+    def test_login_with_incorrect_email(self, authentication_client: AuthenticationClient):
+        request = LoginRequestSchema(email=fake.email(), password=fake.password())
+        response = authentication_client.login_api(request)
+        response_data = InternalErrorResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.UNAUTHORIZED)
+        assert_login_incorrect_user_data(response_data)
+
+    @allure.title('Login with incorrect password')
+    @allure.story(AllureStory.VALIDATE_ENTITY)
+    @allure.severity(Severity.NORMAL)
+    @allure.sub_suite(AllureStory.VALIDATE_ENTITY)
+    def test_login_with_incorrect_password(self, authentication_client: AuthenticationClient, function_user: UserFixture):
+        request = LoginRequestSchema(email=function_user.email, password=fake.password())
+        response = authentication_client.login_api(request)
+        response_data = InternalErrorResponseSchema.model_validate_json(response.text)
+
+        assert_status_code(response.status_code, HTTPStatus.UNAUTHORIZED)
+        assert_login_incorrect_user_data(response_data)

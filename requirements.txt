@@ -8,3 +8,7 @@ pytest==8.4.2
 pytest-rerunfailures==16.1
 pytest-xdist==3.8.0
 httpx==0.28.1
+websockets~=15.0.1
+protobuf~=6.33.0
+grpcio~=1.75.1
+allure-python-commons~=2.15.0
