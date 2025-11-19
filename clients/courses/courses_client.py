@@ -3,6 +3,7 @@ import allure
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 from clients.courses.courses_schema import CreateCourseResponseSchema, GetCoursesQuerySchema, CreateCourseRequestSchema, UpdateCourseRequestSchema
 from tools.routes import APIRoutes
@@ -13,6 +14,7 @@ class CoursesClient(APIClient):
     Клиент для работы с /api/v1/courses.
     """
     @allure.step('Get courses')
+    @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def get_courses_api(self, query: GetCoursesQuerySchema) -> Response:
         """
         Метод для получения списка курсов.
@@ -22,6 +24,7 @@ class CoursesClient(APIClient):
         return self.get(APIRoutes.COURSES, params=query.model_dump(by_alias=True))
 
     @allure.step('Get course by id {course_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
     def get_course_api(self, course_id: str) -> Response:
         """
         Метод для получения курса по его идентификатору.
@@ -31,6 +34,7 @@ class CoursesClient(APIClient):
         return self.get(f'{APIRoutes.COURSES}/{course_id}')
 
     @allure.step('Create course')
+    @tracker.track_coverage_httpx(APIRoutes.COURSES)
     def create_course_api(self, request: CreateCourseRequestSchema) -> Response:
         """
         Метод для создания курса
@@ -41,6 +45,7 @@ class CoursesClient(APIClient):
         return self.post(APIRoutes.COURSES, json=request.model_dump(by_alias=True))
 
     @allure.step('Update course by id {course_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
     def update_course_api(self, course_id: str, request: UpdateCourseRequestSchema) -> Response:
         """
         Метод для обновления курса
@@ -51,6 +56,7 @@ class CoursesClient(APIClient):
         return self.patch(f'{APIRoutes.COURSES}/{course_id}', json=request.model_dump(by_alias=True))
 
     @allure.step('Delete course by id {course_id}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.COURSES}/{{course_id}}')
     def delete_course_api(self, course_id: str) -> Response:
         """
         Удаление курса курса по его идентификатору.
