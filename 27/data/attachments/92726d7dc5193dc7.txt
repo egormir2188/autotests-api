@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAzOjE3LjUzNDkxMyIsInVzZXJfaWQiOiI2ZmU3MjA4Ny1mNDE4LTQ1ZDItYmNiMC03YzVmODU5OWZiNzMifQ.Fai7_cGFGPSLC3pixUKxv6WeogxRbBIznHH17OmhD_k" \
+  -H "content-length: 267" \
+  -H "content-type: application/json" \
+  -d "{"title":"Behind task key candidate though PM.","maxScore":89,"minScore":12,"description":"Race report successful hard develop.","estimatedTime":"1 weeks","previewFileId":"4753c95b-1042-4c7f-8389-f34f9b705f2f","createdByUserId":"6fe72087-f418-45d2-bcb0-7c5f8599fb73"}"

@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/b8f7f8c4-d6f8-45c3-b62e-d918b2db9d35" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAzOjE2Ljg0ODIxNSIsInVzZXJfaWQiOiJjYjBhYjYxOS04ZWUyLTQ5NGMtOWFlYS1hY2Y2NWVjZDM1NTMifQ.I1huZHqHSLmcO_NG2eOuTUvJlZcV2mW9U3JOsm4Xj0w" \
+  -H "content-length: 225" \
+  -H "content-type: application/json" \
+  -d "{"title":"Strong movement doctor suggest.","maxScore":58,"minScore":18,"description":"Artist hour religious wind choose. Movie economic force type must. Risk agree director trial source yeah might.","estimatedTime":"1 weeks"}"

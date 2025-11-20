@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAzOjE4Ljg3Nzk5MSIsInVzZXJfaWQiOiI4YjZlOWNmNC01NzBhLTRiN2MtODVkNC01MzFjMTQ1ZGQ5NDkifQ.zU6EN5AZabG2delvcE5yqIP-aorrnHYzhMr4STIIYtA" \
+  -H "content-length: 275" \
+  -H "content-type: application/json" \
+  -d "{"title":"Want success including low bag benefit woman.","maxScore":61,"minScore":2,"description":"Stop public case face under protect.","estimatedTime":"6 weeks","previewFileId":"6e044bef-9761-4ec4-ba2d-791bd2fc3130","createdByUserId":"8b6e9cf4-570a-4b7c-85d4-531c145dd949"}"

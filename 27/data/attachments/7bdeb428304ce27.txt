@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAzOjE1LjUwMDk0NyIsInVzZXJfaWQiOiIwZThlYjVhYy03NGVhLTRhNTItYWRmNC04M2Y2YTFmZTI4YmEifQ.PeQBi1htXGycNpW3y_SGSvB3XlpRYhFaYckXN2rK_BI" \
+  -H "content-length: 255" \
+  -H "content-type: application/json" \
+  -d "{"title":"Cell wrong each so.","maxScore":81,"minScore":4,"description":"Upon identify born surface threat kitchen.","estimatedTime":"7 weeks","previewFileId":"0dedb817-070d-427d-ab48-a8454d0304d6","createdByUserId":"0e8eb5ac-74ea-4a52-adf4-83f6a1fe28ba"}"

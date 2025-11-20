@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAzOjE5LjU1OTY1MSIsInVzZXJfaWQiOiIzYzhlZDM4Zi03ZTI0LTRiYmMtOWI5My02ZDE0Y2QxM2ZhZWUifQ.Z2O_nSqBd0PjHMNTcCEsRLhVDaCaAYh1YIj98OQx_W4" \
+  -H "content-length: 254" \
+  -H "content-type: application/json" \
+  -d "{"title":"Economy under drive.","maxScore":93,"minScore":9,"description":"Response her western allow I everything.","estimatedTime":"1 weeks","previewFileId":"0d9f6e9c-4f2a-47c4-821f-a05949fa99c4","createdByUserId":"3c8ed38f-7e24-4bbc-9b93-6d14cd13faee"}"
