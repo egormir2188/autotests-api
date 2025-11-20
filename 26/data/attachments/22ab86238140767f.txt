@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/cbb27252-61a4-4a3e-8967-195c5e8b4ca7" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAxOjIwLjQzNTAzNyIsInVzZXJfaWQiOiJkNmUzNDE1NS03OTc0LTRkODktOWQ0YS01ZGY1ZDAzZWRhZTQifQ.hGhCz68yIy0EFMFQ9GKMYIiUQbmzDYE5zjlkFv2CrvY" \
+  -H "content-length: 208" \
+  -H "content-type: application/json" \
+  -d "{"title":"Nation security line wish right sign stay.","maxScore":99,"minScore":19,"description":"Picture least to spring. Available me me perhaps author bit hold. Weight spend son.","estimatedTime":"9 weeks"}"

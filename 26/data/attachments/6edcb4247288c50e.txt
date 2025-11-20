@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAxOjE5LjEwNDc5MiIsInVzZXJfaWQiOiIyNjE3NWI3Ni03Mjg5LTQwMjctOGVlYy1mM2Y1ZmM4Mjc3MTYifQ.HcGZTUv6DjwokB7QifycXBRBBnANO2hXFsl8nadBYVo" \
+  -H "content-length: 254" \
+  -H "content-type: application/json" \
+  -d "{"title":"Person treatment north.","maxScore":94,"minScore":17,"description":"Certainly poor player show away day.","estimatedTime":"7 weeks","previewFileId":"66bc451b-6600-466b-b4ba-66c3e5d6624c","createdByUserId":"26175b76-7289-4027-8eec-f3f5fc827716"}"

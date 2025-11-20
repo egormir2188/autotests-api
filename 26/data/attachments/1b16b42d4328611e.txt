@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAxOjIzLjc3MDk3NSIsInVzZXJfaWQiOiIxYWE2OWI5Zi1jNjBlLTQ1NmEtOTQ4Zi1iMjRlNmNhNjdhMzgifQ.ByOUQ_EptrskcIeFhyvzgKP_0ItkaDDkkBT-S7dQA2E" \
+  -H "content-length: 280" \
+  -H "content-type: application/json" \
+  -d "{"title":"Home beyond especially bed prevent send he their.","maxScore":60,"minScore":4,"description":"Member set window song job tend main.","estimatedTime":"7 weeks","previewFileId":"3a47b9a2-c9de-471a-becb-e739815539c8","createdByUserId":"1aa69b9f-c60e-456a-948f-b24e6ca67a38"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAxOjE5Ljc3MTA4OCIsInVzZXJfaWQiOiI2NTFhNjYyNy02NTkwLTQwN2ItYWI1OS02MTdlNGM1MmU0MjEifQ.plWeX8DHomHDo97B4XWwGb3A4PsQWnvFu9aIwsC-C0Y" \
+  -H "content-length: 296" \
+  -H "content-type: application/json" \
+  -d "{"title":"Hair behind poor star fly maintain.","maxScore":80,"minScore":21,"description":"Take clearly particularly political perform concern less continue.","estimatedTime":"3 weeks","previewFileId":"f6e9db50-e3df-449a-85bb-8d1cfacce48d","createdByUserId":"651a6627-6590-407b-ab59-617e4c52e421"}"

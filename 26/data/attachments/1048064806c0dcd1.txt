@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/exercises/c5d23132-fa0d-4397-85b5-38e8ce691157" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAxOjAxOjIyLjQzMzU0NiIsInVzZXJfaWQiOiI1MzIxZmY0OC05OTBjLTQ3ZmItOGUxNC02OGQ4OTAwZDY1MjAifQ.GKkMy5T2AUb5tdj5-KoG3yC2BwjyrhdmRYrOBbTBJUQ" \
+  -H "content-length: 333" \
+  -H "content-type: application/json" \
+  -d "{"title":"Very within would position magazine teacher.","maxScore":75,"minScore":7,"orderIndex":46,"description":"Family rich nice effort able. Agreement order expect fine nearly.\nMoment value thus grow. Play each often late bad.\nScience hard before point issue. Safe watch develop dark woman establish.","estimatedTime":"9 weeks"}"
