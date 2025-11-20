@@ -54,7 +54,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: coverage-history.json
-          key: coverage-history-{{ github.run_id }}
+          key: coverage-history-${{ github.run_id }}
           restore-keys: |
             coverage-history-
 
@@ -67,7 +67,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: coverage-history.json
-          key: coverage-history-{{ github.run_id }}
+          key: coverage-history-${{ github.run_id }}
 
       - name: Upload Coverage Result
         if: always()
