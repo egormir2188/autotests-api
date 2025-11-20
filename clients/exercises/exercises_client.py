@@ -24,14 +24,14 @@ class ExercisesClient(APIClient):
         return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True))
 
     @allure.step('Get exercise by exercise id {exercise_id}')
-    @tracker.track_coverage_httpx(f'/api/v1/exercises/{{exercise_id}}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод для получения задания по его идентификатору.
         :param exercise_id: Идентификатор задания.
         :return: Ответ от сервера в виде объекта httpx.Response.
         """
-        return self.get(f'/api/v1/exercises/{exercise_id}')
+        return self.get(f'{APIRoutes.EXERCISES}/{exercise_id}')
 
     @allure.step('Create exercise')
     @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
@@ -44,7 +44,7 @@ class ExercisesClient(APIClient):
         return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
     @allure.step('Update exercise by exercise id {exercise_id}')
-    @tracker.track_coverage_httpx(f'/api/v1/exercises/{{exercise_id}}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
         Метод для изменения задания.
@@ -55,7 +55,7 @@ class ExercisesClient(APIClient):
         return self.patch(f'{APIRoutes.EXERCISES}/{exercise_id}', json=request.model_dump(by_alias=True))
 
     @allure.step('Delete exercise by exercise id {exercise_id}')
-    @tracker.track_coverage_httpx(f'/api/v1/exercises/{{exercise_id}}')
+    @tracker.track_coverage_httpx(f'{APIRoutes.EXERCISES}/{{exercise_id}}')
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
         Метод для удаление задания по его идентификатору.
