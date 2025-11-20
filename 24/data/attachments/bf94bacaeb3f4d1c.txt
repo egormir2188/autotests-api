@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMzOjE4LjAxMjE5MiIsInVzZXJfaWQiOiIxY2U3ODZkMy1hZmVhLTRjNjMtODFlMC04NGU0NDY2NjhmOTAifQ.DznfACpKxUwpQpOZGhgONgWqYYQ5lrDsu1czk-Js60M" \
+  -H "content-length: 256" \
+  -H "content-type: application/json" \
+  -d "{"title":"Fly street economy which protect try.","maxScore":95,"minScore":18,"description":"Any church name partner.","estimatedTime":"3 weeks","previewFileId":"bd09f05e-22de-43a4-9fb0-3ffa32b24ed3","createdByUserId":"1ce786d3-afea-4c63-81e0-84e446668f90"}"

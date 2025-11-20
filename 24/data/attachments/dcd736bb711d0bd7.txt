@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMzOjIwLjAzNjMxNyIsInVzZXJfaWQiOiIzNWMzNGU5MS1mMjVkLTQ4OGMtYmY4NC1kOWRkYTRkMzQ3N2EifQ.GbBvc34lfaM33tthT2DvXOSX_dmNQTpvypCjelvj3Ig" \
+  -H "content-length: 307" \
+  -H "content-type: application/json" \
+  -d "{"title":"Cover there up trouble couple while real.","maxScore":61,"minScore":9,"orderIndex":46,"description":"New both physical catch.\nSo bar toward its along. Sometimes these world it would agent. Gun really set door increase.","estimatedTime":"5 weeks","courseId":"c7e1486c-a679-497c-94fd-0a44ba5930c1"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMzOjIxLjM3ODAxNiIsInVzZXJfaWQiOiJiMGIzMjM3My0wMTFkLTRlMDUtYTY2NS0xYjllZWJhODQyN2IifQ.v4pZrUJszAM6hef-KGh50-uCD2fYQLO3ZI4TSRbQF-4" \
+  -H "content-length: 274" \
+  -H "content-type: application/json" \
+  -d "{"title":"Work against note capital play begin cell.","maxScore":91,"minScore":4,"description":"Small letter may owner responsibility.","estimatedTime":"7 weeks","previewFileId":"61a6a747-a936-49f0-a307-7f9a07fffbce","createdByUserId":"b0b32373-011d-4e05-a665-1b9eeba8427b"}"
