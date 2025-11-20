@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDE1OjM4OjM5Ljk4ODc2NSIsInVzZXJfaWQiOiIyNzFiNThmMS02OWZlLTQ0YmItYTUwMC03ZGJhNzFkOTM0N2QifQ.uvuRONHLtrjHMLC17eKahlNOtVcnKaadUEMJ4IcIvgI" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Still back Democrat could.","maxScore":71,"minScore":16,"description":"Opportunity little culture memory run.","estimatedTime":"2 weeks","previewFileId":"ac413552-ee5b-4508-90b3-76b6fe756844","createdByUserId":"271b58f1-69fe-44bb-a500-7dba71d9347d"}"

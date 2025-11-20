@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/7d0a2453-221f-466d-8968-4df51e6d0e3d" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDE1OjM4OjQxLjMzMzMzNyIsInVzZXJfaWQiOiJmZjQ2NDY2Mi04ZTdmLTQyYTUtOTNlZi0xODYwZmNhZjIxZTcifQ.H3TkxqCf79iX2GIGbWwoKOyUZWXNeKVw8V3ER8_A7fQ" \
+  -H "content-length: 275" \
+  -H "content-type: application/json" \
+  -d "{"title":"Fly book low this art north laugh.","maxScore":89,"minScore":27,"description":"Heart century affect option language example. Southern material and wind memory.\nSo art treatment environment show former though drive. Best modern only eat.","estimatedTime":"1 weeks"}"

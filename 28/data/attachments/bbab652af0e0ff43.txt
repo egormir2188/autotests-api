@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDE1OjM4OjQxLjMzMzMzNyIsInVzZXJfaWQiOiJmZjQ2NDY2Mi04ZTdmLTQyYTUtOTNlZi0xODYwZmNhZjIxZTcifQ.H3TkxqCf79iX2GIGbWwoKOyUZWXNeKVw8V3ER8_A7fQ" \
+  -H "content-length: 266" \
+  -H "content-type: application/json" \
+  -d "{"title":"System small two check run positive.","maxScore":92,"minScore":3,"description":"Just grow during yet issue economy.","estimatedTime":"10 weeks","previewFileId":"08499e5f-87e6-44d0-8c0f-442a6dbea3bc","createdByUserId":"ff464662-8e7f-42a5-93ef-1860fcaf21e7"}"

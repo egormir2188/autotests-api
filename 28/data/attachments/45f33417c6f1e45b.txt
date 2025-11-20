@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDE1OjM4OjQyLjY3ODc3MyIsInVzZXJfaWQiOiI1NDQxODVlOS1jY2QyLTQyMmQtOTAxZS1iMTk3YzRiZTAxYWEifQ.tu28XTRFey19SaegfEsfi-jO6SR9Jpi4Rq_33RPU1Fk" \
+  -H "content-length: 271" \
+  -H "content-type: application/json" \
+  -d "{"title":"Daughter building red treat plan between possible.","maxScore":61,"minScore":18,"description":"View continue interesting.","estimatedTime":"7 weeks","previewFileId":"c11cc87b-6a6b-4e04-9253-6105ee861f0c","createdByUserId":"544185e9-ccd2-422d-901e-b197c4be01aa"}"
