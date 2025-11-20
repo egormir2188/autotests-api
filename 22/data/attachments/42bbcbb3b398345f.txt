@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMyOjUxLjE3ODgxMiIsInVzZXJfaWQiOiIzMDkzYzZlMC00M2RjLTQ3ZTgtOTRkNy00N2U3MTE4OTg5YWYifQ.Z8tE8iQJ3Uzjv69LkCTx4ZaQPUgVk1kVrUC3LAjiR4Q" \
+  -H "content-length: 243" \
+  -H "content-type: application/json" \
+  -d "{"title":"Likely study professional yeah.","maxScore":50,"minScore":27,"description":"Our decide media.","estimatedTime":"7 weeks","previewFileId":"198706ca-4d80-4b78-a780-15ca1a82f947","createdByUserId":"3093c6e0-43dc-47e8-94d7-47e7118989af"}"

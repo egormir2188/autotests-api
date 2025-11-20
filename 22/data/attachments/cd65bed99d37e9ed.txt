@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMyOjUyLjU0NTQ1NCIsInVzZXJfaWQiOiI1YTVmYTEwNC1kZGE2LTQ5ZDYtODMwNi0yZjIxZjVhNmFhZGIifQ.m31P6BC78llcHqsdIgya4_np_a5DDX_VNWxqfuHnlXY" \
+  -H "content-length: 374" \
+  -H "content-type: application/json" \
+  -d "{"title":"Travel room fund decision would wish upon.","maxScore":81,"minScore":21,"orderIndex":14,"description":"Important he dog performance bit leave wrong. Religious guess ahead clearly apply across.\nRelate worker care game anything business. Out clear practice especially data approach item.","estimatedTime":"8 weeks","courseId":"74fb7503-cc25-400d-bfbe-ee376ca10f0f"}"

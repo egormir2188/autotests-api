@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMyOjUwLjQ5NzIzNyIsInVzZXJfaWQiOiIzZDY1ZDdmNy1kZTBiLTRiMDQtYTM2YS00ZjllOTUwYzA3NmUifQ._E-zJVwZhyoLna19aXlJTYqJIFfVrB8YoXrws6BRTgM" \
+  -H "content-length: 255" \
+  -H "content-type: application/json" \
+  -d "{"title":"Even travel trade put we.","maxScore":55,"minScore":28,"description":"Hospital off score window present.","estimatedTime":"10 weeks","previewFileId":"b3b79d8c-3a6b-4adc-b48a-68958153e0bf","createdByUserId":"3d65d7f7-de0b-4b04-a36a-4f9e950c076e"}"

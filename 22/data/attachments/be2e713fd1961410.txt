@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/exercises/b93b757f-e9a6-4d97-90b7-7fe9ac999da5" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMyOjUxLjE3ODgxMiIsInVzZXJfaWQiOiIzMDkzYzZlMC00M2RjLTQ3ZTgtOTRkNy00N2U3MTE4OTg5YWYifQ.Z8tE8iQJ3Uzjv69LkCTx4ZaQPUgVk1kVrUC3LAjiR4Q" \
+  -H "content-length: 334" \
+  -H "content-type: application/json" \
+  -d "{"title":"Understand article particular audience.","maxScore":75,"minScore":28,"orderIndex":35,"description":"Expect weight interesting catch tax unit. Deep management help exactly partner decide. Born few day before all.\nKid tough boy night cold. Represent doctor together position despite international.","estimatedTime":"4 weeks"}"

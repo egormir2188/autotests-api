@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMyOjQ5LjgyNjY4NiIsInVzZXJfaWQiOiIxYWYyYjE3Yy02M2UzLTQ3OTEtYTAyOC1iMDM2N2VmMzc4MmQifQ.80tKdWHCeC8BekGi40KnxaJNSYsTf_yJyP3G-wbRs54" \
+  -H "content-length: 363" \
+  -H "content-type: application/json" \
+  -d "{"title":"Assume decade tree I.","maxScore":72,"minScore":3,"orderIndex":29,"description":"Party leg wrong source program source ask. Ago some meet must read.\nUntil significant gas my rule Republican. Hospital recognize situation key. That clear quickly from performance herself sure.","estimatedTime":"7 weeks","courseId":"b6838aed-ebad-4ded-bdf8-2831c397fec9"}"

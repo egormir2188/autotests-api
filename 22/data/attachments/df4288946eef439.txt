@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMyOjUyLjU0NTQ1NCIsInVzZXJfaWQiOiI1YTVmYTEwNC1kZGE2LTQ5ZDYtODMwNi0yZjIxZjVhNmFhZGIifQ.m31P6BC78llcHqsdIgya4_np_a5DDX_VNWxqfuHnlXY" \
+  -H "content-length: 263" \
+  -H "content-type: application/json" \
+  -d "{"title":"Ten edge of center.","maxScore":91,"minScore":28,"description":"Detail police nation sound listen fire away wide.","estimatedTime":"2 weeks","previewFileId":"7261cc05-599e-417d-b697-9868231628cf","createdByUserId":"5a5fa104-dda6-49d6-8306-2f21f5a6aadb"}"

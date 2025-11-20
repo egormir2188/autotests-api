@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMyOjQ5LjE0MDg2NSIsInVzZXJfaWQiOiJmZDQ5NmJjZC1hOGU4LTRkYjAtYjAzMy1jOWMzNzExZTE5M2MifQ.QTLvMGD3mFNQES0LbZy-yWeQs_JyPpCMWife_-UGgGo" \
+  -H "content-length: 266" \
+  -H "content-type: application/json" \
+  -d "{"title":"Street bill herself health.","maxScore":71,"minScore":19,"description":"Throw author chance major free popular back.","estimatedTime":"1 weeks","previewFileId":"2346e01b-4b81-489b-926e-d3c6686ca319","createdByUserId":"fd496bcd-a8e8-4db0-b033-c9c3711e193c"}"
