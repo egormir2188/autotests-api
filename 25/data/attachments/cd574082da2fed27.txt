@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjQ5OjUwLjkyODUyMiIsInVzZXJfaWQiOiJjZjEzNmEyOS1hYzFlLTQ0YmMtYWU2Yi1lMmVlMWRlZWEzZGMifQ.l_uvfUMuOTRHflDGsVS6ET_O8cEtr1-feP8fJu2HRVE" \
+  -H "content-length: 270" \
+  -H "content-type: application/json" \
+  -d "{"title":"Pass listen ten include.","maxScore":84,"minScore":10,"description":"Case so century professional process sister parent.","estimatedTime":"2 weeks","previewFileId":"9b660bd6-1178-4483-9a28-bff057788357","createdByUserId":"cf136a29-ac1e-44bc-ae6b-e2ee1deea3dc"}"

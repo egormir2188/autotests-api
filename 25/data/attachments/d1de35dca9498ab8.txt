@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjQ5OjUyLjI5NDc1MiIsInVzZXJfaWQiOiJhNThhZjVhMC1iNTBhLTRjMTYtODY4NS1kNzVjYzk1ODBlOWQifQ._KpI5FNdoYhAniHcS6UvPrrg-cxFQfU1lN4eKZG6C5g" \
+  -H "content-length: 260" \
+  -H "content-type: application/json" \
+  -d "{"title":"Although either this now.","maxScore":81,"minScore":23,"description":"Mother explain rate group every provide.","estimatedTime":"4 weeks","previewFileId":"9fc92389-0879-4d13-8967-46170828faaf","createdByUserId":"a58af5a0-b50a-4c16-8685-d75cc9580e9d"}"

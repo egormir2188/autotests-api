@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjQ5OjUyLjk2NzAwNCIsInVzZXJfaWQiOiIzYTVlMWQ4Yy1iNzZhLTQ1MmUtOTJlNC04MzAyMWM5ZDlmMDkifQ._oxpQ37Rt2mwqLZLupPK-O9oBjecHNmOaADhCpf0ZXM" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"Hot Mr article mission goal second range.","maxScore":60,"minScore":21,"description":"Not wonder western record movement culture.","estimatedTime":"1 weeks","previewFileId":"fe3e68c1-9ef1-4ffa-9fa6-4c5c0f380f68","createdByUserId":"3a5e1d8c-b76a-452e-92e4-83021c9d9f09"}"

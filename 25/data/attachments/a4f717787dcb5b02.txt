@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/095f4db5-2cfa-4aeb-b1c9-f5994e0a2609" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjQ5OjUxLjYwMjQwMiIsInVzZXJfaWQiOiI1YmRkMTFiOS1kYTUwLTQ4N2MtOTFhNS02ZTBlMThmZTQyYjAifQ.afcqVAFHJrpyv9tDAUwmOMqeWvIKdJ7VFe4mgylV2Qs" \
+  -H "content-length: 294" \
+  -H "content-type: application/json" \
+  -d "{"title":"Education enough hope yourself total west police until.","maxScore":68,"minScore":29,"description":"Parent newspaper more. There instead yourself some far. West surface other poor.\nBring already her toward ask forget. Huge letter to leave investment turn.","estimatedTime":"9 weeks"}"

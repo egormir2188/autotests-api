@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjQ5OjUzLjY0NTQ5MSIsInVzZXJfaWQiOiJmZmM5ZjY3Ni1kOWU2LTRiMjktODY4NC1mNzA3OTZlMWFkMTMifQ.UrX5QqfU7qgNWkupIGMflmWBcVv7JNFVTf5PPcKztLE" \
+  -H "content-length: 274" \
+  -H "content-type: application/json" \
+  -d "{"title":"Carry still color probably family.","maxScore":61,"minScore":6,"description":"Memory much receive certainly determine fact.","estimatedTime":"10 weeks","previewFileId":"408d4f6e-9aa8-4e59-af03-a91476e1615c","createdByUserId":"ffc9f676-d9e6-4b29-8684-f70796e1ad13"}"
