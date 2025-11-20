@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMzOjEzLjA5NTIzOCIsInVzZXJfaWQiOiIyYjM3MTdjYy1jNGFhLTQ0ODktYjk0MS01NDlhZjRkNDYwNTAifQ.MmKi7c28jygFFC49LmwGg4R3qJZBVXQ3iK4fShhi4Us" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Threat military word wind grow site have.","maxScore":99,"minScore":10,"description":"Modern study above low catch per.","estimatedTime":"6 weeks","previewFileId":"f935e22f-6ae0-451f-8d9a-bda27f189140","createdByUserId":"2b3717cc-c4aa-4489-b941-549af4d46050"}"

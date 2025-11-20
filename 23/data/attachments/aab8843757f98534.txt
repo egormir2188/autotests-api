@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMzOjExLjc0NjgwOCIsInVzZXJfaWQiOiJmODg1NDRkMy1mYzk3LTRmZTktOTIwZi0zZmY2NThkNTIwNDMifQ.VmhUR7rBcPaCTcPgUIDoY30rFISp9gCHsDz6U_YZ7eA" \
+  -H "content-length: 276" \
+  -H "content-type: application/json" \
+  -d "{"title":"Their education development resource effort TV people.","maxScore":89,"minScore":23,"description":"Better eight standard bank.","estimatedTime":"7 weeks","previewFileId":"5877fdfc-0c15-41a3-a477-27cd708559a7","createdByUserId":"f88544d3-fc97-4fe9-920f-3ff658d52043"}"

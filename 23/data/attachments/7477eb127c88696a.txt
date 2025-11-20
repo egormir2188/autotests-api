@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTIwVDAwOjMzOjE1LjExNjMxNiIsInVzZXJfaWQiOiJlMjJiMGIzZC04NWE2LTRmNDMtOWJkMy04ZThkOWQwZWQwNDgifQ._4w35UVbykX-P6laACHxf6Yb0VVgLOW-vgNaPKESkJY" \
+  -H "content-length: 270" \
+  -H "content-type: application/json" \
+  -d "{"title":"True certainly to kid turn action.","maxScore":92,"minScore":2,"description":"Drive evening cup fund condition position.","estimatedTime":"4 weeks","previewFileId":"315862ed-3c82-4279-96e2-0fefbaeb7837","createdByUserId":"e22b0b3d-85a6-4f43-9bd3-8e8d9d0ed048"}"
