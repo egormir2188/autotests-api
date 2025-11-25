@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAwOjIxOjM1LjU4NDI4NyIsInVzZXJfaWQiOiI0MDFlNDdjYS0zMzgxLTQ0ODQtYmNhNS02ZGNlMTNlNGE0MzMifQ.wHu3NnECpgDOIf_KFhXoj3dI4huycOl-lQdN8fjUiLc" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"Kid social debate trial form.","maxScore":67,"minScore":6,"description":"Two whole property film near information.","estimatedTime":"4 weeks","previewFileId":"80774286-d7db-469a-a621-e45625e45d9a","createdByUserId":"401e47ca-3381-4484-bca5-6dce13e4a433"}"

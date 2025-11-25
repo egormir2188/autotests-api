@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAwOjIxOjM2LjkzODg1OCIsInVzZXJfaWQiOiJjMTg5YmRkYS00YTJiLTQwMDktYWNkOS0xYmNjNDc2NmJiYTkifQ.623WOBhQQa37943LPMkMex75OqzbNCMsQgOALPOJ1_s" \
+  -H "content-length: 268" \
+  -H "content-type: application/json" \
+  -d "{"title":"Dog number sit wind finally already.","maxScore":61,"minScore":28,"description":"Lawyer authority fish economy beyond.","estimatedTime":"9 weeks","previewFileId":"d7ed8328-391b-4025-a7d8-0759eea3a159","createdByUserId":"c189bdda-4a2b-4009-acd9-1bcc4766bba9"}"

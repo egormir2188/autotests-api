@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/00faa3c4-0ba0-470d-a8ea-398bf36ad6d6" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAwOjIxOjM0Ljg5OTA0MyIsInVzZXJfaWQiOiJlNjMxYmMzMS1mM2ZkLTQzMWEtYjllMi0xNGM5YmE3OTgwY2IifQ.M5qfmlGPhwnW7-eifT7s5V3G5D6oM3fCQnWP8dIg1KU" \
+  -H "content-length: 306" \
+  -H "content-type: application/json" \
+  -d "{"title":"Company instead defense account.","maxScore":73,"minScore":19,"description":"Pretty might high as machine. Hard woman because method point situation project red.\nLook his author TV certain success later. Produce whatever positive attorney. Sport little son pull fire.","estimatedTime":"9 weeks"}"

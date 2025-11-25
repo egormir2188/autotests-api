@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAwOjIxOjM4LjI4OTYyMiIsInVzZXJfaWQiOiI5N2NhMDhmZC0zYjJhLTQ1MmYtYThmNi0zMmI3NTYzZTA5OGUifQ.vRvAMDHZD5JeLa0pvZ7PpvpG_HdrvOmxbuNaQCiV-AM" \
+  -H "content-length: 287" \
+  -H "content-type: application/json" \
+  -d "{"title":"Would house bad relate test service woman.","maxScore":57,"minScore":18,"description":"Majority together laugh than beautiful generation.","estimatedTime":"5 weeks","previewFileId":"4f2d962c-f51e-4276-97e2-c803f7ce9c3f","createdByUserId":"97ca08fd-3b2a-452f-a8f6-32b7563e098e"}"

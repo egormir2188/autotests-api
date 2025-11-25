@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAwOjIxOjM0Ljg5OTA0MyIsInVzZXJfaWQiOiJlNjMxYmMzMS1mM2ZkLTQzMWEtYjllMi0xNGM5YmE3OTgwY2IifQ.M5qfmlGPhwnW7-eifT7s5V3G5D6oM3fCQnWP8dIg1KU" \
+  -H "content-length: 276" \
+  -H "content-type: application/json" \
+  -d "{"title":"Protect own sport bring address.","maxScore":56,"minScore":21,"description":"Machine measure firm have community ago anything.","estimatedTime":"4 weeks","previewFileId":"391b9ff9-4a46-4962-814c-1ab1285d6209","createdByUserId":"e631bc31-f3fd-431a-b9e2-14c9ba7980cb"}"
