@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI3LjA3MjcxOCIsInVzZXJfaWQiOiJlOGE2ZWIyMy1kNzYzLTQ5ZDQtYWJkZS1kODUxZmVhMWE5NTYifQ.UnM64KKwURhNUfOiF9IguwJ3CzY2m4xfvARl_Bcrvis" \
+  -H "content-length: 289" \
+  -H "content-type: application/json" \
+  -d "{"title":"Write include can building race institution why.","maxScore":90,"minScore":19,"description":"Travel recent stuff feel feeling answer trade.","estimatedTime":"8 weeks","previewFileId":"4013b707-aabf-4dfd-888a-de1bec87e38e","createdByUserId":"e8a6eb23-d763-49d4-abde-d851fea1a956"}"

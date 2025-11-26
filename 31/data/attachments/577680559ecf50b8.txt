@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI5Ljc1MjAyMyIsInVzZXJfaWQiOiJjOGJiYjVkOS1kMTA2LTQ5YzUtOGU3MS1jYThjNTJiNGVjYmEifQ.c_bhX3qU41fLWLnKgEfJhRjUvl84dzkW9Vw8NpynvwY" \
+  -H "content-length: 278" \
+  -H "content-type: application/json" \
+  -d "{"title":"Which very character push yard itself.","maxScore":75,"minScore":20,"orderIndex":94,"description":"House miss purpose huge. Somebody bill read truth. Writer within radio mean available leg.","estimatedTime":"10 weeks","courseId":"e2839338-8621-4bed-a465-b5a24a7fcdf7"}"

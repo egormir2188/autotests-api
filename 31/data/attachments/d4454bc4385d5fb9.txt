@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI4LjQwNTY4MSIsInVzZXJfaWQiOiI3OGFmZWExMC0xZGEzLTQyYTUtYWU3MS04OTNhNGE5OGUwNzcifQ._0nNWODmzTYNIozrXjmikx69ZEGNmOD3yP4HiW4e38Q" \
+  -H "content-length: 312" \
+  -H "content-type: application/json" \
+  -d "{"title":"Relate into science.","maxScore":97,"minScore":16,"orderIndex":64,"description":"Police security property leader wind.\nMachine help raise myself throw theory wind. Life talk box begin staff town sea American. Bar from full.","estimatedTime":"2 weeks","courseId":"f5f97e80-9af6-47b1-a963-3f95d219ea64"}"

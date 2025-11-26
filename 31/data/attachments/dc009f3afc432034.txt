@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI5Ljc1MjAyMyIsInVzZXJfaWQiOiJjOGJiYjVkOS1kMTA2LTQ5YzUtOGU3MS1jYThjNTJiNGVjYmEifQ.c_bhX3qU41fLWLnKgEfJhRjUvl84dzkW9Vw8NpynvwY" \
+  -H "content-length: 252" \
+  -H "content-type: application/json" \
+  -d "{"title":"Case often customer.","maxScore":64,"minScore":18,"description":"Them true I for into sure prove skin.","estimatedTime":"9 weeks","previewFileId":"aa763147-ebc5-4f70-b1d4-e3ed8b74094a","createdByUserId":"c8bbb5d9-d106-49c5-8e71-ca8c52b4ecba"}"

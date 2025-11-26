@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI3LjczMzM2NCIsInVzZXJfaWQiOiJhMjkzMGU1MC1lZGQ0LTQ3ZDMtYTFhMi1mNGQ3YWE4NGNhZGMifQ.SK-5ZMW1jxT57cY_Vox7MT5skW42PRHpvI1H9jaazo0" \
+  -H "content-length: 282" \
+  -H "content-type: application/json" \
+  -d "{"title":"Never parent manage science son majority goal.","maxScore":58,"minScore":13,"description":"Bit herself street door plan author tell.","estimatedTime":"5 weeks","previewFileId":"5a18a11c-391d-47bc-a2c5-fd9155e6452b","createdByUserId":"a2930e50-edd4-47d3-a1a2-f4d7aa84cadc"}"

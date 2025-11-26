@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI3LjczMzM2NCIsInVzZXJfaWQiOiJhMjkzMGU1MC1lZGQ0LTQ3ZDMtYTFhMi1mNGQ3YWE4NGNhZGMifQ.SK-5ZMW1jxT57cY_Vox7MT5skW42PRHpvI1H9jaazo0" \
+  -H "content-length: 234" \
+  -H "content-type: application/json" \
+  -d "{"title":"Tell few story foot off.","maxScore":50,"minScore":12,"orderIndex":63,"description":"Card range describe attention. Trouble start nice seem claim.","estimatedTime":"1 weeks","courseId":"06b4bf8a-e6b1-4a8f-ab02-eab372e29ea8"}"

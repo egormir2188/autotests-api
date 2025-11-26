@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI5LjA4MjUwNiIsInVzZXJfaWQiOiI1MGI4Nzc2MS02MmJmLTQwNzMtOTc4ZS04NDAyMmE2YzJkZmQifQ.ysSGREK1vMpC5nHnGINakoNNS-DtSQXZRYIxXUoVHeQ" \
+  -H "content-length: 389" \
+  -H "content-type: application/json" \
+  -d "{"title":"Explain control trouble enter behavior degree.","maxScore":59,"minScore":28,"orderIndex":1,"description":"Green meet son phone. After available board anyone.\nParticipant coach method rich. Hot young million former.\nReceive eye office provide late card. Store protect identify major image born carry.","estimatedTime":"8 weeks","courseId":"ad037f76-71d6-4eba-b216-fe911adbe1dd"}"

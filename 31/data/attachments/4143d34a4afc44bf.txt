@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjA5OjI1LjA1OTQwMCIsInVzZXJfaWQiOiJiMTBjOWEzZS0wM2NlLTQxNzEtYjk3My05ZWIxMGYyODUxMTkifQ.xsIKLpGyoeQ5MYEYb8WXWFoOXlrwLTyAVdSjxIj7XlQ" \
+  -H "content-length: 267" \
+  -H "content-type: application/json" \
+  -d "{"title":"Out all international notice leg.","maxScore":100,"minScore":12,"description":"Involve interview want human decision.","estimatedTime":"6 weeks","previewFileId":"a972c216-76ea-4d4e-9af5-b64ac0f64c84","createdByUserId":"b10c9a3e-03ce-4171-b973-9eb10f285119"}"

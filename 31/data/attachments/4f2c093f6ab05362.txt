@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/f68dd6d0-a9b8-4676-9f86-20f8be71e895
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/f68dd6d0-a9b8-4676-9f86-20f8be71e895
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "f68dd6d0-a9b8-4676-9f86-20f8be71e895"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Tell few story foot off."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "06b4bf8a-e6b1-4a8f-ab02-eab372e29ea8"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "50"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "12"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "63"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Card range describe attention. Trouble start nice seem claim."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "1 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema
