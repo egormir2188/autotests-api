@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjAyOjExLjkzNjQ3MCIsInVzZXJfaWQiOiJiNWI1ZjEzNy1kNTU1LTQwYzUtYWRjYi01MjA0NjRjMzA0MzQifQ.zkj0hJcPvJ4ITFtV3TQlugFzH_vmK33IVt0-Y8XpW_w" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Wonder letter at say radio try although.","maxScore":84,"minScore":25,"description":"Let special follow join.","estimatedTime":"6 weeks","previewFileId":"5c784b76-316b-424b-9c69-4ae05b1e9018","createdByUserId":"b5b5f137-d555-40c5-adcb-520464c30434"}"

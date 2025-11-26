@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/dc616f69-87c1-452e-93a2-5f4994b0048e" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjAyOjA5LjIyOTI2NyIsInVzZXJfaWQiOiJlM2RlN2FmMi03MzFhLTQzODctODQ5NC0zYjA5NDU1YmZjYjYifQ.IbVXgJ85aIfiFOgLZrSAvz_WLXFsnsIintPhaoM0TIY" \
+  -H "content-length: 271" \
+  -H "content-type: application/json" \
+  -d "{"title":"Tv treat town high.","maxScore":51,"minScore":28,"description":"Seven yourself husband. However east fear compare page kitchen safe.\nOpportunity need represent point behind pull church. Sure guy senior company leader same candidate.","estimatedTime":"6 weeks"}"

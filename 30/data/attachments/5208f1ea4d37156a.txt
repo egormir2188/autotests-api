@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjAyOjA4LjU2MDUwOCIsInVzZXJfaWQiOiIxYzhiODkyYy1kZmIzLTQzYWUtYjgxMS1mNDdhYzMxZDI2YzkifQ.kNTJBCpE-R6nKtfj0PgS9aKXGP4yGCscLo_EXl0_5Lc" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"The little night job those.","maxScore":92,"minScore":19,"description":"Interesting whom vote under two any.","estimatedTime":"10 weeks","previewFileId":"144d2ee2-b5bc-465a-bb5d-12f76af8920f","createdByUserId":"1c8b892c-dfb3-43ae-b811-f47ac31d26c9"}"

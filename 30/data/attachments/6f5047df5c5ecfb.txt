@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAyOjAyOjA5LjkxNDAxMCIsInVzZXJfaWQiOiI4Yzk2YzYwNy1jOGRjLTQzMTQtOGY1MS02NjNkNzk2NTlmNTEifQ.4kuNofzlBN6eZ7FpdqGvlfShzOmuR_CQcvBcXlyoU1M" \
+  -H "content-length: 249" \
+  -H "content-type: application/json" \
+  -d "{"title":"Good decade least myself style economic.","maxScore":83,"minScore":9,"description":"Large set seek.","estimatedTime":"4 weeks","previewFileId":"8ef6441e-81bf-4614-8907-d3e0df6481a0","createdByUserId":"8c96c607-c8dc-4314-8f51-663d79659f51"}"
