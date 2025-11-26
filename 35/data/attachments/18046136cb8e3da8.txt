@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjUzOjQ4Ljk1ODY3NSIsInVzZXJfaWQiOiI0ZDlkYWUyOC03OWExLTQyOWYtODJhOS1iMDBiNDYzMzRkZjkifQ.MHVK2WRkZhgOVxnLtLwwI5G1OOXqLGgdpBwmD4As6_k" \
+  -H "content-length: 287" \
+  -H "content-type: application/json" \
+  -d "{"title":"Quality left list small pressure best music.","maxScore":76,"minScore":11,"description":"Must sure new available market cause that paper.","estimatedTime":"9 weeks","previewFileId":"f79a7310-3de7-40c3-a7cd-195320fac4b9","createdByUserId":"4d9dae28-79a1-429f-82a9-b00b46334df9"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjUzOjQ3LjYxMjMzMCIsInVzZXJfaWQiOiI4OWZiNzYzNi0wZGNlLTQ1ZWYtYjI1Mi1kNmYxOGU1M2I2MDIifQ.4QTgmSgOL4LVvllc-IpuTmxfxljVlbvL4astBziY8SI" \
+  -H "content-length: 348" \
+  -H "content-type: application/json" \
+  -d "{"title":"Sea give which fund.","maxScore":59,"minScore":25,"orderIndex":70,"description":"Third send hospital area million light truth. Between respond tend work ready federal.\nMonth writer cold amount size argue tough next. Thank community very have television black.","estimatedTime":"1 weeks","courseId":"b7de734c-9510-4b44-816e-7e585ec1123c"}"

@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/167e9f0a-b28b-43c7-a679-ff4cdaf743ad" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjUzOjQ2LjI3NjI3OSIsInVzZXJfaWQiOiJmNjc4ODIzNi0wNTBlLTQzOWItYjE2My03MzcwMzhlMDE0M2UifQ.IBcBLuSRDjtj8GYcxg_bFlzhK2hvGDwjLkkAqj_AEE8" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Once challenge manager close.","maxScore":78,"minScore":20,"description":"Government win party ground later whose. Begin best old detail see hold. Team range office probably teach never. Lot develop game alone data hear grow owner.","estimatedTime":"7 weeks"}"

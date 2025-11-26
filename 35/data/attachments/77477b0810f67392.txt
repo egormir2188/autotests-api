@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjUzOjQ0Ljk0MzMxNSIsInVzZXJfaWQiOiI1MTJiM2QzMy05MzY5LTQ2YTctYTVhOS1iYTBlYzQ1ZTAyNDMifQ.nTl3Ol8YDqEID27RCs7ppDZHFNhXBrOXu1PcCPzlNWc" \
+  -H "content-length: 268" \
+  -H "content-type: application/json" \
+  -d "{"title":"Cost development grow hotel line.","maxScore":63,"minScore":8,"description":"By million worker minute center national.","estimatedTime":"6 weeks","previewFileId":"22a8454b-5e52-4610-a638-cc6940423e10","createdByUserId":"512b3d33-9369-46a7-a5a9-ba0ec45e0243"}"

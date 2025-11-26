@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjUzOjQ5LjYyNjM2MyIsInVzZXJfaWQiOiJiYTgxZmZmYi00MWFhLTQ4OWYtODM2ZC05ZWRlNTkzNmYyNTEifQ.9KKGia2ZAqPVEb6PX-MxEm-EuDcAbdJEuzou6oUFiEw" \
+  -H "content-length: 258" \
+  -H "content-type: application/json" \
+  -d "{"title":"Win seem reveal wait ground.","maxScore":60,"minScore":16,"description":"Yourself between those size agency.","estimatedTime":"1 weeks","previewFileId":"4c649c14-5994-4d4a-9344-47ffb9591dd4","createdByUserId":"ba81fffb-41aa-489f-836d-9ede5936f251"}"

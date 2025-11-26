@@ -1,0 +1,18 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/167e9f0a-b28b-43c7-a679-ff4cdaf743ad
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses/167e9f0a-b28b-43c7-a679-ff4cdaf743ad
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     COURSES_ASSERTIONS:courses.py:88 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Once challenge manager close."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Government win party ground later whose. Begin best old detail see hold. Team range office probably teach never. Lot develop game alone data hear grow owner."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "78"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "20"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "7 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

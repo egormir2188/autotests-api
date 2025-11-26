@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjUzOjQ3LjYxMjMzMCIsInVzZXJfaWQiOiI4OWZiNzYzNi0wZGNlLTQ1ZWYtYjI1Mi1kNmYxOGU1M2I2MDIifQ.4QTgmSgOL4LVvllc-IpuTmxfxljVlbvL4astBziY8SI" \
+  -H "content-length: 239" \
+  -H "content-type: application/json" \
+  -d "{"title":"The mouth believe involve.","maxScore":59,"minScore":1,"description":"Bag its hotel pick.","estimatedTime":"1 weeks","previewFileId":"16bd8a97-5b65-4033-ac75-4afa0733ae99","createdByUserId":"89fb7636-0dce-45ef-b252-d6f18e53b602"}"
