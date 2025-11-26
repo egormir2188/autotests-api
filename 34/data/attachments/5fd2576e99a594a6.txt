@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjQxOjUyLjU3MzUzNiIsInVzZXJfaWQiOiI3NjI3ZWU2ZC1lODZhLTRlYmQtOWZhMy1jMTk2NzVhYTc1Y2UifQ.JE8jSMWa8ANzUCQWuE0Jauj_WRcspTtMr54uiO7lBZM" \
+  -H "content-length: 281" \
+  -H "content-type: application/json" \
+  -d "{"title":"Radio finish Congress face ground yard detail.","maxScore":63,"minScore":8,"description":"Successful would big truth catch current.","estimatedTime":"4 weeks","previewFileId":"24256e84-c28b-450f-8c1b-c49498c8a2f1","createdByUserId":"7627ee6d-e86a-4ebd-9fa3-c19675aa75ce"}"

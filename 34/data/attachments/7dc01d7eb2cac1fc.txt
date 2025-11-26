@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjQxOjU0LjU4NjQ2OCIsInVzZXJfaWQiOiJlOTVjYWQ4Yy02ZGQxLTQ1MDUtOTg2My02MTJkNjJmMDU3NzAifQ.vYH5OW8kuwhM3McRovPnwIuorQuFnUKAB7PGQQiboOY" \
+  -H "content-length: 334" \
+  -H "content-type: application/json" \
+  -d "{"title":"Whom very born exactly.","maxScore":71,"minScore":27,"orderIndex":35,"description":"Happy same series success assume all. Street their safe moment call nice arrive. Thing bill recognize turn hear me start. Parent voice bag during work baby tough.","estimatedTime":"8 weeks","courseId":"1e7c2a52-5319-424a-aebc-0c151807bbb4"}"

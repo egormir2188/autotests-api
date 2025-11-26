@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjQxOjUzLjI0NDI5NiIsInVzZXJfaWQiOiJmYzA4MGJhZi05NzJiLTQ3M2MtYmJjYi1lZmQ5YjA2MmVjMmEifQ.KQJCr2Wudpggi-InNY7WRQsrXHMXxJplVovTPi8uXjU" \
+  -H "content-length: 361" \
+  -H "content-type: application/json" \
+  -d "{"title":"Cost break goal TV visit.","maxScore":79,"minScore":30,"orderIndex":10,"description":"Always paper state who decision the notice. Whether worker central walk try money feel. Former choose them cell officer I.\nReality support think family heart white. Carry trouble system.","estimatedTime":"3 weeks","courseId":"53f67496-f59c-4d90-af5f-3f25832d6e09"}"

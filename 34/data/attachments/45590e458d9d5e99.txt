@@ -1,0 +1,20 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make DELETE request to http://localhost:8000/api/v1/exercises/f5f9c1f7-63bc-4e06-a4a0-4e480414f498
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/f5f9c1f7-63bc-4e06-a4a0-4e480414f498
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/f5f9c1f7-63bc-4e06-a4a0-4e480414f498
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 404 Not Found from http://localhost:8000/api/v1/exercises/f5f9c1f7-63bc-4e06-a4a0-4e480414f498
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "404"
+INFO     EXERCISES_ASSERTIONS:exercises.py:122 Check get non existing exercise response
+INFO     ERRORS_ASSERTIONS:errors.py:61 Check internal error response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "details" equals to "Exercise not found"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema
