@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/users/2141f0ae-0e66-4596-bcb2-25779653c3fe" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjI5LjI1Nzk2NSIsInVzZXJfaWQiOiIyMTQxZjBhZS0wZTY2LTQ1OTYtYmNiMi0yNTc3OTY1M2MzZmUifQ.5d8SHAovRb9NBHGJQhnO2hlDs4l_0jG2ljpx1cdoPJI" \
+  -H "content-length: 21" \
+  -H "content-type: application/json" \
+  -d "{"firstName":"Renee"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjE5LjIxOTUwMiIsInVzZXJfaWQiOiI3NWE5ZDk0Yy1iOTIxLTQ0ZDYtYjY3Ni05Mjk4MTBkZDZkM2MifQ.lMfbK-5qFch1xPblaAmzSipCAURy7uBNx9NrouDumBE" \
+  -H "content-length: 247" \
+  -H "content-type: application/json" \
+  -d "{"title":"Amount option truth boy involve.","maxScore":86,"minScore":5,"description":"Pull drug most month.","estimatedTime":"4 weeks","previewFileId":"4355fe46-48ea-4aca-8e85-ab99d91c8988","createdByUserId":"75a9d94c-b921-44d6-b676-929810dd6d3c"}"

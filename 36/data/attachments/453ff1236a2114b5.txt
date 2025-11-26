@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjIxLjI0NjE4OCIsInVzZXJfaWQiOiJiZWU3NjRkZC0zYmUzLTQ5Y2UtYmE5Yy03YjU1N2NhMGE1MWMifQ.N5ZxqtnNF4XII0H9y8j1ycnOaQErmZWeJVv9ikie23Q" \
+  -H "content-length: 261" \
+  -H "content-type: application/json" \
+  -d "{"title":"Decision race interesting organization which us dog.","maxScore":95,"minScore":6,"description":"List whom walk.","estimatedTime":"9 weeks","previewFileId":"a10bfb57-690c-4191-bcba-7d0ba4726a1e","createdByUserId":"bee764dd-3be3-49ce-ba9c-7b557ca0a51c"}"

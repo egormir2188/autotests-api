@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjE3LjIwNjU4NCIsInVzZXJfaWQiOiJlZGFkYWI1ZS0zOGQzLTRhNTgtYjk2OS1lMzM1NjAyNzJkNmIifQ.OxlUhziQlNWBWYj7u0RngO1CJYVOjSXSZctFHgwe_HY" \
+  -H "content-length: 262" \
+  -H "content-type: application/json" \
+  -d "{"title":"Box suddenly anyone turn loss garden.","maxScore":50,"minScore":25,"description":"Network economic season media.","estimatedTime":"7 weeks","previewFileId":"83298b7b-0540-4f0b-ac7a-155e36761f04","createdByUserId":"edadab5e-38d3-4a58-b969-e33560272d6b"}"

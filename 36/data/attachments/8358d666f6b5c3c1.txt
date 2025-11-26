@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjE4LjU1NDY0MiIsInVzZXJfaWQiOiIzOTY1OTFlYy0xYmNlLTQyMzYtYjQ0Yy0yNjM3MjdiMzk0NGEifQ.97X77ZWBsG5SjE89xRUKYYoHt3pF6woUynTIXzI71iQ" \
+  -H "content-length: 325" \
+  -H "content-type: application/json" \
+  -d "{"title":"Ago him step task view.","maxScore":70,"minScore":22,"orderIndex":22,"description":"Memory film religious bed accept live. Face can tell current anyone skill run.\nCareer economy quickly Mrs focus left. Keep light all body window result.","estimatedTime":"1 weeks","courseId":"3aff4dee-fa10-4d24-81d5-8420df58bcc4"}"

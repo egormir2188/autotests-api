@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjE2LjUzNTY5NyIsInVzZXJfaWQiOiI4M2Y3ZWJjNC0yMDk4LTRjYjMtODNmZi0yNGVjYWNkN2Y0MmIifQ.nFqwdXEU1SHJahUzwutpNqhlpoqPrv9vkIF9OXzFtLc" \
+  -H "content-length: 277" \
+  -H "content-type: application/json" \
+  -d "{"title":"Man according brother part simply part fight.","maxScore":77,"minScore":24,"description":"Office maybe role position then long.","estimatedTime":"3 weeks","previewFileId":"507a52e4-55ee-4c26-ba57-d3f78436fc04","createdByUserId":"83f7ebc4-2098-4cb3-83ff-24ecacd7f42b"}"

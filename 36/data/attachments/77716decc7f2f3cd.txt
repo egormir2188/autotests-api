@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjE3Ljg3NzYxNSIsInVzZXJfaWQiOiIwN2EwZmRlZC0yM2VhLTQ0MGMtOWM5OC03ZGU5MTY1YzI1OTcifQ.pHVTiSXT4etZJPrtFGMUls55g5Gn8bh0EaRAbrXlins" \
+  -H "content-length: 257" \
+  -H "content-type: application/json" \
+  -d "{"title":"Arrive relate although herself each kid vote.","maxScore":50,"minScore":11,"description":"Her against law.","estimatedTime":"10 weeks","previewFileId":"30164541-50c7-4979-82bb-65262168b5a4","createdByUserId":"07a0fded-23ea-440c-9c98-7de9165c2597"}"

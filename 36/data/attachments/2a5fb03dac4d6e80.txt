@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjE5Ljg5MTAzOCIsInVzZXJfaWQiOiI4YjA4ZGJiYi0zODg3LTQzYWYtYWNiZi04YWMwMTM0MGE1NjcifQ.wqiaHIoTWxR60bXwHn1enbFmf_IC_BUkuwagv1KvCSI" \
+  -H "content-length: 289" \
+  -H "content-type: application/json" \
+  -d "{"title":"Wait already toward themselves worker issue realize plan.","maxScore":73,"minScore":29,"description":"Ago hold tax despite bad draw rather.","estimatedTime":"1 weeks","previewFileId":"018e978d-58e0-468c-89f7-3ca18b47bab6","createdByUserId":"8b08dbbb-3887-43af-acbf-8ac01340a567"}"

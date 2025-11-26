@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/ac5fb7a2-933b-41f4-927f-beeb4e300fde" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDA1OjQ1OjE3Ljg3NzYxNSIsInVzZXJfaWQiOiIwN2EwZmRlZC0yM2VhLTQ0MGMtOWM5OC03ZGU5MTY1YzI1OTcifQ.pHVTiSXT4etZJPrtFGMUls55g5Gn8bh0EaRAbrXlins" \
+  -H "content-length: 299" \
+  -H "content-type: application/json" \
+  -d "{"title":"Deal enjoy argue yes bit life.","maxScore":94,"minScore":6,"description":"Baby magazine bring seem party affect sell. Interview rich hold apply chance. Though explain various treat.\nWay reach away. Evidence base billion. Able public difference what tell scene.","estimatedTime":"6 weeks"}"
