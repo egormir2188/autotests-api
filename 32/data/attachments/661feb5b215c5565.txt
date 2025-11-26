@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjA1OjQzLjE5MTk5NSIsInVzZXJfaWQiOiI1Y2FmM2QxZS02ZWM3LTQ4NDctYmFkNy0wZmQ3YzBiMjIzYzQifQ.gxBZcTSe9wilDvIq3pP0bwuFGXO__A2zRYPpqRHp6Ow" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Bar so just movie maintain TV season.","maxScore":68,"minScore":2,"description":"Onto because sign candidate.","estimatedTime":"2 weeks","previewFileId":"de9330ce-8c7b-4fa1-83db-0d0a573f02c1","createdByUserId":"5caf3d1e-6ec7-4847-bad7-0fd7c0b223c4"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjA1OjQzLjg2MzQ4OSIsInVzZXJfaWQiOiIzNzdmOWU1ZC0yY2FjLTQyMmMtYWY0OS1jMGViNTZhMjQ2ZWYifQ.Xj7S0q7mdncNujNHncuuK22-7tN4e4FGdrGBDl3yGuE" \
+  -H "content-length: 355" \
+  -H "content-type: application/json" \
+  -d "{"title":"Force soon same east stop none candidate.","maxScore":68,"minScore":30,"orderIndex":27,"description":"Figure interview agreement body training weight movement ability. Walk star identify out different guy college. True final eat mention community describe difficult.","estimatedTime":"10 weeks","courseId":"ecf15a5a-20b2-4c2b-8920-7fbf0d021dca"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjA1OjQzLjE5MTk5NSIsInVzZXJfaWQiOiI1Y2FmM2QxZS02ZWM3LTQ4NDctYmFkNy0wZmQ3YzBiMjIzYzQifQ.gxBZcTSe9wilDvIq3pP0bwuFGXO__A2zRYPpqRHp6Ow" \
+  -H "content-length: 381" \
+  -H "content-type: application/json" \
+  -d "{"title":"Body stay economic own listen check interest.","maxScore":99,"minScore":9,"orderIndex":7,"description":"Yourself throughout information appear player memory. South admit room run employee economy book. Onto that arm team interview mind born star.\nHand government analysis. Public half inside.","estimatedTime":"5 weeks","courseId":"e8e53da5-51e2-421d-8294-9685d55f756f"}"
