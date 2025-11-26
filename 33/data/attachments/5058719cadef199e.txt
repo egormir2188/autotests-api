@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/0a1c247f-f169-4b73-85d5-27e35a505b88" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjA2OjU2LjA2MDI1MiIsInVzZXJfaWQiOiI0ZGExZmM5NC00ODdhLTRhOTctYjU4NC05Y2U1NTA5NzVhY2UifQ.p9uvFuShZXW_iJizn0Uh-rhAF1TgNsmUIr11t3bvTyk" \
+  -H "content-length: 238" \
+  -H "content-type: application/json" \
+  -d "{"title":"Bring believe police thus east.","maxScore":63,"minScore":5,"description":"Bed continue anyone catch produce role program. Leave hotel pass sense girl gas usually. Week before then reduce middle they.","estimatedTime":"1 weeks"}"

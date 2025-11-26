@@ -1,0 +1,14 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make DELETE request to http://localhost:8000/api/v1/users/0dc619c2-c620-4843-8a3c-865b54e91203
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users/0dc619c2-c620-4843-8a3c-865b54e91203
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/users/0dc619c2-c620-4843-8a3c-865b54e91203
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 401 Unauthorized from http://localhost:8000/api/v1/users/0dc619c2-c620-4843-8a3c-865b54e91203
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "401"
+INFO     USERS_ASSERTIONS:users.py:92 Check get non existing user response
+INFO     ERRORS_ASSERTIONS:errors.py:61 Check internal error response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "details" equals to "Invalid or expired token"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

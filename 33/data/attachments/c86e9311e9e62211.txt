@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI2VDAzOjA2OjU4LjA2NDM3MSIsInVzZXJfaWQiOiIzNTc2MTFjZC0yYWVjLTQ3MDUtOTA1OS1lMmQ5ZDAwYTJlMDcifQ.w3h_F-m60JrAWc7cl28V3Y1yFDm9pLf9KT3sZbbe0dI" \
+  -H "content-length: 252" \
+  -H "content-type: application/json" \
+  -d "{"title":"Soon at baby rate feeling he.","maxScore":77,"minScore":21,"description":"Already finally ability you.","estimatedTime":"5 weeks","previewFileId":"2194eb7e-3b69-4fd6-a4fb-232f7050d0b1","createdByUserId":"357611cd-2aec-4705-9059-e2d9d00a2e07"}"
