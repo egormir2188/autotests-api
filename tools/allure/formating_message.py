@@ -30,7 +30,7 @@ def parse_allure_report(allure_report_dir: str) -> Tuple[int, int, int, List[Dic
                     failed_tests.append({
                         "name": test_case["name"],
                         "status": test_case["status"],
-                        "failure_message": test_case.get("failure", {}).get("message", "No failure message"),
+                        "failure_message": test_case.get("failure", {}).get("message", "Failure message not provided"),
                         "trace": test_case.get("failure", {}).get("trace", "No trace")
                     })
                 elif test_case["status"] == "broken":
@@ -63,7 +63,7 @@ def format_telegram_message(passed: int, failed: int, broken: int, failed_tests:
         f"🔧 Broken: {broken}\n"
     )
 
-    if failed_tests:
+    if failed_tests and len(failed_tests) > 0:
         message += f"\n🔍 *Failed and Broken Tests:*\n"
         for i, test in enumerate(failed_tests, start=1):
             message += (
