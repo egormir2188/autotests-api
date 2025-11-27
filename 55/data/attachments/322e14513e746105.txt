@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjI2OjQyLjc0NDE1MCIsInVzZXJfaWQiOiIwZDNlYjJiZC00YWU3LTQ5MzQtYmJjZi02MGI3NzFlZTRmNDkifQ.hnR4G8h0I0-wkJtVgWoRZMSLdJalfswXaZmRvmrn8_4" \
+  -H "content-length: 272" \
+  -H "content-type: application/json" \
+  -d "{"title":"Wife behind left end training.","maxScore":61,"minScore":9,"description":"Center baby page character medical address send.","estimatedTime":"9 weeks","previewFileId":"f677971b-aef2-4438-9658-45ad8f026bfe","createdByUserId":"0d3eb2bd-4ae7-4934-bbcf-60b771ee4f49"}"

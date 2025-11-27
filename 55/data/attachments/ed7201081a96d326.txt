@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjI2OjQyLjA3MzM1OSIsInVzZXJfaWQiOiJmMDY3Njc0Yi0wMTY5LTQxZmYtOThlMC1jNmQxMmFmMmVlNTUifQ.mcpLkIgDfPDU0ujX-guuEterGb17jzeKyVMLzeDsgSw" \
+  -H "content-length: 321" \
+  -H "content-type: application/json" \
+  -d "{"title":"Book sit especially movement live learn.","maxScore":94,"minScore":14,"orderIndex":56,"description":"Especially three state. Family develop option. Child because less.\nNatural word us bar enter bill event. Side bed worry woman kind.","estimatedTime":"8 weeks","courseId":"aea31742-79b7-4c07-9801-6585e2cfb905"}"

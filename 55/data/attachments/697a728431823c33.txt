@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjI2OjQwLjA1OTI4NCIsInVzZXJfaWQiOiIwYzY3YmU3YS1jOGI0LTQxOTgtYjgzOS1lNjM1YWFlZTU0MzYifQ.eEkfiWVvon319zduMVQAZ1L1DvRBS01qUV8c-dbdoGo" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"They loss financial consumer throughout often understand.","maxScore":89,"minScore":1,"description":"Present water morning since.","estimatedTime":"7 weeks","previewFileId":"ae1b31b9-3624-48d3-9b06-bbd2ee470311","createdByUserId":"0c67be7a-c8b4-4198-b839-e635aaee5436"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjI2OjQyLjA3MzM1OSIsInVzZXJfaWQiOiJmMDY3Njc0Yi0wMTY5LTQxZmYtOThlMC1jNmQxMmFmMmVlNTUifQ.mcpLkIgDfPDU0ujX-guuEterGb17jzeKyVMLzeDsgSw" \
+  -H "content-length: 268" \
+  -H "content-type: application/json" \
+  -d "{"title":"Establish dog stand agent speak.","maxScore":53,"minScore":4,"description":"Must new heart money chance order mention.","estimatedTime":"9 weeks","previewFileId":"b9c17e18-55ca-4688-86dd-38ddcbb5af06","createdByUserId":"f067674b-0169-41ff-98e0-c6d12af2ee55"}"

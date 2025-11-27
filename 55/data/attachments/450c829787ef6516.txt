@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjI2OjM4LjA0NDE2MiIsInVzZXJfaWQiOiJhZjYzZDYxMy00MmJiLTQ5MjAtYjY3MC05OGViMWU0ODU0Y2MifQ.pTqLjB2cmTnWXUnxZ5CEnjRdWqx34vn_cWlePRFApek" \
+  -H "content-length: 278" \
+  -H "content-type: application/json" \
+  -d "{"title":"General white great morning minute heavy seem.","maxScore":63,"minScore":6,"description":"Crime current none scene artist place.","estimatedTime":"5 weeks","previewFileId":"dc96ad0f-660b-40b8-bdb2-35d7c3f64a81","createdByUserId":"af63d613-42bb-4920-b670-98eb1e4854cc"}"

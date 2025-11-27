@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjI2OjQxLjM5NDc1MiIsInVzZXJfaWQiOiJmNTllNDU2Yi1hZmJkLTQzYTItOWQyMC0xMmUyZmE4ODQxNjYifQ.XDgXDhCQW6csR6P3JXCXIBu6rhJ8nFTynS9PDYJmRvw" \
+  -H "content-length: 262" \
+  -H "content-type: application/json" \
+  -d "{"title":"Direction three yet provide organization if onto.","maxScore":85,"minScore":8,"description":"Agency owner bring.","estimatedTime":"8 weeks","previewFileId":"de54b301-7354-499c-a191-62472c0ba4ed","createdByUserId":"f59e456b-afbd-43a2-9d20-12e2fa884166"}"

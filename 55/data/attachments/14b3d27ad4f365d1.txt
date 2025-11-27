@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjI2OjQwLjcyMjcwNSIsInVzZXJfaWQiOiJmZTI3MmE2ZS1kOTU5LTQyYmQtOWIxYS0yOWVjZGRmZGI0YTQifQ.4Fu1opqJJa5jtNj6Jdxi5FmcChVpFj-DbwsO1Fm4Kyo" \
+  -H "content-length: 312" \
+  -H "content-type: application/json" \
+  -d "{"title":"Loss ask experience.","maxScore":52,"minScore":23,"orderIndex":73,"description":"Receive tough land significant anything fast great. Group create sea event. Method sometimes enter budget bed. Just doctor practice game white.","estimatedTime":"3 weeks","courseId":"0fc50081-520c-4b6a-ac54-9cf7adbb3dd9"}"
