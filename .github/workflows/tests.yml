@@ -82,6 +82,15 @@ jobs:
           name: allure-results
           path: allure-results
 
+      - name: Send Notification to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          npm install -g allure-commandline || exit 1
+          allure generate allure-results --output allure-report || exit 1
+          python -m bot.notification || exit 1
+
   job_2:
     name: publish-report
     needs: job_1

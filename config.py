@@ -1,6 +1,6 @@
 from typing import Self
-
-from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath
+from os import getenv
+from pydantic import BaseModel, HttpUrl, FilePath, DirectoryPath, Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -35,3 +35,7 @@ class Settings(BaseSettings):
         return Settings(allure_results_dir=allure_results_dir)
 
 settings = Settings.initialize()
+
+class BotConfig:
+    bot_token = getenv('TELEGRAM_BOT_TOKEN')
+    chat_id = getenv('TELEGRAM_CHAT_ID')
