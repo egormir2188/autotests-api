@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjIyLjczMzYwNyIsInVzZXJfaWQiOiI0ZDBhYjA3NC03ZTM0LTQ1ODItODJiMi03ODRmOTVkMjhlZTUifQ.TKqa0ibPfYG4ntZ95rRl5rzAbobboU-afE7Ci2lBkM8" \
+  -H "content-length: 277" \
+  -H "content-type: application/json" \
+  -d "{"title":"Street themselves well body kind program according.","maxScore":61,"minScore":30,"description":"Full close none one technology.","estimatedTime":"3 weeks","previewFileId":"2cfac96c-2d3e-4333-86a5-f3f54f38691d","createdByUserId":"4d0ab074-7e34-4582-82b2-784f95d28ee5"}"

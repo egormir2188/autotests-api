@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI3LjQ4NjIyMiIsInVzZXJfaWQiOiJjOTE0OWQ5YS0xNzViLTQzOTItYmFmMi05N2FiMDA1MWE4ZGMifQ.9KjoC6h-Iow_ahEp2a6WUs9qsK-SAFWohQhmrU3MEF8" \
+  -H "content-length: 366" \
+  -H "content-type: application/json" \
+  -d "{"title":"Dog approach one dark.","maxScore":82,"minScore":8,"orderIndex":80,"description":"Section often discussion fight light important. Manage soldier short keep if. Buy kitchen wind read over color.\nIt wife popular always theory certain decision movie. Likely wish point happy hope.","estimatedTime":"3 weeks","courseId":"360c86e5-3ed4-4076-a1d0-eb43a713d8b9"}"

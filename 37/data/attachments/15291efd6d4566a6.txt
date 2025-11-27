@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI2LjgxMjE1OSIsInVzZXJfaWQiOiI4MzdiMzUwYy0zMzc3LTQ0M2UtYWEzYS1mODc4ZGY3MzVjMTgifQ.yOgP6pinOTCzwJG6U_dbRTiHwB3G12wMn7B5fiwQA_M" \
+  -H "content-length: 329" \
+  -H "content-type: application/json" \
+  -d "{"title":"Page cut realize center rock window.","maxScore":87,"minScore":17,"orderIndex":27,"description":"Since plant later but gun. Couple score join section none office.\nRich letter maintain officer. Whatever remain case land night analysis water.","estimatedTime":"3 weeks","courseId":"4d7d282b-5238-454c-ac8d-e67fa4ca177d"}"

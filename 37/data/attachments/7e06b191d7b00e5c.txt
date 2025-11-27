@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjIzLjQwNzc2MyIsInVzZXJfaWQiOiJiNTRkMGQyOS0wMzc4LTQxNDgtYWJlZC0xYmI1ODA5ZGU2MWYifQ.4-cIiMet6NAcndDYTcIlnpFADxw6ade-Q8MY2N1GrqM" \
+  -H "content-length: 268" \
+  -H "content-type: application/json" \
+  -d "{"title":"Then line during information population.","maxScore":89,"minScore":30,"description":"Mention term road second to type.","estimatedTime":"6 weeks","previewFileId":"2da4c7ec-31a8-49b9-a488-92c8c1c0da96","createdByUserId":"b54d0d29-0378-4148-abed-1bb5809de61f"}"

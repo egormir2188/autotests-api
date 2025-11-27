@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI0Ljc3NjQxMiIsInVzZXJfaWQiOiIyOTQ4N2FmMC04MTUyLTRlNTYtODJhNi1kZWUzN2VmMDAyYmMifQ.l70-EccSPC-LlsNJpkU9a_eZ95No5FS0AxF9IXCqF3I" \
+  -H "content-length: 256" \
+  -H "content-type: application/json" \
+  -d "{"title":"Say smile real goal west of.","maxScore":53,"minScore":2,"description":"Month sound indeed house anything.","estimatedTime":"7 weeks","previewFileId":"f76ffc0f-92d0-48e0-a74f-8c6cb7a0f41d","createdByUserId":"29487af0-8152-4e56-82a6-dee37ef002bc"}"

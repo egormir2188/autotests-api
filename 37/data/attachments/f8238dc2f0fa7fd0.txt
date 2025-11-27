@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI1LjQ0MzAyNCIsInVzZXJfaWQiOiIwMTZlMmQ3ZS1iZDNmLTRjZWQtYmJlMS03MmRlY2Y0YWNjNzUifQ.kbeTwebi6EzZVsyLG8M5WibggP5LuqugLig9rZJNEwU" \
+  -H "content-length: 351" \
+  -H "content-type: application/json" \
+  -d "{"title":"Write white spend lot.","maxScore":96,"minScore":4,"orderIndex":94,"description":"Effort sound parent minute natural either. Successful ten forward factor series everyone.\nMind memory father mother those. Serve less step. Present expert both law once generation.","estimatedTime":"8 weeks","courseId":"438ffea0-7987-4478-a255-985b6bb9378e"}"

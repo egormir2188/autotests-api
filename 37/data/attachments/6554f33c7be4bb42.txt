@@ -1,0 +1,13 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 422 Unprocessable Content from http://localhost:8000/api/v1/users
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "422"
+INFO     USERS_ASSERTIONS:users.py:105 Check create user with invalid email response
+INFO     ERRORS_ASSERTIONS:errors.py:42 Check validation error response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "details" equals to "1"
+INFO     ERRORS_ASSERTIONS:errors.py:21 Check validation error
+INFO     BASE_ASSERTIONS:base.py:38 Check that "type" equals to "value_error"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "context" equals to "{'reason': 'An email address must have an @-sign.'}"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "input" equals to "Job middle major girl cold month part. Project hundred age budget option action. Black end research manage."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "message" equals to "value is not a valid email address: An email address must have an @-sign."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "message" equals to "value is not a valid email address: An email address must have an @-sign."
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

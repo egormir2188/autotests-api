@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI3LjQ4NjIyMiIsInVzZXJfaWQiOiJjOTE0OWQ5YS0xNzViLTQzOTItYmFmMi05N2FiMDA1MWE4ZGMifQ.9KjoC6h-Iow_ahEp2a6WUs9qsK-SAFWohQhmrU3MEF8" \
+  -H "content-length: 276" \
+  -H "content-type: application/json" \
+  -d "{"title":"Lawyer account style pretty live.","maxScore":81,"minScore":7,"description":"Red somebody last within leave final point every.","estimatedTime":"5 weeks","previewFileId":"21cca421-afa5-4e3b-8f6f-46558ce52e9f","createdByUserId":"c9149d9a-175b-4392-baf2-97ab0051a8dc"}"

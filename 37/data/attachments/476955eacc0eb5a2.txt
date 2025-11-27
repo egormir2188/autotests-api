@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI1LjQ0MzAyNCIsInVzZXJfaWQiOiIwMTZlMmQ3ZS1iZDNmLTRjZWQtYmJlMS03MmRlY2Y0YWNjNzUifQ.kbeTwebi6EzZVsyLG8M5WibggP5LuqugLig9rZJNEwU" \
+  -H "content-length: 262" \
+  -H "content-type: application/json" \
+  -d "{"title":"Age put customer put next cause leave.","maxScore":61,"minScore":3,"description":"Rest dog music administration.","estimatedTime":"8 weeks","previewFileId":"5b243150-0bb7-4e3a-8f1d-cb8009161829","createdByUserId":"016e2d7e-bd3f-4ced-bbe1-72decf4acc75"}"

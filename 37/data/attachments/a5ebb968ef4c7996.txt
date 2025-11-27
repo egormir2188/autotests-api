@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI2LjEyMzEyNyIsInVzZXJfaWQiOiIyMTFkOTEyNC0zNzc4LTRiOWUtYWIwYS0wMDBmNjQxZGU1ODEifQ.4gNuGALZnOFXXvBbiy-VbJuaJNSHweDvwC-B2CKn-Jk" \
+  -H "content-length: 248" \
+  -H "content-type: application/json" \
+  -d "{"title":"Really all life free.","maxScore":89,"minScore":22,"description":"Analysis poor about third fire.","estimatedTime":"10 weeks","previewFileId":"1ae97eb7-379e-4276-adc4-54052dac4ea7","createdByUserId":"211d9124-3778-4b9e-ab0a-000f641de581"}"

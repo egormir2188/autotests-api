@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI2LjgxMjE1OSIsInVzZXJfaWQiOiI4MzdiMzUwYy0zMzc3LTQ0M2UtYWEzYS1mODc4ZGY3MzVjMTgifQ.yOgP6pinOTCzwJG6U_dbRTiHwB3G12wMn7B5fiwQA_M" \
+  -H "content-length: 265" \
+  -H "content-type: application/json" \
+  -d "{"title":"Feel couple toward culture week road area.","maxScore":61,"minScore":16,"description":"Admit stay challenge family.","estimatedTime":"2 weeks","previewFileId":"4d2bfbb0-0fe2-4fae-9d47-7e9511adb60f","createdByUserId":"837b350c-3377-443e-aa3a-f878df735c18"}"

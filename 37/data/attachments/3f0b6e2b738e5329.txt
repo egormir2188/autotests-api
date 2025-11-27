@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/289d275e-5a0e-4c53-9b01-d8e7852c7562" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI0LjA3NzkzMiIsInVzZXJfaWQiOiI3NmY3MTI0NS0wZjYzLTQ1NjctYjJjNy1mN2M3NWEwYTU5NGYifQ.ln4vFn17CrueiLx48t-KYA_EHDklcbWPptLWZ79-g_w" \
+  -H "content-length: 267" \
+  -H "content-type: application/json" \
+  -d "{"title":"Expect rule become many.","maxScore":87,"minScore":4,"description":"Resource she decision appear weight expert year. Crime building dog quite mother most.\nWhat start response responsibility mean in.\nHerself among natural every.","estimatedTime":"8 weeks"}"

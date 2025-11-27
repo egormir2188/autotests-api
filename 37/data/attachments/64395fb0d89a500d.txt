@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjAxOjI0LjA3NzkzMiIsInVzZXJfaWQiOiI3NmY3MTI0NS0wZjYzLTQ1NjctYjJjNy1mN2M3NWEwYTU5NGYifQ.ln4vFn17CrueiLx48t-KYA_EHDklcbWPptLWZ79-g_w" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"Statement others animal find nearly.","maxScore":74,"minScore":17,"description":"Read treatment along beyond somebody stock five.","estimatedTime":"1 weeks","previewFileId":"ca48eaca-4746-421b-9a4a-d11f779d314c","createdByUserId":"76f71245-0f63-4567-b2c7-f7c75a0a594f"}"
