@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjQzOjIwLjA2NTE5MSIsInVzZXJfaWQiOiIyMWM3OGFmYS0yYTUzLTQzY2QtYjBkOC0yMGM4MDM5OGNjMzMifQ.Xv30TJdoUa_yvRco5WFx2wZ_7I5hkdV5yPJfSH5k69c" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Lawyer without require catch shake occur off.","maxScore":76,"minScore":28,"description":"If end well answer physical.","estimatedTime":"10 weeks","previewFileId":"8c60cd4d-c016-4f62-95a0-e5e85fd72e31","createdByUserId":"21c78afa-2a53-43cd-b0d8-20c80398cc33"}"

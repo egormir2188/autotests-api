@@ -1,0 +1,25 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/7a4a6ca4-a18f-4c03-ae27-fd396c8a0ea3
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/7a4a6ca4-a18f-4c03-ae27-fd396c8a0ea3
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "7a4a6ca4-a18f-4c03-ae27-fd396c8a0ea3"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Adult impact federal recognize memory."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "7014dfc5-a1cd-4f28-b634-c26e306f3a16"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "56"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "8"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "21"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Issue whatever agree choose. Such bed sort floor despite may under happen. I simple stage sea inside central seven.
+Assume government peace marriage sometimes second. Career fine stock eat five stop."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "4 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

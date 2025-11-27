@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjQzOjE3LjM4MzYyMyIsInVzZXJfaWQiOiI5YzdiMGJjMi0yYzA1LTQ1MWEtODlhMy1kYWRlZGQwOGVmMDIifQ.Ymh-VXJu2rRQHxUndunl4rt_skVtTptQzWM2JhaF0AE" \
+  -H "content-length: 289" \
+  -H "content-type: application/json" \
+  -d "{"title":"Choose speak matter around better group.","maxScore":87,"minScore":2,"description":"Reality woman Democrat lose wind never situation fight.","estimatedTime":"8 weeks","previewFileId":"822e8f84-75bf-4593-aa01-b53c5fc89751","createdByUserId":"9c7b0bc2-2c05-451a-89a3-dadedd08ef02"}"

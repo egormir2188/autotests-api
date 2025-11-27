@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjQzOjE4LjcyMTc2OCIsInVzZXJfaWQiOiI4YWViZGJkNC1iNThiLTQzN2YtYTM3Yi04MjU0YTg2M2UyZjYifQ.2BJBdV_aRcZ9jkJWibHjLXl3amujH4LXQD25tl11n5M" \
+  -H "content-length: 249" \
+  -H "content-type: application/json" \
+  -d "{"title":"Role goal best blue.","maxScore":60,"minScore":17,"description":"Focus training let staff fill leg.","estimatedTime":"7 weeks","previewFileId":"1fe953cf-a990-4df7-9d8a-8a2cee4fd45f","createdByUserId":"8aebdbd4-b58b-437f-a37b-8254a863e2f6"}"

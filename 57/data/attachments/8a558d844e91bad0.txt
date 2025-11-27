@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjQzOjE2LjA0MjIyOCIsInVzZXJfaWQiOiI5ZjdjOTA1Yi02ZThhLTRjZjgtOGQwYS1hODIyZDU2ZmZiOTUifQ.iHa-lQtlVmciUB_Kv_MEZuOFVqT6xHYjg_NWtoWdUXM" \
+  -H "content-length: 266" \
+  -H "content-type: application/json" \
+  -d "{"title":"Property your the.","maxScore":70,"minScore":18,"description":"Color person population spring while sell again land.","estimatedTime":"1 weeks","previewFileId":"8cb831a4-9da8-487b-93dd-10c94492bbb3","createdByUserId":"9f7c905b-6e8a-4cf8-8d0a-a822d56ffb95"}"

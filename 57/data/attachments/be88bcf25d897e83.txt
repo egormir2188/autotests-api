@@ -1,0 +1,10 @@
+curl X "POST \
+  http://localhost:8000/api/v1/users" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "content-length: 236" \
+  -H "content-type: application/json" \
+  -d "{"email":"Mind article star program system feel. Interesting must force nice reflect will collection. Computer toward many bag ten poor nice office.","lastName":"Wheeler","firstName":"Sierra","middleName":"Alec","password":"6R5)FENs^L"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE2OjQzOjE2LjcwODcyOSIsInVzZXJfaWQiOiJjMTA0OGZmMC1mNmMxLTQzMTgtODdiNy1mMTAyYTdhNmYxNzgifQ.JN5nWur4Npq_5769UJnth2H0vPZVdwlGXzNRlmo6v70" \
+  -H "content-length: 276" \
+  -H "content-type: application/json" \
+  -d "{"title":"Tonight carry reality question seek bad.","maxScore":75,"minScore":24,"description":"Card claim painting season community job.","estimatedTime":"9 weeks","previewFileId":"10c3e1e8-b550-4d9b-8f62-53f30b386cb7","createdByUserId":"c1048ff0-f6c1-4318-87b7-f102a7a6f178"}"
