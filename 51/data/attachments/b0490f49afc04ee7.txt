@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjM5Ljg4Nzc1MCIsInVzZXJfaWQiOiI0YWQ1N2UxNi0zOGQyLTQ2YmMtYTg3Ny1lN2RlNjA5N2E1NmUifQ.kPLZBZ1UILnHjdqkDekrLyyBM7CmgBsNScKcRuG4BH4" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Foreign music about set apply bag.","maxScore":68,"minScore":1,"description":"Expect situation suffer nation president.","estimatedTime":"4 weeks","previewFileId":"03e0b7ca-a7fb-4b62-b14f-b820312e6e66","createdByUserId":"4ad57e16-38d2-46bc-a877-e7de6097a56e"}"

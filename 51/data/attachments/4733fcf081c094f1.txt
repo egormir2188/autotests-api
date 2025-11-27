@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjM5LjIxNzQ4OSIsInVzZXJfaWQiOiI2MDM4MDJiOC1jNjcyLTQ4ZmYtODNiZi0xOGRkNWNmMDQ3NTEifQ.M4UzU5KRqBJ6LemgqhAV-Vd42EvbeCnsvGEN_6jvGRY" \
+  -H "content-length: 283" \
+  -H "content-type: application/json" \
+  -d "{"title":"Special recognize type art effect mention specific.","maxScore":80,"minScore":6,"description":"Avoid like even evidence country when.","estimatedTime":"2 weeks","previewFileId":"3adaae44-50fd-47fb-a695-ffda6c6a3219","createdByUserId":"603802b8-c672-48ff-83bf-18dd5cf04751"}"

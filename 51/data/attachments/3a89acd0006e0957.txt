@@ -1,0 +1,18 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     COURSES_ASSERTIONS:courses.py:26 Check create course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Special recognize type art effect mention specific."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "80"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "6"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Avoid like even evidence country when."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "2 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "created_by_user_id" equals to "603802b8-c672-48ff-83bf-18dd5cf04751"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "preview_file_id" equals to "3adaae44-50fd-47fb-a695-ffda6c6a3219"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

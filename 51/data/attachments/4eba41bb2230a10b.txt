@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjQzLjI1NDM3MyIsInVzZXJfaWQiOiJkYTYxOGQwZi05YzUxLTRmM2YtYmQzMy0xMmVkYjRkNjY3MmMifQ.SdLKds36bmkGGupnz0zCa2h4rYKMiWfyL7J2sEPpBhQ" \
+  -H "content-length: 362" \
+  -H "content-type: application/json" \
+  -d "{"title":"Either someone direction under special clear hour.","maxScore":84,"minScore":27,"orderIndex":20,"description":"Go visit dark chair prepare million call. Power hit cultural management defense more and arrive.\nWalk game thought detail week sit. Yard school left reflect turn.","estimatedTime":"4 weeks","courseId":"a9f94599-b3f0-408d-8259-330d0f5096d7"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjQwLjU1NjYzOSIsInVzZXJfaWQiOiIzYjI5ZjBiZC04NTE2LTRhN2UtYmZhNS0xMThiMmY5ZWFkNzYifQ.Xv8ot4B7Ua7cUIvtG-lzPnA8vLktNiAW_ODqS0c_gyo" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"Student people follow direction drug.","maxScore":63,"minScore":6,"description":"Financial draw management myself.","estimatedTime":"1 weeks","previewFileId":"a1cc7fa7-a8b1-475e-bdd0-19fd78ea90d5","createdByUserId":"3b29f0bd-8516-4a7e-bfa5-118b2f9ead76"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjQxLjIzMzYxNCIsInVzZXJfaWQiOiIzNThhN2E4NS0wNDFhLTQ4MDYtYmQ1OC0wOTRmYmIxYTZhM2YifQ.6tD9GqEh2z40ABQxpFIbqUNDVSYykKPT8bKiYS4EC0I" \
+  -H "content-length: 260" \
+  -H "content-type: application/json" \
+  -d "{"title":"Perform probably all particular whole.","maxScore":99,"minScore":26,"description":"Sea page television weight.","estimatedTime":"9 weeks","previewFileId":"4f0aeb45-6152-48bb-8303-fb67807be0ae","createdByUserId":"358a7a85-041a-4806-bd58-094fbb1a6a3f"}"

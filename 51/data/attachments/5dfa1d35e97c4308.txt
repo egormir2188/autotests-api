@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjQzLjI1NDM3MyIsInVzZXJfaWQiOiJkYTYxOGQwZi05YzUxLTRmM2YtYmQzMy0xMmVkYjRkNjY3MmMifQ.SdLKds36bmkGGupnz0zCa2h4rYKMiWfyL7J2sEPpBhQ" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Moment star image method their.","maxScore":85,"minScore":10,"description":"Message start ever wish movement.","estimatedTime":"7 weeks","previewFileId":"9ab24222-513d-45ed-bb76-ac42cb8b9b1b","createdByUserId":"da618d0f-9c51-4f3f-bd33-12edb4d6672c"}"

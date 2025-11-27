@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjQxLjg5NzA1OCIsInVzZXJfaWQiOiIwNGIyOWU0Ny0zOGU1LTRkNjUtYjIwZi1mM2ZlOTUwY2NiZGUifQ.Cve_j5oK9aC7v-RvMEhJ-wL2CnUavmULXOU4l3LQuhE" \
+  -H "content-length: 254" \
+  -H "content-type: application/json" \
+  -d "{"title":"Hair fine stop course often relate bag.","maxScore":90,"minScore":3,"description":"News concern garden.","estimatedTime":"10 weeks","previewFileId":"acb9f024-2cdb-407c-bd4b-b30fbbc0a756","createdByUserId":"04b29e47-38e5-4d65-b20f-f3fe950ccbde"}"

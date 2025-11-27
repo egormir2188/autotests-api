@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/exercises/f3529a54-4d05-47cb-8125-c81dc01c3c57" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjA5OjQyLjU3NDA1MiIsInVzZXJfaWQiOiJiYzYzYjE0Yy1mOTQ4LTQzOGEtOGZlZi0zMjIyYmNmMzQwZDQifQ.iUlqth6imJXmM_mpUTZ5SWJaw38rydtMSBVFnUkgVQE" \
+  -H "content-length: 242" \
+  -H "content-type: application/json" \
+  -d "{"title":"Pick car knowledge.","maxScore":74,"minScore":17,"orderIndex":19,"description":"Thus important compare yourself. Beautiful card participant exist data training. Receive serve those.\nOur someone firm bed.","estimatedTime":"2 weeks"}"
