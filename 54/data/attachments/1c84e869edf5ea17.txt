@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE5LjUyMjcyOSIsInVzZXJfaWQiOiI0M2VmMTk4Zi1jMWIxLTQzZmUtYWNlNy00ZGYzN2NkZWNiYTQifQ.wH4tqfW67Y_BN2RKBdXtGDM2aLaBw28mwfaJAmIWNCM" \
+  -H "content-length: 271" \
+  -H "content-type: application/json" \
+  -d "{"title":"Because performance bar teacher popular.","maxScore":60,"minScore":14,"description":"Want others determine ready go onto.","estimatedTime":"4 weeks","previewFileId":"187bf56b-4746-4496-af07-08b677f1b749","createdByUserId":"43ef198f-c1b1-43fe-ace7-4df37cdecba4"}"

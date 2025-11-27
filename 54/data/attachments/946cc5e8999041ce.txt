@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/46565f16-0205-4f02-abf8-4024d283cece" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE2LjEzNzM1MyIsInVzZXJfaWQiOiIyZTVlNzkyNy0zMWU0LTRiNDktODI0MC0zYmM1YjdiZmM3NjAifQ.kkxhZEqUEUB8Z_bsaXRMqOuPXQVpY23FJiSVcjgm0lg" \
+  -H "content-length: 268" \
+  -H "content-type: application/json" \
+  -d "{"title":"Improve actually expect get painting.","maxScore":63,"minScore":12,"description":"View leg meeting. President history can fast value draw anyone.\nWorker usually lawyer direction live. Everyone find fear even require pull ability.","estimatedTime":"8 weeks"}"

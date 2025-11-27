@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE3LjQ4NzQxOSIsInVzZXJfaWQiOiIwMWIzZDlkNC0yN2UyLTQ4ZDAtYjk1NS0zNDE4ZDdmOTA3M2MifQ.tApeeCs2XjjgYTqwkUSekTpA-7YsQR_8CGRLMW-65gw" \
+  -H "content-length: 269" \
+  -H "content-type: application/json" \
+  -d "{"title":"Until watch work knowledge husband.","maxScore":93,"minScore":7,"description":"Result strong actually recognize member.","estimatedTime":"1 weeks","previewFileId":"0e906660-2256-44c1-bc3b-803ca8551293","createdByUserId":"01b3d9d4-27e2-48d0-b955-3418d7f9073c"}"

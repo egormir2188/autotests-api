@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE4LjE2Njg3NSIsInVzZXJfaWQiOiI2MWEwOGJjYS1kOTY2LTRlOGEtODQ3Mi03M2Y5OGI0NTZjYjMifQ.oE5io8C05GRDMgA6AtX4QXmU28IQjCbHwJdV1mtRKa4" \
+  -H "content-length: 247" \
+  -H "content-type: application/json" \
+  -d "{"title":"Trade PM he special.","maxScore":58,"minScore":9,"description":"Piece garden you suddenly affect.","estimatedTime":"1 weeks","previewFileId":"f14a7169-35fe-460a-8577-f666268bc8ba","createdByUserId":"61a08bca-d966-4e8a-8472-73f98b456cb3"}"

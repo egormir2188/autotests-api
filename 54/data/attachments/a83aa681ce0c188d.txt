@@ -1,0 +1,25 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/3f73db80-2480-48be-b58e-132c4961b265
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/3f73db80-2480-48be-b58e-132c4961b265
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "3f73db80-2480-48be-b58e-132c4961b265"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Visit hair account thousand risk lead."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "2f15f662-86a0-4740-9259-cd8a72e7d478"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "80"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "25"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "68"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Find couple wear available wear. Amount many affect read. Particular production seek about radio.
+Part organization service responsibility. People off beyond idea positive debate."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "2 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

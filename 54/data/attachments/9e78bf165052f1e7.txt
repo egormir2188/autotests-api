@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE1LjQ2MzA3MSIsInVzZXJfaWQiOiJiMGU4ZWQxOC1lOTQ4LTRmMTgtOTYxMC1kNTZjMjczZTliOTUifQ.Wt0hPnwKdLuMBERaIimInlbRL3BvyZGwvMjoOpr_6qM" \
+  -H "content-length: 248" \
+  -H "content-type: application/json" \
+  -d "{"title":"Guy professional well red.","maxScore":64,"minScore":6,"description":"Item successful apply dream.","estimatedTime":"1 weeks","previewFileId":"a23eee88-69f6-450e-b6f1-c1dccf65d8e6","createdByUserId":"b0e8ed18-e948-4f18-9610-d56c273e9b95"}"

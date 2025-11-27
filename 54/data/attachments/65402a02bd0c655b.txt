@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE0Ljc4MTY3MyIsInVzZXJfaWQiOiI2NzEzNTI0ZC0xY2VmLTQ1YjctOThmZC05NjVmODFmMjI1YTkifQ.l8wy-z7RRmXqzfVoPf376btQ031y5jlds3qQFDj6t6I" \
+  -H "content-length: 270" \
+  -H "content-type: application/json" \
+  -d "{"title":"Tonight type really open Mr.","maxScore":80,"minScore":21,"description":"But try across follow able hour language think.","estimatedTime":"1 weeks","previewFileId":"30320d45-a807-4824-a36e-3f1c6847724c","createdByUserId":"6713524d-1cef-45b7-98fd-965f81f225a9"}"

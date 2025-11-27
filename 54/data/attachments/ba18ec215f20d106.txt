@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE2LjEzNzM1MyIsInVzZXJfaWQiOiIyZTVlNzkyNy0zMWU0LTRiNDktODI0MC0zYmM1YjdiZmM3NjAifQ.kkxhZEqUEUB8Z_bsaXRMqOuPXQVpY23FJiSVcjgm0lg" \
+  -H "content-length: 249" \
+  -H "content-type: application/json" \
+  -d "{"title":"Specific finally same.","maxScore":72,"minScore":27,"description":"Direction such red sort company.","estimatedTime":"6 weeks","previewFileId":"fc3f63c9-a522-4243-b81e-cac47d2669c0","createdByUserId":"2e5e7927-31e4-4b49-8240-3bc5b7bfc760"}"

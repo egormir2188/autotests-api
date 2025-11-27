@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjQwOjE2LjgxODg1MCIsInVzZXJfaWQiOiJmOTNlOTZmYy0xMWZkLTQ5YTgtODQ2MS0xOTJmY2I5MzFkYTkifQ.Rt21zvDtIc4YJN4P3bFM4XkQpYkCiojUCTa_10lnDWk" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"Start upon father result themselves.","maxScore":98,"minScore":28,"description":"Source Democrat describe to only.","estimatedTime":"9 weeks","previewFileId":"c44617d5-4d00-4c8a-83a2-09fb6b7382dc","createdByUserId":"f93e96fc-11fd-49a8-8461-192fcb931da9"}"

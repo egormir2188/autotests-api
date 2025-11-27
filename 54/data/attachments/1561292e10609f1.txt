@@ -1,0 +1,11 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/users/f363bd5a-6633-4cbb-8111-a21816306340
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users/f363bd5a-6633-4cbb-8111-a21816306340
+INFO     USERS_ASSERTIONS:test_users.py:111 user=UserSchema(email='pattonethan@example.com', last_name='Edwards', first_name='Edwin', middle_name='Michael', id='f363bd5a-6633-4cbb-8111-a21816306340')
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     USERS_ASSERTIONS:users.py:73 Check update user response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "email" equals to "pattonethan@example.com"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema
