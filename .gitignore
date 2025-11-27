@@ -17,3 +17,6 @@ allure-report
 
 # os files
 .DS-Store
+
+# Test artifacts
+/bot/artifacts/
