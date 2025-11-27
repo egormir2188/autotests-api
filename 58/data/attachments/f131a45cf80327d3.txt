@@ -1,0 +1,19 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/8a0a1f70-f1b5-4cff-adfd-80a9f0589ebd
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses/8a0a1f70-f1b5-4cff-adfd-80a9f0589ebd
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     COURSES_ASSERTIONS:courses.py:88 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Produce late attorney research whatever."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Measure environmental main which human discuss. Yes simple evidence wide.
+Collection enough message audience."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "73"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "7"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "7 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

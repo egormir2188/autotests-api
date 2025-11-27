@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE3OjAzOjE0LjA4Njk4NCIsInVzZXJfaWQiOiI0YzA4ODViMC1kYTE4LTRhMjgtOWM4Mi1hZWNiZmMxNzQwM2YifQ.bZ2Lynl1x2t4CDDBuWieayXz-0jORvkWYcNiqJnP3mY" \
+  -H "content-length: 257" \
+  -H "content-type: application/json" \
+  -d "{"title":"Mother successful fact him.","maxScore":60,"minScore":20,"description":"Too thus record agent watch relate.","estimatedTime":"5 weeks","previewFileId":"e57d8077-7616-4be5-923f-6efd4bfb4372","createdByUserId":"4c0885b0-da18-4a28-9c82-aecbfc17403f"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE3OjAzOjEyLjE0NDc0MCIsInVzZXJfaWQiOiI5NmQwZTBhNC1jMWE4LTQ3NGItYjViZC0xNmFjNzZmZDgyZjkifQ.KFMts_hR9YP9pK_waDWTbob8IEGYuzVhk0ckdZL2YjA" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"Physical full assume voice oil against.","maxScore":82,"minScore":30,"description":"Pick crime program natural trip natural very.","estimatedTime":"4 weeks","previewFileId":"a6139dc8-e542-4bd6-9fff-70fca125ad2c","createdByUserId":"96d0e0a4-c1a8-474b-b5bd-16ac76fd82f9"}"

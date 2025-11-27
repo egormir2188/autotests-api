@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE3OjAzOjEwLjIyOTEwMCIsInVzZXJfaWQiOiI3NGVmNzcwNC05NGQwLTRjMmItOTYwNC1jNDUyZDQ0MWJmOGIifQ.qwaCxj5BkUblwYSf-fzUrErthA49dGo1xDxmj8HX7FU" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Full claim month however form.","maxScore":75,"minScore":30,"description":"Rest nor money management effect.","estimatedTime":"10 weeks","previewFileId":"0ec8e3c2-f210-4fa7-9b9b-14a07ceb9e57","createdByUserId":"74ef7704-94d0-4c2b-9604-c452d441bf8b"}"

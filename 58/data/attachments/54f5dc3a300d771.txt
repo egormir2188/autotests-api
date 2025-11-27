@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE3OjAzOjExLjUxMTQxMSIsInVzZXJfaWQiOiIwOTFkODE3Yy1mNjBjLTQ3NDItYTQ4OS0zZTFhNmZlZTU1OGUifQ.07h_V8bGtQyDcrfrCF9dA7s4Qtzy9BhmqCQWPPowgvI" \
+  -H "content-length: 273" \
+  -H "content-type: application/json" \
+  -d "{"title":"Close smile reveal model success create someone.","maxScore":87,"minScore":21,"description":"Against north sound low their.","estimatedTime":"7 weeks","previewFileId":"2e7ffa31-8aaa-44be-89e0-ea4b5cbfbf4e","createdByUserId":"091d817c-f60c-4742-a489-3e1a6fee558e"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE3OjAzOjEyLjc4ODkxMyIsInVzZXJfaWQiOiIzODA2NDc5NS1kNzY3LTQyODMtOWNjNS1lOWU1ZjM3NmEzMWUifQ.vUu4xcOfFyoD807AeSzuD70fIPxKGqk5352CpTM07B8" \
+  -H "content-length: 343" \
+  -H "content-type: application/json" \
+  -d "{"title":"Finish crime role reason debate.","maxScore":72,"minScore":18,"orderIndex":19,"description":"Assume body nearly realize. Prepare offer beautiful keep.\nItem argue today finally central can common. Determine important ok left mention officer floor clearly.","estimatedTime":"1 weeks","courseId":"c302876e-57ce-4f0b-8bb7-26188d0f976a"}"

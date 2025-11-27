@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE3OjAzOjEzLjQzODg5MSIsInVzZXJfaWQiOiI1YzI5YTJkMi03YzIwLTRjODQtYTNiOS0zYzFiNzFlNTBiMDYifQ.VI1mq64cNs64hq8jl9OvH7b3EmhIf20oa1TA-mWBAg8" \
+  -H "content-length: 283" \
+  -H "content-type: application/json" \
+  -d "{"title":"Great call bank particularly behind tax.","maxScore":72,"minScore":3,"description":"Back leader federal cut interview store building.","estimatedTime":"1 weeks","previewFileId":"9c463ef4-f87c-48f9-a88c-4783e1fc13fd","createdByUserId":"5c29a2d2-7c20-4c84-a3b9-3c1b71e50b06"}"
