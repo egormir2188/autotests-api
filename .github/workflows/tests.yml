@@ -50,9 +50,10 @@ jobs:
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          CI: 'true'
         run: |
           pytest -m "regression" --alluredir=allure-results --numprocesses=1
+          allure generate allure-results --output allure-report
+          python -m bot.notification
 
       - name: Restore Coverage history
         uses: actions/cache@v4

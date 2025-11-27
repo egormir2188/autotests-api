@@ -39,5 +39,3 @@ settings = Settings.initialize()
 class BotConfig:
     bot_token = getenv('TELEGRAM_BOT_TOKEN')
     chat_id = getenv('TELEGRAM_CHAT_ID')
-    telegram_host = 'https://api.telegram.org'
-    send_message_uri = f'bot{bot_token}/sendMessage'
