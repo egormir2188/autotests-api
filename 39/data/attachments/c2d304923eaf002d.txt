@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjU5OjA1LjgwMzY0MCIsInVzZXJfaWQiOiI1YjE5MmY5OC1iZGNjLTRiNzQtOGVkMC1iNWI1Yzc3OTlkNjkifQ.1a3_fMwrUACrPsscKh4HA7F8P2KoQ8wd3Mx7Z6wwkyg" \
+  -H "content-length: 252" \
+  -H "content-type: application/json" \
+  -d "{"title":"Culture result address because.","maxScore":93,"minScore":14,"description":"Necessary from technology.","estimatedTime":"5 weeks","previewFileId":"e361b837-b475-4b07-8b89-6a4009fd07b0","createdByUserId":"5b192f98-bdcc-4b74-8ed0-b5b5c7799d69"}"

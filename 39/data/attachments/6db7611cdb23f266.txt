@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjU5OjA0LjQ0ODg5MyIsInVzZXJfaWQiOiJlYmNhY2E1MS1iNjJmLTQ4ZDktYWU0NC0xMGVhNTczNTk1ZWUifQ.4d62-Jz53_dQRgPXN5eq71qN-eX7BydFjZQ97rFMDVc" \
+  -H "content-length: 263" \
+  -H "content-type: application/json" \
+  -d "{"title":"Bank her no win sound artist hit.","maxScore":64,"minScore":8,"description":"Southern piece huge reveal indicate.","estimatedTime":"7 weeks","previewFileId":"72ef5169-bde8-43f0-9dae-63b2e03fd885","createdByUserId":"ebcaca51-b62f-48d9-ae44-10ea573595ee"}"

@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/exercises/999eb867-58ec-4811-bcce-e62810edc2ee" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjU5OjA2LjQ4MTk3NSIsInVzZXJfaWQiOiJkYmQyMzIxNi1hYWMxLTRkOTgtYWNmZC02NjQwZGZhYjk4N2UifQ.zwfoiqd_g_B2JtzMPjPtZbdylXTqaUnnsQWLjbL9PAA" \
+  -H "content-length: 290" \
+  -H "content-type: application/json" \
+  -d "{"title":"Watch similar century century suggest.","maxScore":71,"minScore":27,"orderIndex":100,"description":"High on in chance single show suggest run. Stand old hair fine.\nNice avoid beautiful control mention blood wide. Space beyond wind audience fear throw.","estimatedTime":"8 weeks"}"

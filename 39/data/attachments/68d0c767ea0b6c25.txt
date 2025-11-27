@@ -1,0 +1,10 @@
+curl X "POST \
+  http://localhost:8000/api/v1/users" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "content-length: 229" \
+  -H "content-type: application/json" \
+  -d "{"email":"Here show investment these over. Sister herself pattern everybody amount so member least. Both set unit loss industry back president.","lastName":"Howell","firstName":"Ann","middleName":"Pamela","password":"$@7WAdw_Z!"}"

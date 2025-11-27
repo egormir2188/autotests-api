@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjU5OjA1LjEzODYxNiIsInVzZXJfaWQiOiIwNGFmODgxMC0zMTNjLTQxOGItYjBhNS1hOGI4N2MyNjU0YjgifQ.QmhSJSbRPrs_j5jcD1gp-0I_dgWpXbEm824gwPiudS4" \
+  -H "content-length: 276" \
+  -H "content-type: application/json" \
+  -d "{"title":"Population interest ready.","maxScore":88,"minScore":23,"description":"Argue suggest process might minute first service state.","estimatedTime":"3 weeks","previewFileId":"688db4cc-3e4b-46e9-90dd-8b438eb21fb3","createdByUserId":"04af8810-313c-418b-b0a5-a8b87c2654b8"}"

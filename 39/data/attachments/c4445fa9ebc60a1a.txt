@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjU5OjA2LjQ4MTk3NSIsInVzZXJfaWQiOiJkYmQyMzIxNi1hYWMxLTRkOTgtYWNmZC02NjQwZGZhYjk4N2UifQ.zwfoiqd_g_B2JtzMPjPtZbdylXTqaUnnsQWLjbL9PAA" \
+  -H "content-length: 275" \
+  -H "content-type: application/json" \
+  -d "{"title":"Else evidence character large.","maxScore":68,"minScore":8,"description":"Catch explain information season world way my much.","estimatedTime":"2 weeks","previewFileId":"1ab097f4-6abd-47d6-bde6-b9518aa3db37","createdByUserId":"dbd23216-aac1-4d98-acfd-6640dfab987e"}"

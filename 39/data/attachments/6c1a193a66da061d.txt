@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjU5OjA3LjE2MTk3MyIsInVzZXJfaWQiOiIyOGFmZWJlNS00NzExLTRhMTYtODRmMC1lMmI0YTAyNDJlY2YifQ.aQsZ2hEbB_nY8zAFtZ16ecF_2WhFNMiLlfjH0d_rNpM" \
+  -H "content-length: 248" \
+  -H "content-type: application/json" \
+  -d "{"title":"Professor guy certain.","maxScore":68,"minScore":15,"description":"Four same fish baby occur name.","estimatedTime":"9 weeks","previewFileId":"24bfd15f-a6e9-49c8-8a70-053b5fe4d205","createdByUserId":"28afebe5-4711-4a16-84f0-e2b4a0242ecf"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEwOjU5OjA3LjgzNDQyOSIsInVzZXJfaWQiOiI4OGJlNjZmMS1mYWM3LTQyODEtYjJjNC0xODMyZDE1NzBjMzYifQ.deYRYvtyL6izIZ6ek53goh9l_gW0VPSeus_myZL4ld4" \
+  -H "content-length: 274" \
+  -H "content-type: application/json" \
+  -d "{"title":"Girl health learn father.","maxScore":80,"minScore":29,"description":"Day act war community appear treatment less scientist.","estimatedTime":"5 weeks","previewFileId":"20e74e7b-5986-4d35-83e1-0241f01665c2","createdByUserId":"88be66f1-fac7-4281-b2c4-1832d1570c36"}"
