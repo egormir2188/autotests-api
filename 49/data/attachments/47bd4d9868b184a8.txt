@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMyOjU5LjAzNzU2NyIsInVzZXJfaWQiOiJkYTU4YjBmYi1hODMxLTQ4MWEtYTc2Yi03NWE0YjYwMTE5OWUifQ.T9XmCk79b3Ji99nY9rVDPMrbWEu36jV1sISWAbckeO0" \
+  -H "content-length: 287" \
+  -H "content-type: application/json" \
+  -d "{"title":"Middle program try American environmental keep.","maxScore":84,"minScore":26,"description":"Free treat lawyer respond explain along save.","estimatedTime":"5 weeks","previewFileId":"106ef47d-ff5f-43d0-b21c-64d43b2c1290","createdByUserId":"da58b0fb-a831-481a-a76b-75a4b601199e"}"

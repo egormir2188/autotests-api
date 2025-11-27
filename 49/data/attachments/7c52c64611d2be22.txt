@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/48c6adc3-6cf7-462b-bdb1-929ab92b669e" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMyOjU3LjcwMzE0NiIsInVzZXJfaWQiOiI4MWZmYmI0OC0zYzFhLTQxZGQtOGEyNC0wZDZiMmEzN2RlZGYifQ.Mrwzfd9fmFaXWCRzm-gVOJyTbOK-dTelBXHu4lCp984" \
+  -H "content-length: 218" \
+  -H "content-type: application/json" \
+  -d "{"title":"Light dream expert recognize.","maxScore":95,"minScore":18,"description":"Almost likely heart series red me. Prove assume power how.\nChange who watch. He section up reason simply.","estimatedTime":"3 weeks"}"

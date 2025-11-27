@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/exercises/905ac228-1ad0-42ac-b9fd-bef88306bf35" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMyOjU5LjcwNjgyMCIsInVzZXJfaWQiOiIwYzYwOWI1Yi1iZmEzLTRmMTctOWJjNy1kODE4MDY1ZTM5NjQifQ.HRbOlL49JF5YYzzdx9ETo4NRh6JIw7EaJLdUnQ7K7sE" \
+  -H "content-length: 255" \
+  -H "content-type: application/json" \
+  -d "{"title":"Available key work to option.","maxScore":91,"minScore":6,"orderIndex":10,"description":"Win mother against line imagine throw wrong.\nCover standard table buy. They join significant Democrat theory. The affect agree.","estimatedTime":"8 weeks"}"

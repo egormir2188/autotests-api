@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMyOjU3LjcwMzE0NiIsInVzZXJfaWQiOiI4MWZmYmI0OC0zYzFhLTQxZGQtOGEyNC0wZDZiMmEzN2RlZGYifQ.Mrwzfd9fmFaXWCRzm-gVOJyTbOK-dTelBXHu4lCp984" \
+  -H "content-length: 256" \
+  -H "content-type: application/json" \
+  -d "{"title":"Center project newspaper specific argue.","maxScore":55,"minScore":24,"description":"Not rich somebody if.","estimatedTime":"9 weeks","previewFileId":"7ad1fb79-9fca-4149-9cfd-f39bf04c1350","createdByUserId":"81ffbb48-3c1a-41dd-8a24-0d6b2a37dedf"}"

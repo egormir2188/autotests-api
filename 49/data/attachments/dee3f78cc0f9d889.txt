@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMzOjAxLjA0NzYyOCIsInVzZXJfaWQiOiIyMmVjNWM4OS0yMTNkLTQ3MzMtODMxMi1mZDI3Mjc4ODRjMGMifQ.mnHMF1G7TdgvzUiaWABC_6acPpAHXpQiy5GE2Uer0VE" \
+  -H "content-length: 262" \
+  -H "content-type: application/json" \
+  -d "{"title":"Drug memory enough magazine and.","maxScore":71,"minScore":4,"description":"Play information party history left.","estimatedTime":"3 weeks","previewFileId":"2854b882-7960-48c1-833f-caf01a62f5e8","createdByUserId":"22ec5c89-213d-4733-8312-fd2727884c0c"}"

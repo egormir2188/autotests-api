@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMyOjU4LjM3NjE3MCIsInVzZXJfaWQiOiI2YTVhMzU3MC0xYzg2LTQxNjAtYTIwNy04OTgxODQ4ZjMzZTcifQ.kjlm1_NGuxsyp3eiRWHF1tl0VpO96XRyEwWBkV4UfDA" \
+  -H "content-length: 401" \
+  -H "content-type: application/json" \
+  -d "{"title":"Last common end charge research president party herself.","maxScore":50,"minScore":22,"orderIndex":24,"description":"Where far blood reason rather water position. Your build industry machine. Improve mind whole see true difference someone true.\nIts as change type society difference. Rule seek sport later song.","estimatedTime":"10 weeks","courseId":"f6edec5b-8a7a-48e3-9bf1-eceb036852dc"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMyOjU5LjAzNzU2NyIsInVzZXJfaWQiOiJkYTU4YjBmYi1hODMxLTQ4MWEtYTc2Yi03NWE0YjYwMTE5OWUifQ.T9XmCk79b3Ji99nY9rVDPMrbWEu36jV1sISWAbckeO0" \
+  -H "content-length: 357" \
+  -H "content-type: application/json" \
+  -d "{"title":"Sport include what able few determine research.","maxScore":54,"minScore":22,"orderIndex":76,"description":"Result politics west modern effect million class. Section name ten actually them often. Wind explain large under enjoy school culture. Summer marriage stop this.","estimatedTime":"6 weeks","courseId":"b4624c11-17bb-4ad9-a5cb-a12c6067d20a"}"

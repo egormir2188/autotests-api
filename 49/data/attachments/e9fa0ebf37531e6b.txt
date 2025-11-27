@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMzOjAwLjM4MDk3NiIsInVzZXJfaWQiOiI4OWE5OTUwZS1iNzk0LTRmNjgtYmU3MS0zZThjMzdjNmMyYmIifQ.IK4wFnqSnYRKjZT7gPIJEHtKg0f9zfIaU8UOpoElzgk" \
+  -H "content-length: 272" \
+  -H "content-type: application/json" \
+  -d "{"title":"Behavior little star beautiful nature rise like.","maxScore":90,"minScore":18,"description":"Recently anything again hear.","estimatedTime":"9 weeks","previewFileId":"70da0438-a1af-436a-968f-53f7ed0b0cf8","createdByUserId":"89a9950e-b794-4f68-be71-3e8c37c6c2bb"}"

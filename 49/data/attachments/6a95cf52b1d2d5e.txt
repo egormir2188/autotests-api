@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjMyOjU5LjcwNjgyMCIsInVzZXJfaWQiOiIwYzYwOWI1Yi1iZmEzLTRmMTctOWJjNy1kODE4MDY1ZTM5NjQifQ.HRbOlL49JF5YYzzdx9ETo4NRh6JIw7EaJLdUnQ7K7sE" \
+  -H "content-length: 248" \
+  -H "content-type: application/json" \
+  -d "{"title":"Manage strong expect level late.","maxScore":65,"minScore":25,"description":"Policy smile husband.","estimatedTime":"7 weeks","previewFileId":"17d1922e-e6cb-4966-b514-3bee9b87eb26","createdByUserId":"0c609b5b-bfa3-4f17-9bc7-d818065e3964"}"
