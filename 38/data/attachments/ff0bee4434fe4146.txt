@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjA2OjQ2LjY4NDkzMyIsInVzZXJfaWQiOiIwZDNjMzU1Mi0xODIwLTRmMGYtOTQ3Ny05NzQ0YWQ4NjM5YTEifQ.RpOfqtr3y3MuHC8Vgvuh1oQ2kxzGlaCWiVzMqSU2VGQ" \
+  -H "content-length: 270" \
+  -H "content-type: application/json" \
+  -d "{"title":"Today campaign enough good no care ok.","maxScore":52,"minScore":22,"description":"Drop small west window far Democrat.","estimatedTime":"10 weeks","previewFileId":"b3513627-cbf1-420e-b6e0-d63c775dcd79","createdByUserId":"0d3c3552-1820-4f0f-9477-9744ad8639a1"}"

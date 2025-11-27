@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjA2OjQ3LjM2MjI1MCIsInVzZXJfaWQiOiI1M2Q0YzBlNC1jNWYyLTRiN2QtOTdmYy0yNjFkOTcyM2MyM2IifQ.nbtZG5w8s4WhLtqICX-o1o90mXyq7eshzCZY_fmPibU" \
+  -H "content-length: 283" \
+  -H "content-type: application/json" \
+  -d "{"title":"Collection everything center pressure country human wind.","maxScore":69,"minScore":6,"description":"Face evidence down cause simple.","estimatedTime":"3 weeks","previewFileId":"6a30d35d-cb55-40b0-834d-32116be424ed","createdByUserId":"53d4c0e4-c5f2-4b7d-97fc-261d9723c23b"}"

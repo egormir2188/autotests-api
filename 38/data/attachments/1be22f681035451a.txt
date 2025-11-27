@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjA2OjQ4LjcyMzI5OCIsInVzZXJfaWQiOiI4YzMyY2JjNi02YTdhLTRmODAtODBlZS0wNzkxOWUwMjUxNTgifQ.gTcSFPjCkFoZB5wDgjJvtS52v9RNHI3vB_-l-KmbIoc" \
+  -H "content-length: 321" \
+  -H "content-type: application/json" \
+  -d "{"title":"Trouble leg live behind.","maxScore":87,"minScore":8,"orderIndex":14,"description":"Claim popular amount program concern American interest either. Never mean south task write someone it. Build determine attorney. Put remember player.","estimatedTime":"4 weeks","courseId":"5096f2aa-a447-474d-8d97-073cd9c2f55a"}"

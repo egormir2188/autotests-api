@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjA2OjQ4LjcyMzI5OCIsInVzZXJfaWQiOiI4YzMyY2JjNi02YTdhLTRmODAtODBlZS0wNzkxOWUwMjUxNTgifQ.gTcSFPjCkFoZB5wDgjJvtS52v9RNHI3vB_-l-KmbIoc" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"Against learn responsibility area movement factor.","maxScore":72,"minScore":26,"description":"What it ago energy.","estimatedTime":"1 weeks","previewFileId":"e12ddeb7-7a2d-47a1-90fa-7f3eade9d2a0","createdByUserId":"8c32cbc6-6a7a-4f80-80ee-07919e025158"}"

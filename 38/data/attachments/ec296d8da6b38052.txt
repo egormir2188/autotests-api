@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjA2OjQ2LjAxNjY4NiIsInVzZXJfaWQiOiJiYmRhMDNlNC00ZGMzLTQxYjItYjdkOS1lOWMzZDUyZjdiNDUifQ.RdZo3WXlHgecQF3AdYsoITgcPcDeBccyEezfklBcCGc" \
+  -H "content-length: 263" \
+  -H "content-type: application/json" \
+  -d "{"title":"Policy customer certain budget assume.","maxScore":80,"minScore":23,"description":"Lawyer nature direction third.","estimatedTime":"1 weeks","previewFileId":"d2bb6aa3-b5fc-490d-955a-bb8829acfed5","createdByUserId":"bbda03e4-4dc3-41b2-b7d9-e9c3d52f7b45"}"

@@ -1,0 +1,25 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/c3aa8971-9293-4080-8230-9fc2eb3c8e20
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/c3aa8971-9293-4080-8230-9fc2eb3c8e20
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "c3aa8971-9293-4080-8230-9fc2eb3c8e20"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Relationship agency behavior light administration source."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "9b4c81b7-0d4e-47b2-973f-bf5cd375b237"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "98"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "15"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "13"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Travel white movie. Market end return protect concern color cold professor.
+Likely hair task unit provide produce decision. Prove politics most when debate station."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "4 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

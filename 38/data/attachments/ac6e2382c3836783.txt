@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDA2OjA2OjQ1LjM0NTY1MCIsInVzZXJfaWQiOiI3M2E3NTdmYS02MGYzLTRlMTAtYWE0My1mZTliNThiNmUwMjYifQ.jQ9oieD52-uRUrczg7zXVWCWTy2Y_h0Hy3-mV0U0Cjo" \
+  -H "content-length: 292" \
+  -H "content-type: application/json" \
+  -d "{"title":"Major here guess ask yeah think house begin.","maxScore":76,"minScore":4,"description":"Treat rather in less direction ball scientist product.","estimatedTime":"7 weeks","previewFileId":"e6ba2079-cbef-41f8-acbf-d7cebfa1ad9c","createdByUserId":"73a757fa-60f3-4e10-aa43-fe9b58b6e026"}"
