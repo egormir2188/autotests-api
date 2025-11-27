@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjAzLjQxMTQ0MCIsInVzZXJfaWQiOiJiMWIyNzZmMi1lNGNhLTQ4ZWUtOGRlYy1jMTIxMTdiMmU4OGEifQ.Cd4qFPV72ZTZAf52YstO0OHfVBua0VHH6ublPlo3H-w" \
+  -H "content-length: 270" \
+  -H "content-type: application/json" \
+  -d "{"title":"Relationship away white candidate run go.","maxScore":69,"minScore":18,"description":"Within economic include both like.","estimatedTime":"1 weeks","previewFileId":"3a157f84-e749-411a-82a3-29f387bd4b59","createdByUserId":"b1b276f2-e4ca-48ee-8dec-c12117b2e88a"}"

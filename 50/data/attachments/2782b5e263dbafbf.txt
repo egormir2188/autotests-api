@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjA4LjE2NzU3OSIsInVzZXJfaWQiOiI3MTNiNTljMy1iNDU3LTQ3MzktODU5NS1kOGQ4OGZiNzA1YTMifQ.kil4RgsXylUb1huArXKHmk5Y17h7ZXOXhIgcmBeLTJw" \
+  -H "content-length: 265" \
+  -H "content-type: application/json" \
+  -d "{"title":"Lawyer kind tell paper point.","maxScore":59,"minScore":8,"description":"Region dark another small understand next.","estimatedTime":"9 weeks","previewFileId":"7fc719d2-b61c-4b25-9ab6-720f8d8626dc","createdByUserId":"713b59c3-b457-4739-8595-d8d88fb705a3"}"

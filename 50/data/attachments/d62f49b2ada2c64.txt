@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjA2LjEyMDY1NSIsInVzZXJfaWQiOiJhYWYzODU3ZC1iYzIzLTQwNjYtODBiOC1kNTVhMTY4YzAwOGYifQ.pGGDhh1y3R-V5JykmcgbesIDU8qagImcKa5UDkL1CnQ" \
+  -H "content-length: 261" \
+  -H "content-type: application/json" \
+  -d "{"title":"Finally song gun send senior buy support.","maxScore":69,"minScore":8,"description":"Fear let lead institution.","estimatedTime":"3 weeks","previewFileId":"4d0f1baa-c7c1-4628-a35b-a1f652dcc2bf","createdByUserId":"aaf3857d-bc23-4066-80b8-d55a168c008f"}"

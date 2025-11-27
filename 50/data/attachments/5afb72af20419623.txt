@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjA2LjgwMDQ1MyIsInVzZXJfaWQiOiI2MWQwOGM5OC00ZGIwLTRjZDgtOGVmOS0yM2YyMTE3ZDY4MmUifQ.0ohdhIF316ITB0mA1Lzy2hBV40BjNtwrgjPzBAp5Br8" \
+  -H "content-length: 241" \
+  -H "content-type: application/json" \
+  -d "{"title":"Break anyone green.","maxScore":72,"minScore":8,"description":"Cover take professional hot.","estimatedTime":"5 weeks","previewFileId":"5f1bf10d-a570-409d-9ef6-1099cc71059e","createdByUserId":"61d08c98-4db0-4cd8-8ef9-23f2117d682e"}"

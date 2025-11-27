@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjA3LjQ4NjgwNiIsInVzZXJfaWQiOiJmYjg1MGY5NC01OTY4LTQzNmItYmNkNC1lYjgwNWZkMGVjM2MifQ.sCBM4ckasmGHp1icrBENmXoDkmQOgcvF-SxnMy_V4sY" \
+  -H "content-length: 254" \
+  -H "content-type: application/json" \
+  -d "{"title":"Body trade put surface language.","maxScore":57,"minScore":4,"description":"Question site ability among.","estimatedTime":"1 weeks","previewFileId":"b0850720-6828-48c7-983b-1f6e1ba427a6","createdByUserId":"fb850f94-5968-436b-bcd4-eb805fd0ec3c"}"

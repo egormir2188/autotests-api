@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/users/80a3173a-3ca5-404d-bef8-3b478f2f5947" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjE3LjU4MDA1MSIsInVzZXJfaWQiOiI4MGEzMTczYS0zY2E1LTQwNGQtYmVmOC0zYjQ3OGYyZjU5NDcifQ.r7al3CCkH5kjX_sbhvKLTHx_-XAJpQ-HLWf0i4bsW1c" \
+  -H "content-length: 22" \
+  -H "content-type: application/json" \
+  -d "{"lastName":"Mendoza"}"

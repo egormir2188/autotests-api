@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/f385a1ff-eb3f-43bf-980b-23fa4e39e1d3" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjA0Ljc2MzA1MSIsInVzZXJfaWQiOiI1ZjFhZjRmZi00MDQyLTQzOWEtODI2MC1mOTViMTI3NmNlMWYifQ.JuqMXDALHejX0dDUk3nJfH1qE0LjZtc7_FXPpTXubP4" \
+  -H "content-length: 190" \
+  -H "content-type: application/json" \
+  -d "{"title":"Ago produce PM especially let vote.","maxScore":54,"minScore":15,"description":"Always write physical city. Pick somebody use best. Item teach rich ago.","estimatedTime":"1 weeks"}"

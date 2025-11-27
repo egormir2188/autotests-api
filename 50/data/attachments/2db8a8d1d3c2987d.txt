@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjM4OjA0Ljc2MzA1MSIsInVzZXJfaWQiOiI1ZjFhZjRmZi00MDQyLTQzOWEtODI2MC1mOTViMTI3NmNlMWYifQ.JuqMXDALHejX0dDUk3nJfH1qE0LjZtc7_FXPpTXubP4" \
+  -H "content-length: 278" \
+  -H "content-type: application/json" \
+  -d "{"title":"Represent attorney notice treatment.","maxScore":73,"minScore":16,"description":"Why music world identify song central thought.","estimatedTime":"10 weeks","previewFileId":"88e9dad2-f7cb-42c5-ad62-578ce37104f3","createdByUserId":"5f1af4ff-4042-439a-8260-f95b1276ce1f"}"
