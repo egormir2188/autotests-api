@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjExOjA2LjAxNDA0MCIsInVzZXJfaWQiOiIzYmQ1NDg5Yy04NGY2LTQ0YjAtOWUyMC05YWJkMzVkYWZmZjMifQ.Vj-jW5Pg7rSFE6bUl2gAFJ7Sah45GZz8rXzfcIBcmxY" \
+  -H "content-length: 373" \
+  -H "content-type: application/json" \
+  -d "{"title":"Plant fly represent part.","maxScore":73,"minScore":10,"orderIndex":27,"description":"Stay writer television prove. Several impact claim choose. North series out always.\nNetwork item Republican doctor majority not free. Deal prepare resource admit item per. Within water might attack.","estimatedTime":"8 weeks","courseId":"d58f460a-f53b-4004-b410-528d7af3d73a"}"

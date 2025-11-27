@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjExOjAzLjM0OTA1MiIsInVzZXJfaWQiOiJkYWI5MDBjNi0xZDVlLTQwNDYtODUwNS0yOWU1MDY0NWViMTgifQ.3iMX0jTxL8ORGbo6yaZI1Cf85LJ8t3CceDu-vU5U1G8" \
+  -H "content-length: 289" \
+  -H "content-type: application/json" \
+  -d "{"title":"Ball middle marriage remember opportunity sure.","maxScore":90,"minScore":22,"description":"Of she matter everybody land enter travel upon.","estimatedTime":"3 weeks","previewFileId":"0313e677-a33e-4394-bceb-800ba41fb3a1","createdByUserId":"dab900c6-1d5e-4046-8505-29e50645eb18"}"

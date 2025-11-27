@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjExOjA1LjM1NjgyOCIsInVzZXJfaWQiOiI4NjRhMDk0Yi0yNzAxLTQxZmYtOGY0ZS04ODgxN2Y3M2QxYTQifQ.g8uoudCDOP_OfiKATNlZt1CZnm7ilhgT5RBaIycWleQ" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"One customer whole her every.","maxScore":78,"minScore":9,"description":"Sort art tend mean great make first.","estimatedTime":"7 weeks","previewFileId":"241e8613-a5e1-43f8-83d9-8d31fab35b4a","createdByUserId":"864a094b-2701-41ff-8f4e-88817f73d1a4"}"

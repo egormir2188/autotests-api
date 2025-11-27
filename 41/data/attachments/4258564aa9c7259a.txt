@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjExOjA2LjY4NDAyOSIsInVzZXJfaWQiOiI0ODkyYmZjMS0xOGQ1LTQzMTEtYWExOC1jNjFhNWMxMzVjNWUifQ.1oGBZUMU4GC624rdkX6ehS4PT0MiJ_TuEka7716oYJc" \
+  -H "content-length: 256" \
+  -H "content-type: application/json" \
+  -d "{"title":"South box design magazine within.","maxScore":53,"minScore":27,"description":"Clearly item how third make.","estimatedTime":"5 weeks","previewFileId":"bab94805-2d56-4783-b33f-2fafe469c1c1","createdByUserId":"4892bfc1-18d5-4311-aa18-c61a5c135c5e"}"

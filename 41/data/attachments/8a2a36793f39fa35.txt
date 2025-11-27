@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjExOjA4LjAyNTc5NiIsInVzZXJfaWQiOiI0OGRiZjZlZS1hY2VhLTQ4ZjMtYmNmYy1lMDBlZmNlMzBjNTYifQ.isxpdF0DmxlW826BjDpDQNEov4PPaYeh0mkbYSCI9_M" \
+  -H "content-length: 302" \
+  -H "content-type: application/json" \
+  -d "{"title":"More present yourself stock bag word type let.","maxScore":93,"minScore":12,"orderIndex":90,"description":"Worker wind or say business class subject. Professional among matter sort land author. Evidence member per.","estimatedTime":"8 weeks","courseId":"377da81d-c75a-4377-a680-db70bbf77266"}"

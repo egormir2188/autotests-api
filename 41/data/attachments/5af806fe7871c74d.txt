@@ -1,0 +1,20 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/85cf2070-e561-4c99-94fb-a171a5939393
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses/85cf2070-e561-4c99-94fb-a171a5939393
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     COURSES_ASSERTIONS:courses.py:88 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Where young region."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Determine scene sing across among.
+Assume garden see start hit head. Common fall focus indeed mission yet surface.
+Decade better find table. Five often goal treatment. Enough body research."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "54"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "3"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "4 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/85cf2070-e561-4c99-94fb-a171a5939393" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjExOjA0LjY3NjMxNSIsInVzZXJfaWQiOiIxZmVjMDMyZS0wNGY0LTQzNDYtOTYyMC0zODcyMTJlNzBiZTkifQ.4D0652N2xq0OCxOHxjKqCkoAcqyabW9-FCINVvRO04Q" \
+  -H "content-length: 292" \
+  -H "content-type: application/json" \
+  -d "{"title":"Where young region.","maxScore":54,"minScore":3,"description":"Determine scene sing across among.\nAssume garden see start hit head. Common fall focus indeed mission yet surface.\nDecade better find table. Five often goal treatment. Enough body research.","estimatedTime":"4 weeks"}"

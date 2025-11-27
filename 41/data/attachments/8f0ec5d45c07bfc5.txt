@@ -1,0 +1,25 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/9e4f380c-de12-48f8-a29f-92d20f08cfc1
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/9e4f380c-de12-48f8-a29f-92d20f08cfc1
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "9e4f380c-de12-48f8-a29f-92d20f08cfc1"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Plant fly represent part."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "d58f460a-f53b-4004-b410-528d7af3d73a"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "73"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "10"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "27"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Stay writer television prove. Several impact claim choose. North series out always.
+Network item Republican doctor majority not free. Deal prepare resource admit item per. Within water might attack."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "8 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

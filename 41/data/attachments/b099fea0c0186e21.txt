@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjExOjA4LjAyNTc5NiIsInVzZXJfaWQiOiI0OGRiZjZlZS1hY2VhLTQ4ZjMtYmNmYy1lMDBlZmNlMzBjNTYifQ.isxpdF0DmxlW826BjDpDQNEov4PPaYeh0mkbYSCI9_M" \
+  -H "content-length: 281" \
+  -H "content-type: application/json" \
+  -d "{"title":"Such whatever husband thought pay.","maxScore":86,"minScore":29,"description":"Society admit deal gas start successful dark factor.","estimatedTime":"4 weeks","previewFileId":"291adf99-c5f7-4b74-8559-458490e440ee","createdByUserId":"48dbf6ee-acea-48f3-bcfc-e00efce30c56"}"
