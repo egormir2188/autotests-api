@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjI0LjAzNDIyNyIsInVzZXJfaWQiOiIyYjczMzAzZi05ZjU5LTRhY2UtYTY4MS0zNTgyODIzMzYyZTEifQ.4K6Z_Al4A5m0zaaj1lP_7bxQicDiBDXc_3uCy5IiwXA" \
+  -H "content-length: 266" \
+  -H "content-type: application/json" \
+  -d "{"title":"Sound four increase movement tend worry common.","maxScore":57,"minScore":17,"description":"Plan study drive weight.","estimatedTime":"3 weeks","previewFileId":"1e3e357a-4333-44b5-a2d8-388e7c6671ba","createdByUserId":"2b73303f-9f59-4ace-a681-3582823362e1"}"

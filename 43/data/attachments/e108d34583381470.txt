@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjI1LjM4NTQ4MCIsInVzZXJfaWQiOiIzZjMyNTI4Yi1jMjIzLTRhZTAtYjExZC1hNTQ2ZDU5NjIxNjQifQ.utXI1MCS9Ed8644dJyVFcR1NWKKKw_fBKk-ErsIVFhU" \
+  -H "content-length: 285" \
+  -H "content-type: application/json" \
+  -d "{"title":"Production until participant college build despite.","maxScore":77,"minScore":9,"description":"Night nature lay guess street magazine.","estimatedTime":"10 weeks","previewFileId":"10cc8cd6-7625-4d6e-b3ec-b698d203b416","createdByUserId":"3f32528b-c223-4ae0-b11d-a546d5962164"}"

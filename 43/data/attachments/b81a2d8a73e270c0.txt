@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjIyLjcwMzIwNiIsInVzZXJfaWQiOiJiMjllODM4YS0wZDE2LTQ3Y2YtYjY5Yi1iNWM5ZDQ1NzljMmEifQ.xMlvfjtmqWqXv7y2dzjSjzN_qhLI0bZwj4gb2aXdScQ" \
+  -H "content-length: 285" \
+  -H "content-type: application/json" \
+  -d "{"title":"Summer have discover official number else factor race.","maxScore":70,"minScore":20,"description":"Change success focus prevent policy.","estimatedTime":"6 weeks","previewFileId":"d8078e03-2e51-418c-ad59-873b3139b766","createdByUserId":"b29e838a-0d16-47cf-b69b-b5c9d4579c2a"}"

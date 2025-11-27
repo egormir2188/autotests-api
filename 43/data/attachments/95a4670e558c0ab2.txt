@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjI2LjA1MTQ5MCIsInVzZXJfaWQiOiJmMTJjMDA3MC03NDY4LTQxOTYtOGQyMC1jY2IzYTE3NjJmZTQifQ.TJ2JOlYhjSLGoxo29b0XBp_i29i-r75S_6Y3jZXHVb0" \
+  -H "content-length: 288" \
+  -H "content-type: application/json" \
+  -d "{"title":"Will campaign table social describe successful pretty garden.","maxScore":68,"minScore":24,"description":"Know business college recognize.","estimatedTime":"4 weeks","previewFileId":"72a875a6-951b-4a31-9115-98d8ac32aae3","createdByUserId":"f12c0070-7468-4196-8d20-ccb3a1762fe4"}"

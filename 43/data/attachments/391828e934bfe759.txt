@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjIzLjM3NDQxOCIsInVzZXJfaWQiOiI0NDZiZWYzNy03ZjBlLTQyMDgtYmI1MC1jMzYyMTk5MWQ5MzYifQ.p8ra58qdZgIPNVKR2GANo9XLw6zbrlRBb0j0pTYW57U" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"Rule pick everyone small base itself.","maxScore":59,"minScore":23,"description":"Wind camera big ever visit understand resource.","estimatedTime":"3 weeks","previewFileId":"58089c5d-5d5b-4d8f-b3ff-80f5535055a4","createdByUserId":"446bef37-7f0e-4208-bb50-c3621991d936"}"

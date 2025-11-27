@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjI0LjcwNzUzMyIsInVzZXJfaWQiOiI4ZWVjYjlmZi1mYmM5LTRmZGEtODRmZS0xNmIwNmM4NGNhYjEifQ.5v6B6RuEqaZqlAIHlWyk5jxudsXaLfaCrVf7xApJ4o0" \
+  -H "content-length: 399" \
+  -H "content-type: application/json" \
+  -d "{"title":"Pattern professional set billion class sign smile.","maxScore":67,"minScore":4,"orderIndex":95,"description":"Bit fact season.\nAlways performance impact despite kitchen. Really authority never process evening may both offer.\nImprove teacher wear who campaign red role. Clearly field social final share return.","estimatedTime":"7 weeks","courseId":"ca2fecfc-dd8c-43a2-a8f3-79310692adff"}"

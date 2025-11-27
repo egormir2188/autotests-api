@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/acc97bb3-1713-4d16-9350-27a72d466bda" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjIyLjcwMzIwNiIsInVzZXJfaWQiOiJiMjllODM4YS0wZDE2LTQ3Y2YtYjY5Yi1iNWM5ZDQ1NzljMmEifQ.xMlvfjtmqWqXv7y2dzjSjzN_qhLI0bZwj4gb2aXdScQ" \
+  -H "content-length: 309" \
+  -H "content-type: application/json" \
+  -d "{"title":"Important expert billion.","maxScore":72,"minScore":15,"description":"If would beyond television learn. Quite foreign character three.\nOffer chair child western between else their. Southern allow any medical market.\nTree way career sort new. Factor cost western season.","estimatedTime":"5 weeks"}"

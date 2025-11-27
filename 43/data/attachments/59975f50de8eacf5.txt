@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjI3OjIxLjM2MTA2NyIsInVzZXJfaWQiOiI1ZWQ4YjliZC0wZjJlLTQ4MjgtYjljOS1hY2ZmZGI4OTQ1NjUifQ.wTgCV7h3qVgdzAiQHqoT3uY-SWEEsVgJiYN-JEGigug" \
+  -H "content-length: 241" \
+  -H "content-type: application/json" \
+  -d "{"title":"Message yeah one improve.","maxScore":72,"minScore":1,"description":"Stay forward can talk.","estimatedTime":"9 weeks","previewFileId":"41b77693-7798-49ae-ae48-4de337adcb4c","createdByUserId":"5ed8b9bd-0f2e-4828-b9c9-acffdb894565"}"
