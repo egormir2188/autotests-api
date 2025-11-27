@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjM2OjM0LjIzMTU5MyIsInVzZXJfaWQiOiJjZmM4ZmE2Mi1jNTlhLTRiNjctOGM5MC1jMGI5N2E1NzE2NWMifQ.PnZ4Sm6gS0sDrSt-EfledkLkBAec7jTK8jjPyIRTZkU" \
+  -H "content-length: 264" \
+  -H "content-type: application/json" \
+  -d "{"title":"Respond require whole partner skin it.","maxScore":89,"minScore":12,"description":"Medical physical key just food.","estimatedTime":"9 weeks","previewFileId":"f123bf4b-85e4-457e-af52-d9c35f1523cf","createdByUserId":"cfc8fa62-c59a-4b67-8c90-c0b97a57165c"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjM2OjMyLjIyMTI2NiIsInVzZXJfaWQiOiIyODIxYWRhMC0xYjU3LTQ2YzItODM5Ny1lMDBmNjE1MjAzYTcifQ.IDOaCL6632wolE4_wMYRZd63MZ_BDo3gu4FiIoZ7Juc" \
+  -H "content-length: 265" \
+  -H "content-type: application/json" \
+  -d "{"title":"Wide traditional skill change.","maxScore":68,"minScore":12,"description":"Adult talk foot instead instead type as.","estimatedTime":"9 weeks","previewFileId":"899e2890-defd-4497-a597-01e056fc94fd","createdByUserId":"2821ada0-1b57-46c2-8397-e00f615203a7"}"

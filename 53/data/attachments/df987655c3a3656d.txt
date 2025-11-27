@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjM2OjMyLjIyMTI2NiIsInVzZXJfaWQiOiIyODIxYWRhMC0xYjU3LTQ2YzItODM5Ny1lMDBmNjE1MjAzYTcifQ.IDOaCL6632wolE4_wMYRZd63MZ_BDo3gu4FiIoZ7Juc" \
+  -H "content-length: 290" \
+  -H "content-type: application/json" \
+  -d "{"title":"Bed a thus buy so though.","maxScore":95,"minScore":29,"orderIndex":47,"description":"Make sing ground model lay. Nothing allow we relate hospital change resource. Bill civil forward include truth miss.","estimatedTime":"8 weeks","courseId":"fae62088-6115-4554-8b3e-a09fbdc155a7"}"

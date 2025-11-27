@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/85a7cf7c-a62c-41fa-9667-1dbb8b6c8c78" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjM2OjMxLjU0ODUwMyIsInVzZXJfaWQiOiI0ZTMxZjhkMy0yNjhjLTQ1ODktOTgwNy0yMDAyNDBkMDM5ZTgifQ.zOhUOtZ3-FM6h9pGAM_X8Pxsefnj4sfofGj1xvz2E9w" \
+  -H "content-length: 236" \
+  -H "content-type: application/json" \
+  -d "{"title":"Table he offer race special boy may.","maxScore":74,"minScore":10,"description":"Again federal throw. Rich work individual piece baby. Compare month budget a name. Whose ok mother production agency.","estimatedTime":"1 weeks"}"

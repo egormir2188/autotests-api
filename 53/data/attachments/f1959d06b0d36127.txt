@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjM2OjMxLjU0ODUwMyIsInVzZXJfaWQiOiI0ZTMxZjhkMy0yNjhjLTQ1ODktOTgwNy0yMDAyNDBkMDM5ZTgifQ.zOhUOtZ3-FM6h9pGAM_X8Pxsefnj4sfofGj1xvz2E9w" \
+  -H "content-length: 284" \
+  -H "content-type: application/json" \
+  -d "{"title":"Save if free threat dinner tree manager.","maxScore":98,"minScore":11,"description":"Sing according arrive a claim over model forward.","estimatedTime":"1 weeks","previewFileId":"e3894e08-986f-4291-a256-39dcfa7216d8","createdByUserId":"4e31f8d3-268c-4589-9807-200240d039e8"}"

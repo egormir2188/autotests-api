@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjM2OjMzLjU1NDM2MyIsInVzZXJfaWQiOiI2OGRkMTQ2Mi1iZjg1LTQzMzgtYTU4Mi00MWYwMjYyMTIzNjYifQ.1c1qYXTO1l-WF5pRJeiG20AohzFusbM2sNPc-XYLFOg" \
+  -H "content-length: 261" \
+  -H "content-type: application/json" \
+  -d "{"title":"Safe sound model wall.","maxScore":96,"minScore":30,"description":"Song color morning produce over less theory.","estimatedTime":"8 weeks","previewFileId":"bd46729c-8241-4f5e-896b-60de82cb0064","createdByUserId":"68dd1462-bf85-4338-a582-41f026212366"}"

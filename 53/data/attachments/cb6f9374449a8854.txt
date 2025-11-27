@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjM2OjMyLjg4MTcxNiIsInVzZXJfaWQiOiI0ZDEyNmZjNC1lYTA4LTQ3OTItOGZhYS0zZjM0ZWE5NjljM2IifQ.oZu57puAQYRrrVTSJ_IYw-hS4Kybn4SoOmBbEOnjk-E" \
+  -H "content-length: 294" \
+  -H "content-type: application/json" \
+  -d "{"title":"That process you own power prove lead.","maxScore":93,"minScore":14,"description":"Receive life instead quality whole early understand somebody.","estimatedTime":"3 weeks","previewFileId":"f6d2c4b0-0267-462d-901b-3f93601b7925","createdByUserId":"4d126fc4-ea08-4792-8faa-3f34ea969c3b"}"
