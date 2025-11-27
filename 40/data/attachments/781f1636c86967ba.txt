@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjA0OjAyLjE2NTE2MSIsInVzZXJfaWQiOiI3NjY5OWVhYS02NTVjLTQwNzAtYTUwMC05ZWVjMTg5MDkxZGEifQ.-PN2jRpEyVKrG1kUJssTOzEZouyjCcVfnJRAwsZURIM" \
+  -H "content-length: 283" \
+  -H "content-type: application/json" \
+  -d "{"title":"Those meeting give expert night Mr theory.","maxScore":86,"minScore":21,"description":"Instead consider far different book fill less.","estimatedTime":"7 weeks","previewFileId":"96f0bbfd-e746-4816-9abf-48e23513f210","createdByUserId":"76699eaa-655c-4070-a500-9eec189091da"}"

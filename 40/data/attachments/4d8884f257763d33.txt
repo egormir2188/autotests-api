@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjA0OjAyLjE2NTE2MSIsInVzZXJfaWQiOiI3NjY5OWVhYS02NTVjLTQwNzAtYTUwMC05ZWVjMTg5MDkxZGEifQ.-PN2jRpEyVKrG1kUJssTOzEZouyjCcVfnJRAwsZURIM" \
+  -H "content-length: 366" \
+  -H "content-type: application/json" \
+  -d "{"title":"To someone specific stand can.","maxScore":91,"minScore":4,"orderIndex":2,"description":"Indeed start single meeting service. Would business from ago there believe.\nImage door successful stock painting even central. Money fly stock finish along. Actually science size one past.","estimatedTime":"2 weeks","courseId":"544db8d9-085e-4b3c-82a3-a67183b39369"}"

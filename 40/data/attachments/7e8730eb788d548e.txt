@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjA0OjAxLjQ4OTY5NSIsInVzZXJfaWQiOiI3MDAzODViZi0xNzcxLTRmY2ItOTRhNS05YzRlMzk5OGExN2EifQ.wGnNJymUI06ZJEvcyRTm1WYxlg1nT1vD89AhT43yJk4" \
+  -H "content-length: 260" \
+  -H "content-type: application/json" \
+  -d "{"title":"Television go morning fire against those appear.","maxScore":97,"minScore":13,"description":"Soon respond set.","estimatedTime":"4 weeks","previewFileId":"ea99530e-6572-4ca5-af19-4b938fbc5d42","createdByUserId":"700385bf-1771-4fcb-94a5-9c4e3998a17a"}"

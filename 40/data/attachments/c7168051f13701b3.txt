@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjA0OjAzLjU0MTA4MyIsInVzZXJfaWQiOiJkOWRkNjUyZi03MjEzLTQ3MTEtYTIzYS1hYjg3MDA3YWVhNTUifQ.vXxbg9aSS3fMe4FN7g34BsBnDXg-V1KrgxUbhBsxXuU" \
+  -H "content-length: 277" \
+  -H "content-type: application/json" \
+  -d "{"title":"Sometimes suffer traditional recognize author dark.","maxScore":96,"minScore":28,"description":"Situation military fear budget.","estimatedTime":"7 weeks","previewFileId":"6cf32ec4-367a-449a-a110-f79f18f7c474","createdByUserId":"d9dd652f-7213-4711-a23a-ab87007aea55"}"

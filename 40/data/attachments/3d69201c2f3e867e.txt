@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/b110e073-3f18-4d63-876d-4639bae5c05d" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjA0OjAwLjgwMzI5OSIsInVzZXJfaWQiOiI3ZjhmM2YzYS1kYWZiLTQ3NTItYTZjZS1hZDRkYjQzMjZiNjEifQ.TRbMF9O-16ALAYtubhmHIqkkDIvHjBcBRbVhycrsxRQ" \
+  -H "content-length: 246" \
+  -H "content-type: application/json" \
+  -d "{"title":"Reduce provide in good sea.","maxScore":67,"minScore":15,"description":"Executive pay everything none language gun.\nMy college war main she term. Authority do play financial pass. Sing seem each little draw.","estimatedTime":"1 weeks"}"

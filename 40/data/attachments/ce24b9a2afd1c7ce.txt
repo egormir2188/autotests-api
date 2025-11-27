@@ -1,0 +1,26 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises?courseId=8fc30535-9dbd-4e44-807a-36a4067a51c9
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=8fc30535-9dbd-4e44-807a-36a4067a51c9
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:83 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:72 Check that length of "exercises" equals to "1"
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "759c7266-d049-4a1c-91f2-a9ad06c91198"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Whole unit she themselves between along."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "8fc30535-9dbd-4e44-807a-36a4067a51c9"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "54"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "3"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "83"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Always raise send return. Own none as brother best modern. Yourself team nothing increase economy TV.
+Return teacher we agree. Agree surface officer share soon and strategy door."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "3 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

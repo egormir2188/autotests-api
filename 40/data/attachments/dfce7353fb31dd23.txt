@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjA0OjAyLjg1NDU5MCIsInVzZXJfaWQiOiIyOWRhM2FjYi0xZGYyLTRkYTQtYjA5MS0wOWJjZDI0MzVmNDEifQ.R-uS2bAusYpt3dlmpR01FuskbLqQ-RJDVrqj33GylPs" \
+  -H "content-length: 253" \
+  -H "content-type: application/json" \
+  -d "{"title":"Power six quality.","maxScore":71,"minScore":7,"description":"Risk far scene trip them evidence be man.","estimatedTime":"3 weeks","previewFileId":"9d90efd5-a4f3-4cff-897f-148c900ddecd","createdByUserId":"29da3acb-1df2-4da4-b091-09bcd2435f41"}"

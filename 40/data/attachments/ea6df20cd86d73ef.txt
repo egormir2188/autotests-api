@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjAzOjU5LjQ0NzIwNSIsInVzZXJfaWQiOiI1NDIzYTFmMy1hZjU1LTRiMTItYjlmYi03NmQzYTNkZDkzNTIifQ.495hwa9HGzxL-spMzYfbK3LE3-Slv78DZFfxZZE1Qdk" \
+  -H "content-length: 275" \
+  -H "content-type: application/json" \
+  -d "{"title":"Care recognize her drug film off produce.","maxScore":69,"minScore":24,"description":"True rich Mr ever magazine opportunity.","estimatedTime":"3 weeks","previewFileId":"1bc834cb-e36c-4a93-b3fd-da4bdb0f1311","createdByUserId":"5423a1f3-af55-4b12-b9fb-76d3a3dd9352"}"
