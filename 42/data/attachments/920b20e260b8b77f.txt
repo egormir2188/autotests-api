@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjEzOjI2Ljk2OTAxNyIsInVzZXJfaWQiOiI0YWIwZTlmNi0xMTE2LTQ3MGItOWEyNS1hYTE2NDI5NDUwNjUifQ.Tm798TLWjroBo64jpDhtEPAY1gmIFZMOsCHPxPTQaYc" \
+  -H "content-length: 255" \
+  -H "content-type: application/json" \
+  -d "{"title":"Argue party occur.","maxScore":81,"minScore":14,"description":"Each rock book level enjoy me institution.","estimatedTime":"5 weeks","previewFileId":"159b6942-18a3-42f5-b5ed-d3ce5fa1f673","createdByUserId":"4ab0e9f6-1116-470b-9a25-aa1642945065"}"

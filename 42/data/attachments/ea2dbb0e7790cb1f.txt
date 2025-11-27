@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/exercises/136250bb-d2c1-4eb9-aa65-7bb006944b72" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjEzOjMwLjMyMjcyNSIsInVzZXJfaWQiOiI4ZWYzNjVhYi1iNGMwLTQ2YmMtYTBkMS1jODQ5ZjUxZDRlMzIifQ.1wpsaHVt9d7hjUpkKKQ6BUksqndi7fZxV4l3gDEm3ok" \
+  -H "content-length: 314" \
+  -H "content-type: application/json" \
+  -d "{"title":"Whose partner all.","maxScore":86,"minScore":13,"orderIndex":5,"description":"Feeling level us history cold. Eat couple product recent.\nAvailable art might much beat important particular. Agreement recognize church million material. Common return woman simply interview rise.","estimatedTime":"2 weeks"}"

@@ -1,0 +1,24 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make GET request to http://localhost:8000/api/v1/exercises/9d74560b-dc2a-4054-bce5-0e93fabc545b
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/9d74560b-dc2a-4054-bce5-0e93fabc545b
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:67 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:38 Check that "id" equals to "9d74560b-dc2a-4054-bce5-0e93fabc545b"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Together especially human issue."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "course_id" equals to "f1c54b5b-098f-4a78-a259-682e20668e81"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "98"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "14"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "31"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Defense their poor third important nearly. Stock there will this. Product agreement time woman product own. During mean myself."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "5 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

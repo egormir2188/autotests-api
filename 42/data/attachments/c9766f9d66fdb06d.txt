@@ -1,0 +1,18 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/courses/d330e56f-bf20-4dc9-8e81-ac38b380ac2f
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses/d330e56f-bf20-4dc9-8e81-ac38b380ac2f
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     COURSES_ASSERTIONS:courses.py:88 Check update course response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Throw produce cost."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Here involve morning. Sea including establish career government design. Person key top sit western study."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "79"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "17"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "9 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

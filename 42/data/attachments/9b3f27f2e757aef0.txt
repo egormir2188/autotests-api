@@ -1,0 +1,22 @@
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_LOGER:event_hooks.py:26 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_LOGER:event_hooks.py:26 Make PATCH request to http://localhost:8000/api/v1/exercises/136250bb-d2c1-4eb9-aa65-7bb006944b72
+INFO     HTTP_LOGER:event_hooks.py:34 Got response 200 OK from http://localhost:8000/api/v1/exercises/136250bb-d2c1-4eb9-aa65-7bb006944b72
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:99 Check update exercise response
+INFO     BASE_ASSERTIONS:base.py:38 Check that "title" equals to "Whose partner all."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "description" equals to "Feeling level us history cold. Eat couple product recent.
+Available art might much beat important particular. Agreement recognize church million material. Common return woman simply interview rise."
+INFO     BASE_ASSERTIONS:base.py:38 Check that "max_score" equals to "86"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "min_score" equals to "13"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "estimated_time" equals to "2 weeks"
+INFO     BASE_ASSERTIONS:base.py:38 Check that "order_index" equals to "5"
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON Schema

@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/d330e56f-bf20-4dc9-8e81-ac38b380ac2f" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjEzOjI4LjMwOTIxMSIsInVzZXJfaWQiOiIzNWIxMjQ2Zi1lMDUwLTRjYjItODE0NS01MWRmM2EzMGNhNGYifQ.SmshzfsBygd_TuPH3ux5BqqI3obFshc9VxZG_4zHJNs" \
+  -H "content-length: 207" \
+  -H "content-type: application/json" \
+  -d "{"title":"Throw produce cost.","maxScore":79,"minScore":17,"description":"Here involve morning. Sea including establish career government design. Person key top sit western study.","estimatedTime":"9 weeks"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjEzOjMxLjAwMTQ4NiIsInVzZXJfaWQiOiJkZTMxNGMyZC0wMDg5LTQ1Y2QtYTJmNi03NmY4ODAzZjNmYzgifQ.PbAphLUsUkdzKvILmaNp5oRb3Fjea422ObMEBSguRqA" \
+  -H "content-length: 254" \
+  -H "content-type: application/json" \
+  -d "{"title":"Talk bank something town artist.","maxScore":92,"minScore":20,"description":"Choose industry choose add.","estimatedTime":"9 weeks","previewFileId":"7a66c62c-b010-41f0-8f14-69537611f963","createdByUserId":"de314c2d-0089-45cd-a2f6-76f8803f3fc8"}"

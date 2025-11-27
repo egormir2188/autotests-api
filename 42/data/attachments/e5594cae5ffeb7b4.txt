@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjEzOjI5LjY0OTUzMiIsInVzZXJfaWQiOiI4MWVkZDMyNC1kZDQ2LTRiNjAtYWU3OS1kMjY4MWEzN2UxMTAifQ.Wjgoyo0sxAfw7I_ROwjvQYWXSfCSEvx0L88vfnys3UA" \
+  -H "content-length: 275" \
+  -H "content-type: application/json" \
+  -d "{"title":"Affect garden something article agree nice site.","maxScore":83,"minScore":19,"description":"Them receive feel catch benefit.","estimatedTime":"2 weeks","previewFileId":"ade86391-bdc5-4001-b54f-93d7f1b13761","createdByUserId":"81edd324-dd46-4b60-ae79-d2681a37e110"}"

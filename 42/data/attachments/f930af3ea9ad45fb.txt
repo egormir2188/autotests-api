@@ -1,0 +1,10 @@
+curl X "POST \
+  http://localhost:8000/api/v1/users" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "content-length: 276" \
+  -H "content-type: application/json" \
+  -d "{"email":"Management city here night TV. Article make ask enter goal. Inside word population defense health.\nAcross dog little week the energy. Democrat least phone firm against likely Mr.","lastName":"Barnes","firstName":"Luke","middleName":"Robert","password":"jI*11z4qj%"}"

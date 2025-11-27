@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjEzOjI3LjYzOTkwMSIsInVzZXJfaWQiOiJlYTQ5ZmQwOC05ODVhLTRhYmUtYmNiOS1iZTRiMDE2NjgwZmQifQ.VSMAxECMors2bPkHRoBXulqBr1ryXeCpva8iezBTtqc" \
+  -H "content-length: 273" \
+  -H "content-type: application/json" \
+  -d "{"title":"Me third nor share easy theory prove soon.","maxScore":53,"minScore":26,"description":"Often maybe network must want third.","estimatedTime":"9 weeks","previewFileId":"37a2194b-f7a7-463d-91b3-f73a130ff3e1","createdByUserId":"ea49fd08-985a-4abe-bcb9-be4b016680fd"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDExOjEzOjMwLjMyMjcyNSIsInVzZXJfaWQiOiI4ZWYzNjVhYi1iNGMwLTQ2YmMtYTBkMS1jODQ5ZjUxZDRlMzIifQ.1wpsaHVt9d7hjUpkKKQ6BUksqndi7fZxV4l3gDEm3ok" \
+  -H "content-length: 251" \
+  -H "content-type: application/json" \
+  -d "{"title":"Movie since particularly season face.","maxScore":69,"minScore":4,"description":"Reach different out.","estimatedTime":"8 weeks","previewFileId":"71cf823e-d9a3-4d8b-bc2f-91a80692e918","createdByUserId":"8ef365ab-b4c0-46bc-a0d1-c849f51d4e32"}"
