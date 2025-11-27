@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjI3OjUyLjIzMjY4NCIsInVzZXJfaWQiOiIzNmJmMGQwYS03YThiLTQ0MzQtYWQzNC1lZTZjN2YyY2VhNWQifQ.m8XKfTCorVqo525Ltoi0Y6A_OjInlzPIzqNz4Y0SQlw" \
+  -H "content-length: 250" \
+  -H "content-type: application/json" \
+  -d "{"title":"Test late will reality.","maxScore":84,"minScore":20,"description":"Morning question show major boy.","estimatedTime":"9 weeks","previewFileId":"f3fe687f-8b80-45ec-9f0f-dfa46811f79e","createdByUserId":"36bf0d0a-7a8b-4434-ad34-ee6c7f2cea5d"}"

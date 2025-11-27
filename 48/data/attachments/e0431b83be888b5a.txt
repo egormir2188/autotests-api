@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjI3OjU2LjMyODY0MiIsInVzZXJfaWQiOiI2MTE3MmZhNS1kNTVkLTQ1ZTgtOTNjMi1iMzJjYTEzODdjYjYifQ.7OPaS3orXdkGZjeWCVG3qZmZHL21DfL08hufJPeMI3o" \
+  -H "content-length: 267" \
+  -H "content-type: application/json" \
+  -d "{"title":"Certainly cold well general media.","maxScore":57,"minScore":14,"description":"Billion garden daughter often lose of.","estimatedTime":"7 weeks","previewFileId":"81126006-1a88-41ac-8f24-f8678d7beefb","createdByUserId":"61172fa5-d55d-45e8-93c2-b32ca1387cb6"}"

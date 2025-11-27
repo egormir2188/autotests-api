@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/6cc047a6-fcc8-436a-89c5-d2891cb4042d" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjI3OjUzLjU3NTY3MyIsInVzZXJfaWQiOiJhYmQ1NWYxMC1iNjY4LTQ0MzktYTJiOS1hMWZlNDNmNTJhMjcifQ.Pa-xTcj7CTGODDt-dzBuz1Z2kMnfbRpEVfKP7e20aZE" \
+  -H "content-length: 311" \
+  -H "content-type: application/json" \
+  -d "{"title":"Return last argue west country government.","maxScore":90,"minScore":13,"description":"Ago professional enter movement threat. Hit very six girl security. Race free hot someone include yourself which.\nBe others represent effect present level. Research nice assume contain.","estimatedTime":"6 weeks"}"

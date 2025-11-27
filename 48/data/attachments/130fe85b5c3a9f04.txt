@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjI3OjU0LjI1NzMzNiIsInVzZXJfaWQiOiI4NmY2MmVmNC0xYjgwLTQ2NGQtYWYyZi0wMGZmZmZiNzUwYTQifQ.I3vK6VvnexskpebmTjm8THvsgaGt9AEQiG1PncVIVKo" \
+  -H "content-length: 270" \
+  -H "content-type: application/json" \
+  -d "{"title":"From head address available face ten.","maxScore":82,"minScore":6,"description":"American thousand citizen whose chance.","estimatedTime":"3 weeks","previewFileId":"2a8a014c-4224-4e16-a942-96f9fdbaaab8","createdByUserId":"86f62ef4-1b80-464d-af2f-00ffffb750a4"}"

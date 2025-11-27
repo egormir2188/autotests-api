@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEyOjI3OjU3LjAwNDE4MSIsInVzZXJfaWQiOiIyMzc1OTNiMy1iNjU3LTRiMWItOGMwMS1mMGJkOGRkMmJiMWMifQ.2BNS4RWpiuFZskEltRrPhld9ALvF4Wx3hOdrqGvkxAk" \
+  -H "content-length: 291" \
+  -H "content-type: application/json" \
+  -d "{"title":"Tough remain example.","maxScore":98,"minScore":15,"orderIndex":48,"description":"Present ok teacher recent single television. Black deal two season morning wide. Rich paper decade hot reach thus choose.","estimatedTime":"1 weeks","courseId":"ee759557-d62e-4d9a-b41d-de21daf72ff7"}"
