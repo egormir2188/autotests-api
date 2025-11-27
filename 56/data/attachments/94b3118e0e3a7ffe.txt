@@ -1,0 +1,10 @@
+curl X "POST \
+  http://localhost:8000/api/v1/users" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "content-length: 225" \
+  -H "content-type: application/json" \
+  -d "{"email":"Share benefit serious myself our. Pretty difficult as manager example tax course material. May carry process outside data finish.","lastName":"Price","firstName":"Joseph","middleName":"Tony","password":"Snv_8Pkd6_"}"

@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/5dcd3198-518a-4772-bd30-6321cb0a45aa" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU2LjU4NzI1OSIsInVzZXJfaWQiOiJkNzJkNzhkZS1mMTgxLTQ5MjctODg3My1lNjUyMGU2YWZlNzQifQ.EIE8ekQjYYjJau7NfLl2ij2GsGK9b3YpR2GAo8GVU-c" \
+  -H "content-length: 312" \
+  -H "content-type: application/json" \
+  -d "{"title":"Doctor deep system bring hear guy hospital arrive.","maxScore":86,"minScore":19,"description":"Home five fear paper drive significant full. Four which left one find learn skin.\nThree first travel again century season.\nWithin military simple born. Stop plan that ball firm.","estimatedTime":"2 weeks"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU5Ljk1NzE3OSIsInVzZXJfaWQiOiI1NDNhZjRmMy1mN2U3LTQxZDMtYTJmOS0yZjRlYTM5OWQ2M2IifQ.ilCfQqgtzim9uO0eRUNTTChDFjEK-ShZeLe9bI74zRE" \
+  -H "content-length: 263" \
+  -H "content-type: application/json" \
+  -d "{"title":"Stay less worker safe lay.","maxScore":73,"minScore":15,"description":"Least step employee describe air behavior.","estimatedTime":"7 weeks","previewFileId":"c67ea149-d8a7-44e5-85d6-7f25f448e965","createdByUserId":"543af4f3-f7e7-41d3-a2f9-2f4ea399d63b"}"

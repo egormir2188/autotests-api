@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU3LjI2MzQxMiIsInVzZXJfaWQiOiIxMmM1MjI4ZS0zZWU1LTRjZGQtOTVkMS0yNDU3MDZkMGUxOTMifQ.dVqUZMXR8o2gVqkpHz89VNmXlPfbMIHxCAdAkzjH8w4" \
+  -H "content-length: 287" \
+  -H "content-type: application/json" \
+  -d "{"title":"After check move war.","maxScore":59,"minScore":5,"orderIndex":98,"description":"Get ahead energy home account knowledge stop. East speech pass system race. Six miss change according conference than.","estimatedTime":"9 weeks","courseId":"c177e557-625a-4b01-bc18-6063ac3f481b"}"

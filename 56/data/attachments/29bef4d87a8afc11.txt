@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU2LjU4NzI1OSIsInVzZXJfaWQiOiJkNzJkNzhkZS1mMTgxLTQ5MjctODg3My1lNjUyMGU2YWZlNzQifQ.EIE8ekQjYYjJau7NfLl2ij2GsGK9b3YpR2GAo8GVU-c" \
+  -H "content-length: 287" \
+  -H "content-type: application/json" \
+  -d "{"title":"Film which administration prevent show sometimes.","maxScore":81,"minScore":20,"description":"Where same wish car suffer amount training.","estimatedTime":"3 weeks","previewFileId":"c3871d32-c38a-41f3-89a8-7e35d223e73d","createdByUserId":"d72d78de-f181-4927-8873-e6520e6afe74"}"

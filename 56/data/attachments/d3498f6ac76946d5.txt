@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU5LjI4NTI0MyIsInVzZXJfaWQiOiI3ZmI5ZDM2OS1jOTYwLTRjZWEtYTI5Yi00OGE1MmU1NGI4MDYifQ.C-8OO_8RsCY01utoeZg57WcHUoUxalIRkmIeSRZvwsc" \
+  -H "content-length: 279" \
+  -H "content-type: application/json" \
+  -d "{"title":"Near heavy few degree section attention modern.","maxScore":75,"minScore":8,"description":"Just move condition stock view middle.","estimatedTime":"8 weeks","previewFileId":"b6965cbf-950d-4635-8e58-5a5676b1c9ae","createdByUserId":"7fb9d369-c960-4cea-a29b-48a52e54b806"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU4LjYwNjg5OSIsInVzZXJfaWQiOiI3NDRiNjVjNi05NWRiLTRhYTktYjlkOS04NTAzY2UyNDI5OGUifQ.nm95O1ATcHki_YIL2qsIQ6Q2foRPT6birE1Y9W2oXM4" \
+  -H "content-length: 322" \
+  -H "content-type: application/json" \
+  -d "{"title":"Possible meeting seem difficult myself machine.","maxScore":57,"minScore":17,"orderIndex":1,"description":"Amount identify require reach apply community. Go than candidate star city. Sort amount politics fine might. Course dinner too.","estimatedTime":"9 weeks","courseId":"4f18992a-63f4-480a-98b1-4934afae7f64"}"

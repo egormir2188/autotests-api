@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU4LjYwNjg5OSIsInVzZXJfaWQiOiI3NDRiNjVjNi05NWRiLTRhYTktYjlkOS04NTAzY2UyNDI5OGUifQ.nm95O1ATcHki_YIL2qsIQ6Q2foRPT6birE1Y9W2oXM4" \
+  -H "content-length: 276" \
+  -H "content-type: application/json" \
+  -d "{"title":"Success final control budget.","maxScore":82,"minScore":22,"description":"Another real newspaper herself movie prove walk on.","estimatedTime":"10 weeks","previewFileId":"78b3948f-b610-4f35-ac90-edc40c165d78","createdByUserId":"744b65c6-95db-4aa9-b9d9-8503ce24298e"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU3LjI2MzQxMiIsInVzZXJfaWQiOiIxMmM1MjI4ZS0zZWU1LTRjZGQtOTVkMS0yNDU3MDZkMGUxOTMifQ.dVqUZMXR8o2gVqkpHz89VNmXlPfbMIHxCAdAkzjH8w4" \
+  -H "content-length: 253" \
+  -H "content-type: application/json" \
+  -d "{"title":"Event week voice career cup idea worry.","maxScore":79,"minScore":27,"description":"Guess player dark.","estimatedTime":"10 weeks","previewFileId":"c33776a8-97bf-4e8b-bde0-1c3f6ae250d2","createdByUserId":"12c5228e-3ee5-4cdd-95d1-245706d0e193"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDE0OjQ5OjU3LjkzNDQzMiIsInVzZXJfaWQiOiJlMTU4ZGM1Ni03ODZiLTQ5ZDMtYmVmYi0wNGMxOTQxZGU4ZDcifQ.95uXtPJVtrdlOPHFIvkoMPFOtS9ZYeQZA6ZWQVi9Rro" \
+  -H "content-length: 242" \
+  -H "content-type: application/json" \
+  -d "{"title":"Deal money tough material couple.","maxScore":83,"minScore":4,"description":"Such care play.","estimatedTime":"7 weeks","previewFileId":"a4b70602-4d8b-4681-ba24-a106eebe4e03","createdByUserId":"e158dc56-786b-49d3-befb-04c1941de8d7"}"
