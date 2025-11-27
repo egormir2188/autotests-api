@@ -47,14 +47,8 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run API tests with pytest and generate Allure results
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           pytest -m "regression" --alluredir=allure-results --numprocesses=1
-          npm install -g allure-commandline
-          allure generate allure-results --output allure-report
-          python -m bot.notification
 
       - name: Restore Coverage history
         uses: actions/cache@v4
@@ -87,6 +81,15 @@ jobs:
         with:
           name: allure-results
           path: allure-results
+
+      - name: Send Notification to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          npm install -g allure-commandline
+          allure generate allure-results --output allure-report
+          python -m bot.notification
 
   job_2:
     name: publish-report
