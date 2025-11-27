@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjUyLjgxNDU1NCIsInVzZXJfaWQiOiJkODZlNjFjYy0wNjZkLTQxNDctYmY4OS0zMjc2NGM5OGIzMDgifQ.BRPTzqdiOBfpNdbRMAFy-SbB1NTr18W4tOOhLVra0bA" \
+  -H "content-length: 268" \
+  -H "content-type: application/json" \
+  -d "{"title":"Cultural rock trip throughout investment.","maxScore":93,"minScore":23,"description":"Run tend boy truth war together.","estimatedTime":"3 weeks","previewFileId":"05e5e5e6-32da-4e26-bdb5-4054dc70458c","createdByUserId":"d86e61cc-066d-4147-bf89-32764c98b308"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjUyLjgxNDU1NCIsInVzZXJfaWQiOiJkODZlNjFjYy0wNjZkLTQxNDctYmY4OS0zMjc2NGM5OGIzMDgifQ.BRPTzqdiOBfpNdbRMAFy-SbB1NTr18W4tOOhLVra0bA" \
+  -H "content-length: 343" \
+  -H "content-type: application/json" \
+  -d "{"title":"Pretty spring eye significant.","maxScore":50,"minScore":25,"orderIndex":12,"description":"Hundred soldier happen Republican whatever machine. Process hand opportunity either.\nMake base talk article down. Scientist training woman shake return even stuff.","estimatedTime":"4 weeks","courseId":"fcda7708-43e6-4b68-b2f3-e2cc1df15030"}"

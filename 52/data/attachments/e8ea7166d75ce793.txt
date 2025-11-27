@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjU0LjE3NTA2NCIsInVzZXJfaWQiOiI1ZDMyYzI3MS1iYjU4LTRkYzktYjdlYy0yNmZkZGM4MWMzZDEifQ.AKKtJLnCTWnJTLRfQMq8fzYyTrgtMJhNCw9dZN01Xps" \
+  -H "content-length: 359" \
+  -H "content-type: application/json" \
+  -d "{"title":"Recent few least into nothing start design.","maxScore":65,"minScore":28,"orderIndex":74,"description":"Leg else dream bill. See he it rock president tell brother project.\nWait maybe stop series.\nGirl development former long same film. Perform system discussion of lot.","estimatedTime":"6 weeks","courseId":"2c3fc987-831b-4894-9114-09e5b579651b"}"

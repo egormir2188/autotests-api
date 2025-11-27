@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjQ5LjQxNTA2NyIsInVzZXJfaWQiOiJmOGQ3ZjNkOS1jNzdlLTQxYTUtYTQyMS0yZmIzZjdlODAxNmYifQ.tdQ6wQvUf8X7fRBeypn7l5pws2a6MSqiK76pxnTOBu0" \
+  -H "content-length: 245" \
+  -H "content-type: application/json" \
+  -d "{"title":"Style range so leader.","maxScore":98,"minScore":16,"description":"Opportunity think such why.","estimatedTime":"10 weeks","previewFileId":"9c29d1e2-912c-46aa-bf22-77e0f2a6115f","createdByUserId":"f8d7f3d9-c77e-41a5-a421-2fb3f7e8016f"}"

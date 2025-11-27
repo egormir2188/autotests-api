@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/exercises" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjUyLjEzNDAzNyIsInVzZXJfaWQiOiJmOTI5NTFlZS0xZDlhLTRlYjUtODkyYy0yMDRhNDM1MTg1ZDgifQ.zHiGc4qw1fLtd7O6RHAJNOrGiKSe2BKrAzdmRlELVrA" \
+  -H "content-length: 320" \
+  -H "content-type: application/json" \
+  -d "{"title":"Draw deal figure mean local decide watch.","maxScore":72,"minScore":6,"orderIndex":42,"description":"Rather network great tree. Property civil south send father. Figure difficult finish trip. Fact sense director pay method national.","estimatedTime":"1 weeks","courseId":"17eef5d1-3f62-47ec-b847-c5a8360f2359"}"

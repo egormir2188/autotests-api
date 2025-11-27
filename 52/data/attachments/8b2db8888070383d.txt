@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjUxLjQ2NjUzNCIsInVzZXJfaWQiOiJiYjcwMGJmOS02NTcxLTRmYzEtODY1ZC0wODMyMWI1MWVjY2UifQ.ciP1num3m5u6xwRYPj5ZGnIxRtSjxlglCaeAcZCy6ps" \
+  -H "content-length: 259" \
+  -H "content-type: application/json" \
+  -d "{"title":"Democratic mouth drug.","maxScore":64,"minScore":25,"description":"Few yes society eat popular finish nearly.","estimatedTime":"1 weeks","previewFileId":"2594219f-e3e7-4a6e-8d71-c12074e9848b","createdByUserId":"bb700bf9-6571-4fc1-865d-08321b51ecce"}"

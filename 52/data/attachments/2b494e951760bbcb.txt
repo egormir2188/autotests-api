@@ -1,0 +1,11 @@
+curl X "PATCH \
+  http://localhost:8000/api/v1/courses/4c568e8d-99cb-44c4-81d1-f0e914716fb5" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjUwLjc4NzE4MCIsInVzZXJfaWQiOiI4N2MxY2NmZi03YjQ3LTQwZTgtODUzZS04MWQ4MmNlMzI1MWIifQ.9KL1OzEowV4RnRzOkIC0r7ISKryVerrTkueZzTPoqIw" \
+  -H "content-length: 296" \
+  -H "content-type: application/json" \
+  -d "{"title":"Enough avoid cover still ever figure.","maxScore":80,"minScore":7,"description":"Somebody maybe fact chair likely commercial. Understand shoulder throughout shoulder more.\nOut part glass next visit family energy explain. Improve some drive federal anything.","estimatedTime":"8 weeks"}"

@@ -1,0 +1,11 @@
+curl X "POST \
+  http://localhost:8000/api/v1/courses" \
+  -H "host: localhost:8000" \
+  -H "accept: */*" \
+  -H "accept-encoding: gzip, deflate" \
+  -H "connection: keep-alive" \
+  -H "user-agent: python-httpx/0.28.1" \
+  -H "authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI3VDEzOjExOjUzLjQ5ODE5MyIsInVzZXJfaWQiOiI2ZGFhN2I2My0zYTJiLTRhY2MtOGZlYS1mOTI1ZTJkOWI3MTMifQ.pt8na-_NzOp7Ulsi0XR805FDi_WB8wBo_Y6eW9O9nSY" \
+  -H "content-length: 260" \
+  -H "content-type: application/json" \
+  -d "{"title":"Page cold adult west.","maxScore":91,"minScore":28,"description":"Lay market center part piece attorney near.","estimatedTime":"10 weeks","previewFileId":"2fbd6f82-6cca-4a3c-ba9b-d3a0e02fec84","createdByUserId":"6daa7b63-3a2b-4acc-8fea-f925e2d9b713"}"
