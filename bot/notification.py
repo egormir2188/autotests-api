@@ -7,4 +7,5 @@ def send_telegram_message(message: str):
     url = f'{BotConfig.telegram_host}/{BotConfig.send_message_uri}'
     payload = {"chat_id": BotConfig.chat_id, "text": message}
 
-    httpx.post(url, data=payload)
+    response = httpx.post(url, data=payload)
+    print(response.status_code)
